@@ -86,18 +86,18 @@ Pay       -> Final / Pay
 
 ```ini
 [Rule]
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/LAN.list,DIRECT
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/Ads.list,REJECT
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/AppleCN.list,DIRECT
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/China.list,DIRECT
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/AI.list,AI
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/Telegram.list,Telegram
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/GitHub.list,GitHub
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/Crypto.list,Crypto
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/Speedtest.list,Proxy
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/Google.list,Proxy
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/Apple.list,Proxy
-RULE-SET,https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Surge/Proxy.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/LAN.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Ads.list,REJECT
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/AppleCN.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/China.list,DIRECT
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/AI.list,AI
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Telegram.list,Telegram
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/GitHub.list,GitHub
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Crypto.list,Crypto
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Speedtest.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Google.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Apple.list,Proxy
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Proxy.list,Proxy
 FINAL,Proxy
 ```
 
@@ -111,7 +111,7 @@ rule-providers:
     format: yaml
     interval: 86400
     path: ./rules/Shuijiao/AI.yaml
-    url: https://raw.githubusercontent.com/shuijiao1/Shuijiao-Rules/main/Mihomo/AI.yaml
+    url: https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Mihomo/AI.yaml
 
 rules:
   - RULE-SET,ai,AI
