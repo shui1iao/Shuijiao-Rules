@@ -1,0 +1,78 @@
+name: Update MTProto DC config
+
+on:
+  schedule:
+    - cron: "17 19 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-mtproto-dc-config
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4
+
+      - name: Install stable Rust toolchain
+        run: |
+          rustup set profile minimal
+          rustup toolchain install stable
+          rustup default stable
+
+      - name: Fetch pinned official generator
+        env:
+          UPSTREAM_REPOSITORY: https://github.com/surge-networks/MTProtoDCConfigGenerator.git
+          UPSTREAM_COMMIT: 1a9cac3cb3d972c7ab2a0b237c317dd14b26f9d2
+        run: |
+          generator_dir="$RUNNER_TEMP/mtproto-generator"
+          git init -q "$generator_dir"
+          git -C "$generator_dir" remote add origin "$UPSTREAM_REPOSITORY"
+          git -C "$generator_dir" fetch --depth 1 origin "$UPSTREAM_COMMIT"
+          test "$(git -C "$generator_dir" rev-parse FETCH_HEAD)" = "$UPSTREAM_COMMIT"
+          git -C "$generator_dir" checkout -q --detach FETCH_HEAD
+
+      - name: Generate Telegram production DC mapping
+        run: |
+          cargo run \
+            --manifest-path "$RUNNER_TEMP/mtproto-generator/Cargo.toml" \
+            --release \
+            --locked \
+            -- "$RUNNER_TEMP/mtproto-dc-config.json"
+
+      - name: Validate generated JSON
+        run: |
+          output="$RUNNER_TEMP/mtproto-dc-config.json"
+          test "$(wc -c < "$output")" -le 262144
+          jq -e '
+            .version == 1 and
+            (.options | type == "array" and length > 0) and
+            all(.options[];
+              (.id | type == "number") and .id > 0 and
+              (.ip | type == "string") and (.ip | length > 0) and
+              (.port | type == "number") and .port >= 1 and .port <= 65535 and
+              ((has("flags") | not) or (.flags | type == "number")) and
+              ((has("secret") | not) or (.secret | type == "string"))
+            )
+          ' "$output" >/dev/null
+          install -m 0644 "$output" Surge/mtproto-dc-config.json
+
+      - name: Commit updated mapping
+        run: |
+          if git diff --quiet -- Surge/mtproto-dc-config.json; then
+            echo "MTProto DC mapping is unchanged."
+            exit 0
+          fi
+
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add Surge/mtproto-dc-config.json
+          git commit -m "chore: update MTProto DC config"
+          git push origin HEAD:main

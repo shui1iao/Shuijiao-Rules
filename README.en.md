@@ -7,7 +7,8 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 - Surge outputs `.list`; Mihomo outputs `behavior: classical` `.yaml`
 - Same content: files with the same name share the same normalized rules; only the wrapper format differs
 - CDN is merged into `Proxy`
-- Updated: `2026-07-09`
+- MTProto DC mapping: `Surge/mtproto-dc-config.json` is regenerated daily with Surge's official generator
+- Updated: `2026-08-04`
 
 ## Rule files
 
@@ -58,6 +59,17 @@ Pay       -> Final / Pay
 ```
 
 `GitHub` covers GitHub, GitHub Assets/UserContent, GitHub Container Registry, and npm-related domains. `China` includes domains, keywords, and China BGP CIDR rules. `Douyin` is for the mainland Douyin app and related CDN/video domains, not international TikTok. `AppleCN` intentionally excludes iCloud. `Ads` uses AWAvenue only and avoids larger blocklists to reduce false positives. `Douyin`, `Streaming`, `Game`, and `Pay` are provided as optional standby rules and are not meant to be enabled by default.
+
+## Surge MTProto DC configuration
+
+At 03:17 China Standard Time every day, this repository runs the official [`surge-networks/MTProtoDCConfigGenerator`](https://github.com/surge-networks/MTProtoDCConfigGenerator) against Telegram's `help.getConfig`. The result is committed only after schema, field, and 256 KiB size validation.
+
+```ini
+[MTProto]
+dc-config-url = https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/refs/heads/main/Surge/mtproto-dc-config.json
+```
+
+This file maps Telegram DC IDs to current production endpoints; it does not replace Surge routing rules. See the [official Surge MTProto documentation](https://manual.nssurge.com/others/mtproto.html) for the complete format and cache behavior.
 
 ## Attribution
 

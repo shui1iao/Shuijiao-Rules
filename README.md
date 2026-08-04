@@ -9,7 +9,8 @@
 - 输出格式：Surge 使用 `.list`，Mihomo 使用 `behavior: classical` 的 `.yaml`
 - 内容一致：同名的 Surge 与 Mihomo 文件使用同一份规则内容，只是文件格式不同
 - CDN 规则：已经合并进 `Proxy`，不单独提供 `CDN` 文件
-- 更新时间：`2026-07-09`
+- MTProto DC 配置：使用 Surge 官方生成器每日自动更新 `Surge/mtproto-dc-config.json`
+- 更新时间：`2026-08-04`
 
 ## 规则列表
 
@@ -100,6 +101,17 @@ RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Ap
 RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Proxy.list,Proxy
 FINAL,Proxy
 ```
+
+## Surge MTProto DC 配置
+
+仓库每天北京时间 03:17 使用 [`surge-networks/MTProtoDCConfigGenerator`](https://github.com/surge-networks/MTProtoDCConfigGenerator) 官方生成器，从 Telegram `help.getConfig` 生成生产 DC 地址映射。生成结果通过格式、字段和 256 KiB 大小检查后才会提交。
+
+```ini
+[MTProto]
+dc-config-url = https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/refs/heads/main/Surge/mtproto-dc-config.json
+```
+
+该文件只负责将 Telegram DC 编号映射为当前生产端点，不代替 Surge 分流规则。完整格式和缓存行为见 [Surge MTProto 官方文档](https://manual.nssurge.com/others/mtproto.html)。
 
 ## Mihomo 示例
 
