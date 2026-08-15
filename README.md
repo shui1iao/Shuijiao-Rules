@@ -4,13 +4,13 @@
 
 水饺自用的 Surge / Mihomo 分流规则。仓库只保留两个规则目录：`Surge/` 和 `Mihomo/`。
 
-- 主要参考：[`SukkaW/Surge`](https://github.com/SukkaW/Surge) 与 [`blackmatrix7/ios_rule_script`](https://github.com/blackmatrix7/ios_rule_script)
+- 主要参考：[`SukkaW/Surge`](https://github.com/SukkaW/Surge)、[`blackmatrix7/ios_rule_script`](https://github.com/blackmatrix7/ios_rule_script) 与 [`v2fly/domain-list-community`](https://github.com/v2fly/domain-list-community)
 - 去广告规则：`Ads` 来源于 [`TG-Twilight/AWAvenue-Ads-Rule`](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)，推荐搭配 `REJECT` 策略使用
 - 输出格式：Surge 使用 `.list`，Mihomo 使用 `behavior: classical` 的 `.yaml`
 - 内容一致：同名的 Surge 与 Mihomo 文件使用同一份规则内容，只是文件格式不同
 - CDN 规则：已经合并进 `Proxy`，不单独提供 `CDN` 文件
 - MTProto DC 配置：使用 Surge 官方生成器每日自动更新 `Surge/mtproto-dc-config.json`
-- 更新时间：`2026-08-04`
+- 更新时间：`2026-08-16`
 
 ## 规则列表
 
@@ -18,6 +18,7 @@
 |---|---:|---|---|
 | `Telegram` | `50` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
 | `GitHub` | `36` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
+| `AWS` | `78` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
 | `AI` | `163` | `Surge/AI.list` | `Mihomo/AI.yaml` |
 | `Speedtest` | `128` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `239` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
@@ -37,6 +38,7 @@
 
 - `Telegram`：Telegram 域名、ASN/IP 段。
 - `GitHub`：GitHub、GitHub Assets/UserContent、GitHub Container Registry、npm 相关域名。
+- `AWS`：Amazon Web Services 全球及中国区域名，包括 AWS 控制台与文档、Amazon API 域名、CloudFront、Amplify、Elastic Beanstalk、Cognito、SES 等；不包含亚马逊购物和 Prime Video。
 - `AI`：OpenAI / ChatGPT / Claude / Gemini / Grok / Perplexity / Poe / Copilot / Midjourney / Hugging Face / Mistral / Cursor / Windsurf 等 AI 服务。
 - `Speedtest`：Ookla Speedtest、Fast、Cloudflare Speed、M-Lab、LibreSpeed 以及常见测速节点。
 - `Crypto`：Binance、Bybit、OKX、Coinbase、Kraken、KuCoin、Gate、MEXC、Bitget、HTX/Huobi、行情、钱包、DeFi 与链上浏览器。
@@ -64,6 +66,7 @@ China   -> DIRECT
 AI      -> AI / Proxy
 Telegram-> Telegram / Proxy
 GitHub  -> GitHub / Proxy
+AWS     -> AWS / Proxy
 Crypto  -> Crypto / Proxy
 Speedtest -> Proxy
 Google  -> Proxy
@@ -81,7 +84,7 @@ Game      -> Final / Game
 Pay       -> Final / Pay
 ```
 
-优先级原则：`LAN` 永远最前；`Ads` 放在 `China` 前面，避免国内广告域名被直连规则提前命中；`AppleCN` 早于 `Apple`；`AI` 早于 `Google` / `Proxy`；`GitHub` 早于 `Proxy`；具体分类早于 `Proxy`。备用规则不默认启用，避免当前配置变复杂。
+优先级原则：`LAN` 永远最前；`Ads` 放在 `China` 前面，避免国内广告域名被直连规则提前命中；`AppleCN` 早于 `Apple`；`AI` 早于 `Google` / `Proxy`；`GitHub`、`AWS` 早于 `Proxy`；具体分类早于 `Proxy`。备用规则不默认启用，避免当前配置变复杂。
 
 ## Surge 示例
 
@@ -94,6 +97,7 @@ RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Ch
 RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/AI.list,AI
 RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Telegram.list,Telegram
 RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/GitHub.list,GitHub
+RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/AWS.list,AWS
 RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Crypto.list,Crypto
 RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Speedtest.list,Proxy
 RULE-SET,https://raw.githubusercontent.com/shui1iao/Shuijiao-Rules/main/Surge/Google.list,Proxy
@@ -136,6 +140,7 @@ rules:
 
 - [`SukkaW/Surge`](https://github.com/SukkaW/Surge)
 - [`blackmatrix7/ios_rule_script`](https://github.com/blackmatrix7/ios_rule_script)
+- [`v2fly/domain-list-community`](https://github.com/v2fly/domain-list-community)
 - [`TG-Twilight/AWAvenue-Ads-Rule`](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)
 
 本仓库仅做格式转换、去重、合并和个人补丁维护。使用前请自行确认上游项目的授权、免责声明和适用范围。
