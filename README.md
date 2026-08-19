@@ -10,7 +10,7 @@
 - 内容一致：同名的 Surge 与 Mihomo 文件使用同一份规则内容，只是文件格式不同
 - CDN 规则：已经合并进 `Proxy`，不单独提供 `CDN` 文件
 - MTProto DC 配置：使用 Surge 官方生成器每日自动更新 `Surge/mtproto-dc-config.json`
-- 更新时间：`2026-08-16`
+- 更新时间：`2026-08-19`
 
 ## 规则列表
 
@@ -19,7 +19,7 @@
 | `Telegram` | `50` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
 | `GitHub` | `36` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `78` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `163` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `AI` | `139` | `Surge/AI.list` | `Mihomo/AI.yaml` |
 | `Speedtest` | `128` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `239` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `751` | `Surge/Google.list` | `Mihomo/Google.yaml` |
@@ -39,10 +39,10 @@
 - `Telegram`：Telegram 域名、ASN/IP 段。
 - `GitHub`：GitHub、GitHub Assets/UserContent、GitHub Container Registry、npm 相关域名。
 - `AWS`：Amazon Web Services 全球及中国区域名，包括 AWS 控制台与文档、Amazon API 域名、CloudFront、Amplify、Elastic Beanstalk、Cognito、SES 等；不包含亚马逊购物和 Prime Video。
-- `AI`：OpenAI / ChatGPT / Claude / Gemini / Grok / Perplexity / Poe / Copilot / Midjourney / Hugging Face / Mistral / Cursor / Windsurf 等 AI 服务。
+- `AI`：OpenAI / ChatGPT / Claude / Grok / Perplexity / Poe / Copilot / Midjourney / Hugging Face / Mistral / Cursor / Windsurf 等 AI 服务；不包含 Gemini、Bard、AI Studio 与 Gemini API。
 - `Speedtest`：Ookla Speedtest、Fast、Cloudflare Speed、M-Lab、LibreSpeed 以及常见测速节点。
 - `Crypto`：Binance、Bybit、OKX、Coinbase、Kraken、KuCoin、Gate、MEXC、Bitget、HTX/Huobi、行情、钱包、DeFi 与链上浏览器。
-- `Google`：Google、YouTube、Gmail、Drive、Firebase 等常规 Google 服务；Gemini / AI Studio 等 AI 域名优先放入 `AI`。
+- `Google`：Google、YouTube、Gmail、Drive、Firebase 等常规 Google 服务；Gemini / AI Studio 不再放入 `AI`，将按后续 `Google` / `Proxy` 规则处理。
 - `Apple`：Apple 国际服务、Apple Media、Apple TV、Apple Developer、Apple CDN 与 Apple IP。
 - `AppleCN`：参考 Sukka 的中国区 Apple 规则，但刻意移除 iCloud；建议直连。
 - `Proxy`：常见国外站点、国外 CDN、开发者服务、社交服务等；已合并 CDN。

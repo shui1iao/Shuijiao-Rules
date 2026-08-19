@@ -8,7 +8,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 - Same content: files with the same name share the same normalized rules; only the wrapper format differs
 - CDN is merged into `Proxy`
 - MTProto DC mapping: `Surge/mtproto-dc-config.json` is regenerated daily with Surge's official generator
-- Updated: `2026-08-16`
+- Updated: `2026-08-19`
 
 ## Rule files
 
@@ -17,7 +17,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 | `Telegram` | `50` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
 | `GitHub` | `36` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `78` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `163` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `AI` | `139` | `Surge/AI.list` | `Mihomo/AI.yaml` |
 | `Speedtest` | `128` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `239` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `751` | `Surge/Google.list` | `Mihomo/Google.yaml` |
@@ -60,7 +60,7 @@ Game      -> Final / Game
 Pay       -> Final / Pay
 ```
 
-`GitHub` covers GitHub, GitHub Assets/UserContent, GitHub Container Registry, and npm-related domains. `AWS` covers Amazon Web Services global and China domains, including the AWS console and documentation, Amazon API endpoints, CloudFront, Amplify, Elastic Beanstalk, Cognito, and SES; it intentionally excludes Amazon Shopping and Prime Video. `China` includes domains, keywords, and China BGP CIDR rules. `Douyin` is for the mainland Douyin app and related CDN/video domains, not international TikTok. `AppleCN` intentionally excludes iCloud. `Ads` uses AWAvenue only and avoids larger blocklists to reduce false positives. `Douyin`, `Streaming`, `Game`, and `Pay` are provided as optional standby rules and are not meant to be enabled by default.
+`GitHub` covers GitHub, GitHub Assets/UserContent, GitHub Container Registry, and npm-related domains. `AWS` covers Amazon Web Services global and China domains, including the AWS console and documentation, Amazon API endpoints, CloudFront, Amplify, Elastic Beanstalk, Cognito, and SES; it intentionally excludes Amazon Shopping and Prime Video. `AI` excludes Gemini, Bard, AI Studio, and the Gemini API; those requests fall through to the later `Google` / `Proxy` rules. `China` includes domains, keywords, and China BGP CIDR rules. `Douyin` is for the mainland Douyin app and related CDN/video domains, not international TikTok. `AppleCN` intentionally excludes iCloud. `Ads` uses AWAvenue only and avoids larger blocklists to reduce false positives. `Douyin`, `Streaming`, `Game`, and `Pay` are provided as optional standby rules and are not meant to be enabled by default.
 
 ## Surge MTProto DC configuration
 

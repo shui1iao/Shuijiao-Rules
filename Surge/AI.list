@@ -1,12 +1,7 @@
 # NAME: AI
-# UPDATED: 2026-07-01
+# UPDATED: 2026-08-19
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, Shuijiao manual overrides
 
-DOMAIN,ai.google.dev
-DOMAIN,aida.googleapis.com
-DOMAIN,aisandbox-pa.googleapis.com
-DOMAIN,alkalicore-pa.clients6.google.com
-DOMAIN,alkalimakersuite-pa.clients6.google.com
 DOMAIN,antigravity-unleash.goog
 DOMAIN,antigravity.google
 DOMAIN,api.github.com
@@ -22,16 +17,13 @@ DOMAIN,cdn.usefathom.com
 DOMAIN,chat.openai.com.cdn.cloudflare.net
 DOMAIN,copilot.microsoft.com
 DOMAIN,cp4.cloudflare.com
-DOMAIN,daily-cloudcode-pa.googleapis.com
 DOMAIN,gateway.ai.cloudflare.com
 DOMAIN,gateway.bingviz.microsoft.net
 DOMAIN,gateway.bingviz.microsoftapp.net
-DOMAIN,generativelanguage.googleapis.com
 DOMAIN,gspe1-ssl.ls.apple.com
 DOMAIN,in.appcenter.ms
 DOMAIN,jules.google.com
 DOMAIN,location.microsoft.com
-DOMAIN,makersuite.google.com
 DOMAIN,odc.officeapps.live.com
 DOMAIN,openai-api.arkoselabs.com
 DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
@@ -39,7 +31,6 @@ DOMAIN,openaicomproductionae4b.blob.core.windows.net
 DOMAIN,openrouter.ai
 DOMAIN,production-openaicom-storage.azureedge.net
 DOMAIN,r.bing.com
-DOMAIN,robinfrontend-pa.googleapis.com
 DOMAIN,self.events.data.microsoft.com
 DOMAIN,servd-anthropic-website.b-cdn.net
 DOMAIN,services.bingapis.com
@@ -47,15 +38,11 @@ DOMAIN,static.cloudflareinsights.com
 DOMAIN,sydney.bing.com
 DOMAIN,www.bing.com
 DOMAIN-SUFFIX,ai.com
-DOMAIN-SUFFIX,ai.google.dev
-DOMAIN-SUFFIX,aistudio.google.com
 DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,api.microsoftapp.net
 DOMAIN-SUFFIX,api.statsig.com
-DOMAIN-SUFFIX,apis.google.com
 DOMAIN-SUFFIX,auth0.com
-DOMAIN-SUFFIX,bard.google.com
 DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
 DOMAIN-SUFFIX,bing.com
 DOMAIN-SUFFIX,bingapis.com
@@ -70,7 +57,6 @@ DOMAIN-SUFFIX,claude.ai
 DOMAIN-SUFFIX,claude.com
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,clipdrop.co
-DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,cohere.com
 DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
@@ -85,12 +71,6 @@ DOMAIN-SUFFIX,elevenlabs.io
 DOMAIN-SUFFIX,events.statsigapi.net
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,fireworks.ai
-DOMAIN-SUFFIX,g.ai
-DOMAIN-SUFFIX,geller-pa.googleapis.com
-DOMAIN-SUFFIX,gemini.google
-DOMAIN-SUFFIX,gemini.google.com
-DOMAIN-SUFFIX,generativeai.google
-DOMAIN-SUFFIX,generativelanguage.googleapis.com
 DOMAIN-SUFFIX,githubcopilot.com
 DOMAIN-SUFFIX,grok.com
 DOMAIN-SUFFIX,grok.x.ai
@@ -108,7 +88,6 @@ DOMAIN-SUFFIX,krea.ai
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,leonardo.ai
 DOMAIN-SUFFIX,luma.ai
-DOMAIN-SUFFIX,makersuite.google.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,midjourney.com
 DOMAIN-SUFFIX,mistral.ai
@@ -129,7 +108,6 @@ DOMAIN-SUFFIX,perplexity.ai
 DOMAIN-SUFFIX,phind.com
 DOMAIN-SUFFIX,pika.art
 DOMAIN-SUFFIX,poe.com
-DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
 DOMAIN-SUFFIX,replicate.com
 DOMAIN-SUFFIX,replit.com
 DOMAIN-SUFFIX,runwayml.cloud
@@ -150,13 +128,11 @@ DOMAIN-SUFFIX,weights.com
 DOMAIN-SUFFIX,windsurf.com
 DOMAIN-SUFFIX,x.ai
 DOMAIN-SUFFIX,you.com
-DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com
 DOMAIN-KEYWORD,anthropic
 DOMAIN-KEYWORD,chatgpt
 DOMAIN-KEYWORD,claude
 DOMAIN-KEYWORD,colab
 DOMAIN-KEYWORD,developerprofiles
-DOMAIN-KEYWORD,generativelanguage
 DOMAIN-KEYWORD,midjourney
 DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,openaicom-api
