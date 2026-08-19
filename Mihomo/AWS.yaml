@@ -1,7 +1,6 @@
 # NAME: AWS
-# UPDATED: 2026-08-16
+# UPDATED: 2026-08-19
 # SOURCE: v2fly/domain-list-community, blackmatrix7/ios_rule_script, Shuijiao manual overrides
-
 payload:
   - DOMAIN-SUFFIX,a2z.org.cn
   - DOMAIN-SUFFIX,acmvalidations.com
@@ -21,6 +20,7 @@ payload:
   - DOMAIN-SUFFIX,amazonses.com
   - DOMAIN-SUFFIX,amazontrust.com
   - DOMAIN-SUFFIX,amazonwebservices.cn
+  - DOMAIN-SUFFIX,amazonwebservices.com
   - DOMAIN-SUFFIX,amazonwebservices.com.cn
   - DOMAIN-SUFFIX,amazonworkdocs.cn
   - DOMAIN-SUFFIX,amazonworkdocs.com
@@ -40,6 +40,7 @@ payload:
   - DOMAIN-SUFFIX,aws-border.cn
   - DOMAIN-SUFFIX,aws-icp-domain-manager.cn
   - DOMAIN-SUFFIX,aws-iot-hackathon.com
+  - DOMAIN-SUFFIX,aws.a2z.com
   - DOMAIN-SUFFIX,aws.amazon.com
   - DOMAIN-SUFFIX,aws.com
   - DOMAIN-SUFFIX,aws.dev

@@ -1,6 +1,6 @@
 # NAME: Ads
-# UPDATED: 2026-07-01
-# SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, Shuijiao manual overrides
+# UPDATED: 2026-08-19
+# SOURCE: TG-Twilight/AWAvenue-Ads-Rule
 
 DOMAIN,1500020991.vodplayer.wxamedia.com
 DOMAIN,1500022744.vodplayer.wxamedia.com
@@ -78,6 +78,7 @@ DOMAIN,ads-sg.tiktok.com
 DOMAIN,ads-video-al.xhscdn.com
 DOMAIN,ads-video-qc.xhscdn.com
 DOMAIN,ads.95516.com
+DOMAIN,ads.adfunlink.com
 DOMAIN,ads.auctions.yahoo.com
 DOMAIN,ads.cup.com.cn
 DOMAIN,ads.google.cn
@@ -135,6 +136,7 @@ DOMAIN,adstudio.spotify.com
 DOMAIN,adtago.s3.amazonaws.com
 DOMAIN,adtech.yahooinc.com
 DOMAIN,adtrack.quark.cn
+DOMAIN,adtracker.adfunlink.com
 DOMAIN,adtracker.medproad.com
 DOMAIN,adui.tg.meitu.com
 DOMAIN,adv-api.shenshiads.com
@@ -330,7 +332,6 @@ DOMAIN,datacollection.uve.weibo.com
 DOMAIN,dc.sigmob.cn
 DOMAIN,de.tynt.com
 DOMAIN,diagnosis.ad.xiaomi.com
-DOMAIN,dig.bdurl.net
 DOMAIN,dlogs.bwton.com
 DOMAIN,dm.toutiao.com
 DOMAIN,domain.aishengji.com
@@ -429,7 +430,6 @@ DOMAIN,ii.gdt.qq.com
 DOMAIN,image-ad.sm.cn
 DOMAIN,image.hpplay.cn
 DOMAIN,images.outbrainimg.com
-DOMAIN,images.pinduoduo.com
 DOMAIN,imdns.hpplay.cn
 DOMAIN,img-c.heytapimage.com
 DOMAIN,img-x.jd.com
@@ -525,7 +525,6 @@ DOMAIN,mapi.m.jd.com
 DOMAIN,masdkv6.3g.qq.com
 DOMAIN,mazu.m.qq.com
 DOMAIN,mbdlog.iqiyi.com
-DOMAIN,mcs.zijieapi.com
 DOMAIN,medproad.com
 DOMAIN,metrics.data.hicloud.com
 DOMAIN,metrics.icloud.com
@@ -885,7 +884,6 @@ DOMAIN,yk-ssp.ad.youku.com
 DOMAIN,ykad-data.cp31.ott.cibntv.net
 DOMAIN,ykad-data.youku.com
 DOMAIN,ykad-gateway.youku.com
-DOMAIN,youku-acs.m.taobao.com
 DOMAIN,ytx-file.110route.cn
 DOMAIN,zeus.ad.xiaomi.com
 DOMAIN,zhihu-web-analytics.zhihu.com
