@@ -1,5 +1,5 @@
 # NAME: AI
-# UPDATED: 2026-08-19
+# UPDATED: 2026-08-23
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, Shuijiao manual overrides
 payload:
   - DOMAIN,antigravity-unleash.goog
@@ -66,6 +66,7 @@ payload:
   - DOMAIN-SUFFIX,deepmind.com
   - DOMAIN-SUFFIX,deepmind.google
   - DOMAIN-SUFFIX,dify.ai
+  - DOMAIN-SUFFIX,dreamgen.com
   - DOMAIN-SUFFIX,edgeservices.bing.com
   - DOMAIN-SUFFIX,elevenlabs.io
   - DOMAIN-SUFFIX,events.statsigapi.net
@@ -84,6 +85,7 @@ payload:
   - DOMAIN-SUFFIX,intercomcdn.com
   - DOMAIN-SUFFIX,janitorai.com
   - DOMAIN-SUFFIX,jasper.ai
+  - DOMAIN-SUFFIX,kimi.ai
   - DOMAIN-SUFFIX,krea.ai
   - DOMAIN-SUFFIX,launchdarkly.com
   - DOMAIN-SUFFIX,leonardo.ai
@@ -93,8 +95,11 @@ payload:
   - DOMAIN-SUFFIX,mistral.ai
   - DOMAIN-SUFFIX,modal.com
   - DOMAIN-SUFFIX,modal.run
+  - DOMAIN-SUFFIX,moonshot.ai
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
+  - DOMAIN-SUFFIX,notegpt.io
+  - DOMAIN-SUFFIX,novelai.net
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaiusercontent.com
   - DOMAIN-SUFFIX,observeit.net
@@ -121,6 +126,8 @@ payload:
   - DOMAIN-SUFFIX,suno.ai
   - DOMAIN-SUFFIX,suno.com
   - DOMAIN-SUFFIX,tabnine.com
+  - DOMAIN-SUFFIX,talkai.info
+  - DOMAIN-SUFFIX,tapnow.ai
   - DOMAIN-SUFFIX,together.ai
   - DOMAIN-SUFFIX,turn.livekit.cloud
   - DOMAIN-SUFFIX,udio.com

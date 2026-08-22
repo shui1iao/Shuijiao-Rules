@@ -1,5 +1,5 @@
 # NAME: Proxy
-# UPDATED: 2026-08-19
+# UPDATED: 2026-08-23
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, Shuijiao manual overrides
 
 DOMAIN,0x0.st
@@ -248,7 +248,6 @@ DOMAIN,assets.nintendo.com
 DOMAIN,assets.northflank.com
 DOMAIN,assets.nxtrace.org
 DOMAIN,assets.nypost.com
-DOMAIN,assets.onestore.ms
 DOMAIN,assets.ontrack.com
 DOMAIN,assets.openalternative.co
 DOMAIN,assets.openlogi.org
@@ -640,7 +639,6 @@ DOMAIN,cdn.cms-twdigitalassets.com
 DOMAIN,cdn.cnn.com
 DOMAIN,cdn.cnx-software.com
 DOMAIN,cdn.codeblackbelt.com
-DOMAIN,cdn.commandbar.com
 DOMAIN,cdn.comparitech.com
 DOMAIN,cdn.concert.io
 DOMAIN,cdn.configcat.com
@@ -723,6 +721,7 @@ DOMAIN,cdn.gdl.gg
 DOMAIN,cdn.geekzone.co.nz
 DOMAIN,cdn.gethypervisual.com
 DOMAIN,cdn.getkoala.com
+DOMAIN,cdn.getmerlin.in
 DOMAIN,cdn.gettr.com
 DOMAIN,cdn.ghostery.com
 DOMAIN,cdn.giftcardpro.app
@@ -786,6 +785,7 @@ DOMAIN,cdn.kobo.com
 DOMAIN,cdn.langshop.app
 DOMAIN,cdn.leandata.com
 DOMAIN,cdn.lemonsqueezy.com
+DOMAIN,cdn.leonardo.ai
 DOMAIN,cdn.lgrckt-in.com
 DOMAIN,cdn.libravatar.org
 DOMAIN,cdn.lihkg.com
@@ -1249,6 +1249,7 @@ DOMAIN,content.overwolf.com
 DOMAIN,content.powerapps.com
 DOMAIN,content.presspage.com
 DOMAIN,content.wepik.com
+DOMAIN,contentful-asset-proxy.sd.indazn.com
 DOMAIN,contents-thumbnail2.fc2.com
 DOMAIN,conversiongorilla.com
 DOMAIN,cookie-cdn.cookiepro.com
@@ -1296,6 +1297,7 @@ DOMAIN,data.pendo.io
 DOMAIN,data.schemaapp.com
 DOMAIN,data.web.clickup.com
 DOMAIN,data3.answerbase.com
+DOMAIN,dazn-content-proxy.sd.indazn.com
 DOMAIN,david-dm.org
 DOMAIN,db.onlinewebfonts.com
 DOMAIN,dc-cdn.cdw.com
@@ -1497,6 +1499,7 @@ DOMAIN,fonts.gstatic.cn
 DOMAIN,fonts.gstatic.com
 DOMAIN,fonts.loox.io
 DOMAIN,fonts.mailerlite.com
+DOMAIN,fonts.reown.com
 DOMAIN,fonts.sony.net
 DOMAIN,fonts.svc.ui.com
 DOMAIN,fonts.twitter.com
@@ -1506,7 +1509,6 @@ DOMAIN,fonts.zapier.com
 DOMAIN,fonts1.unidays.world
 DOMAIN,forest-mt-s3.seekrtech.com
 DOMAIN,form-assets.mailchimp.com
-DOMAIN,frames-commandbar-prod.commandbar.com
 DOMAIN,freeshippingbar.herokuapp.com
 DOMAIN,front-resource.fs.com
 DOMAIN,frontend-apps-multi-region.workos.com
@@ -1674,6 +1676,7 @@ DOMAIN,image.civitai.com
 DOMAIN,image.cnbcfm.com
 DOMAIN,image.comicbz.com
 DOMAIN,image.crisp.chat
+DOMAIN,image.discovery.indazn.com
 DOMAIN,image.dooo.ng
 DOMAIN,image.email.microsoftemail.com
 DOMAIN,image.freepik.com
@@ -2510,6 +2513,7 @@ DOMAIN,resource-accel.fs.com
 DOMAIN,resource.akashic.coe.nicovideo.jp
 DOMAIN,resource.fs.com
 DOMAIN,resource.logitech.com
+DOMAIN,resource.logitechg.com
 DOMAIN,resource.tnlmediagene.com
 DOMAIN,resource.video.nimg.jp
 DOMAIN,resources-cache.prod.sketch.com
@@ -2575,10 +2579,10 @@ DOMAIN,s3-figma-force-client-reloads-production.figma.com
 DOMAIN,s3-figma-plugin-images-production-sig.figma.com
 DOMAIN,s3-symbol-logo.tradingview.com
 DOMAIN,s3.2233778.xyz
-DOMAIN,s3.aaaaa.io
 DOMAIN,s3.acg.mn
 DOMAIN,s3.anilist.co
 DOMAIN,s3.arkjp.net
+DOMAIN,s3.beta.coinmarketcap.com
 DOMAIN,s3.bmp.ovh
 DOMAIN,s3.c.im
 DOMAIN,s3.coinmarketcap.com
@@ -2831,7 +2835,6 @@ DOMAIN,static.arxiv.org
 DOMAIN,static.assetlab.io
 DOMAIN,static.assets-stash.eet-china.com
 DOMAIN,static.axios.com
-DOMAIN,static.bad.news
 DOMAIN,static.bangumi.moe
 DOMAIN,static.bbc.co.uk
 DOMAIN,static.bbci.co.uk
@@ -2874,6 +2877,7 @@ DOMAIN,static.cracked.ax
 DOMAIN,static.cracked.sh
 DOMAIN,static.crunchyroll.com
 DOMAIN,static.crypto.com
+DOMAIN,static.dazndn.com
 DOMAIN,static.deepl.com
 DOMAIN,static.doujins.com
 DOMAIN,static.driffle.com
@@ -4271,6 +4275,7 @@ DOMAIN-SUFFIX,f.hubspotemail.net
 DOMAIN-SUFFIX,f.hubspotfree.net
 DOMAIN-SUFFIX,f.hubspotstarter.net
 DOMAIN-SUFFIX,f8.com
+DOMAIN-SUFFIX,fe.indazn.com
 DOMAIN-SUFFIX,facebook-hardware.com
 DOMAIN-SUFFIX,facebook.com
 DOMAIN-SUFFIX,faceit-cdn.net

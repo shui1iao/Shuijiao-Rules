@@ -8,7 +8,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 - Same content: files with the same name share the same normalized rules; only the wrapper format differs
 - CDN is merged into `Proxy`
 - MTProto DC mapping: `Surge/mtproto-dc-config.json` is regenerated daily with Surge's official generator
-- Updated: `2026-08-19`
+- Updated: `2026-08-23`
 
 ## Rule files
 
@@ -17,17 +17,17 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 | `Telegram` | `50` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
 | `GitHub` | `36` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `80` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `139` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `AI` | `146` | `Surge/AI.list` | `Mihomo/AI.yaml` |
 | `Speedtest` | `128` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `239` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `751` | `Surge/Google.list` | `Mihomo/Google.yaml` |
 | `Apple` | `183` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
 | `AppleCN` | `8` | `Surge/AppleCN.list` | `Mihomo/AppleCN.yaml` |
-| `Proxy` | `7534` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
+| `Proxy` | `7539` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
 | `China` | `7640` | `Surge/China.list` | `Mihomo/China.yaml` |
 | `Douyin` | `30` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
 | `LAN` | `145` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
-| `Ads` | `903` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
+| `Ads` | `902` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
 | `Streaming` | `1852` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
 | `Game` | `689` | `Surge/Game.list` | `Mihomo/Game.yaml` |
 | `Pay` | `380` | `Surge/Pay.list` | `Mihomo/Pay.yaml` |

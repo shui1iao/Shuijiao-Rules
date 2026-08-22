@@ -10,7 +10,7 @@
 - 内容一致：同名的 Surge 与 Mihomo 文件使用同一份规则内容，只是文件格式不同
 - CDN 规则：已经合并进 `Proxy`，不单独提供 `CDN` 文件
 - MTProto DC 配置：使用 Surge 官方生成器每日自动更新 `Surge/mtproto-dc-config.json`
-- 更新时间：`2026-08-19`
+- 更新时间：`2026-08-23`
 
 ## 规则列表
 
@@ -19,17 +19,17 @@
 | `Telegram` | `50` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
 | `GitHub` | `36` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `80` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `139` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `AI` | `146` | `Surge/AI.list` | `Mihomo/AI.yaml` |
 | `Speedtest` | `128` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `239` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `751` | `Surge/Google.list` | `Mihomo/Google.yaml` |
 | `Apple` | `183` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
 | `AppleCN` | `8` | `Surge/AppleCN.list` | `Mihomo/AppleCN.yaml` |
-| `Proxy` | `7534` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
+| `Proxy` | `7539` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
 | `China` | `7640` | `Surge/China.list` | `Mihomo/China.yaml` |
 | `Douyin` | `30` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
 | `LAN` | `145` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
-| `Ads` | `903` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
+| `Ads` | `902` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
 | `Streaming` | `1852` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
 | `Game` | `689` | `Surge/Game.list` | `Mihomo/Game.yaml` |
 | `Pay` | `380` | `Surge/Pay.list` | `Mihomo/Pay.yaml` |
