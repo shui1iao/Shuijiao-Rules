@@ -1,6 +1,6 @@
 # NAME: Streaming
-# UPDATED: 2026-07-01
-# SOURCE: blackmatrix7/ios_rule_script, Shuijiao manual overrides
+# UPDATED: 2026-08-30
+# SOURCE: blackmatrix7/ios_rule_script, v2fly/domain-list-community, Shuijiao manual overrides
 payload:
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
   - DOMAIN,abematv.akamaized.net
@@ -484,6 +484,7 @@ payload:
   - DOMAIN-SUFFIX,starwarskids.com
   - DOMAIN-SUFFIX,streaks.jp
   - DOMAIN-SUFFIX,streamingdisney.net
+  - DOMAIN-SUFFIX,teleos.club
   - DOMAIN-SUFFIX,thehulubraintrust.com
   - DOMAIN-SUFFIX,themarvelexperiencetour.com
   - DOMAIN-SUFFIX,thestationbymaker.com

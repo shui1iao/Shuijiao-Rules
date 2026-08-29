@@ -1,6 +1,6 @@
 # NAME: Proxy
-# UPDATED: 2026-08-23
-# SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, Shuijiao manual overrides
+# UPDATED: 2026-08-30
+# SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, Shuijiao manual overrides
 
 DOMAIN,0x0.st
 DOMAIN,3dna.nationbuilder.com
@@ -1458,6 +1458,7 @@ DOMAIN,file.izanm.org
 DOMAIN,file.zoom.us
 DOMAIN,file1.hkepc.net
 DOMAIN,files.armorgames.com
+DOMAIN,files.blocktempo.ai
 DOMAIN,files.buildwithfern.com
 DOMAIN,files.gempages.net
 DOMAIN,files.iwara.tv
@@ -1672,6 +1673,7 @@ DOMAIN,image-stgus.samsung.com
 DOMAIN,image-us.samsung.com
 DOMAIN,image.acg.lol
 DOMAIN,image.ap-mail.org
+DOMAIN,image.blocktempo.com
 DOMAIN,image.civitai.com
 DOMAIN,image.cnbcfm.com
 DOMAIN,image.comicbz.com
@@ -3555,10 +3557,12 @@ DOMAIN-SUFFIX,acg.rip
 DOMAIN-SUFFIX,activated.win
 DOMAIN-SUFFIX,adblockplus.org
 DOMAIN-SUFFIX,addons.business
+DOMAIN-SUFFIX,addr.tools
 DOMAIN-SUFFIX,adguard-dns.io
 DOMAIN-SUFFIX,adguard.com
 DOMAIN-SUFFIX,adguard.org
 DOMAIN-SUFFIX,adguardaccount.com
+DOMAIN-SUFFIX,adguardaccount.net
 DOMAIN-SUFFIX,adguardcdn.com
 DOMAIN-SUFFIX,adidas.com
 DOMAIN-SUFFIX,adobe.com
@@ -3628,6 +3632,7 @@ DOMAIN-SUFFIX,apache.org
 DOMAIN-SUFFIX,apernet.io
 DOMAIN-SUFFIX,api.amplitude.com
 DOMAIN-SUFFIX,api.mixpanel.com
+DOMAIN-SUFFIX,api.shuaiapi.com
 DOMAIN-SUFFIX,api.termius.com
 DOMAIN-SUFFIX,api.tiktokv.com
 DOMAIN-SUFFIX,apibay.org
@@ -3801,9 +3806,11 @@ DOMAIN-SUFFIX,boxcdn.net
 DOMAIN-SUFFIX,boxun.com
 DOMAIN-SUFFIX,bp.blogspot.com
 DOMAIN-SUFFIX,brave.com
+DOMAIN-SUFFIX,briarproject.org
 DOMAIN-SUFFIX,brightcovecdn.com
 DOMAIN-SUFFIX,brightspotcdn.com
 DOMAIN-SUFFIX,broadcom.com
+DOMAIN-SUFFIX,browserleaks.com
 DOMAIN-SUFFIX,bsky.app
 DOMAIN-SUFFIX,bsky.network
 DOMAIN-SUFFIX,bsky.social
@@ -3928,8 +3935,12 @@ DOMAIN-SUFFIX,change.org
 DOMAIN-SUFFIX,characterai.io
 DOMAIN-SUFFIX,chargebeestaticv2.com
 DOMAIN-SUFFIX,chasecdn.com
+DOMAIN-SUFFIX,chatgpt.site
 DOMAIN-SUFFIX,chaturbate.com
 DOMAIN-SUFFIX,chcdn.xyz
+DOMAIN-SUFFIX,checkip.com.vn
+DOMAIN-SUFFIX,checkip.sh
+DOMAIN-SUFFIX,checkmyip.now
 DOMAIN-SUFFIX,chess.com
 DOMAIN-SUFFIX,chesscomfiles.com
 DOMAIN-SUFFIX,chinadigitaltimes.net
@@ -4030,6 +4041,7 @@ DOMAIN-SUFFIX,cpuid.com
 DOMAIN-SUFFIX,cr
 DOMAIN-SUFFIX,crashlyticsreports-pa.googleapis.com
 DOMAIN-SUFFIX,creaders.net
+DOMAIN-SUFFIX,criminalip.io
 DOMAIN-SUFFIX,crisp.chat
 DOMAIN-SUFFIX,crittercism.com
 DOMAIN-SUFFIX,crossbell.io
@@ -4415,11 +4427,14 @@ DOMAIN-SUFFIX,generated.photos
 DOMAIN-SUFFIX,geni.us
 DOMAIN-SUFFIX,genius.com
 DOMAIN-SUFFIX,gentcdn.com
+DOMAIN-SUFFIX,get-ipv4.com
+DOMAIN-SUFFIX,get-ipv6.com
 DOMAIN-SUFFIX,getaroom-cdn.com
 DOMAIN-SUFFIX,getchu.com
 DOMAIN-SUFFIX,getcloudapp.com
 DOMAIN-SUFFIX,getdropbox.com
 DOMAIN-SUFFIX,getfoxyproxy.org
+DOMAIN-SUFFIX,getjsonip.com
 DOMAIN-SUFFIX,getlantern.org
 DOMAIN-SUFFIX,getpricetag.com
 DOMAIN-SUFFIX,getsync.com
@@ -4547,6 +4562,7 @@ DOMAIN-SUFFIX,hgimg01.com
 DOMAIN-SUFFIX,highwinds-cdn.com
 DOMAIN-SUFFIX,himg.nl
 DOMAIN-SUFFIX,hinet.net
+DOMAIN-SUFFIX,historylines.net
 DOMAIN-SUFFIX,hitomi.la
 DOMAIN-SUFFIX,hits.b3log.org
 DOMAIN-SUFFIX,hitun.io
@@ -4688,6 +4704,7 @@ DOMAIN-SUFFIX,in
 DOMAIN-SUFFIX,independent.co.uk
 DOMAIN-SUFFIX,indiegogo.com
 DOMAIN-SUFFIX,influxdata.com
+DOMAIN-SUFFIX,infosniper.net
 DOMAIN-SUFFIX,infura-ipfs.io
 DOMAIN-SUFFIX,ingest.atoms.dev
 DOMAIN-SUFFIX,ingress.com
@@ -4715,6 +4732,7 @@ DOMAIN-SUFFIX,ip-api.com
 DOMAIN-SUFFIX,ip-scan.adspower.net
 DOMAIN-SUFFIX,ip.sb
 DOMAIN-SUFFIX,ipaddress.com
+DOMAIN-SUFFIX,ipaddress.to
 DOMAIN-SUFFIX,ipdata.co
 DOMAIN-SUFFIX,ipfs-gateway.cloud
 DOMAIN-SUFFIX,ipfs.1-2.dev
@@ -4762,12 +4780,16 @@ DOMAIN-SUFFIX,ipfs1.pixura.io
 DOMAIN-SUFFIX,ipfscdn.io
 DOMAIN-SUFFIX,ipfsgateway.makersplace.com
 DOMAIN-SUFFIX,ipgeolocation.io
+DOMAIN-SUFFIX,ipinfo.app
 DOMAIN-SUFFIX,ipleak.net
+DOMAIN-SUFFIX,ipme.co
+DOMAIN-SUFFIX,ipme.in
 DOMAIN-SUFFIX,ipn.li
 DOMAIN-SUFFIX,ipns.co
 DOMAIN-SUFFIX,iporntv.net
 DOMAIN-SUFFIX,ipregistry.co
 DOMAIN-SUFFIX,ipstack.com
+DOMAIN-SUFFIX,ipv6ready.me
 DOMAIN-SUFFIX,ipwho.is
 DOMAIN-SUFFIX,ipx.ac
 DOMAIN-SUFFIX,ir
@@ -4836,6 +4858,7 @@ DOMAIN-SUFFIX,jsdelivr.com
 DOMAIN-SUFFIX,jsdelivr.net
 DOMAIN-SUFFIX,jsfiddle.net
 DOMAIN-SUFFIX,jshint.com
+DOMAIN-SUFFIX,jsonip.com
 DOMAIN-SUFFIX,jspm.dev
 DOMAIN-SUFFIX,jspm.io
 DOMAIN-SUFFIX,jspm.org
@@ -4868,6 +4891,7 @@ DOMAIN-SUFFIX,kinja.com
 DOMAIN-SUFFIX,kinsta.page
 DOMAIN-SUFFIX,kirafile.com
 DOMAIN-SUFFIX,kisscos.net
+DOMAIN-SUFFIX,kiwix.org
 DOMAIN-SUFFIX,kknews.cc
 DOMAIN-SUFFIX,klarnacdn.net
 DOMAIN-SUFFIX,kleecks-cdn.com
@@ -4996,6 +5020,7 @@ DOMAIN-SUFFIX,matters.town
 DOMAIN-SUFFIX,maven.org
 DOMAIN-SUFFIX,maxjav.com
 DOMAIN-SUFFIX,mayoclinic.org
+DOMAIN-SUFFIX,mceindex.com
 DOMAIN-SUFFIX,mcusercontent.com
 DOMAIN-SUFFIX,md
 DOMAIN-SUFFIX,medallia.com
@@ -5105,6 +5130,36 @@ DOMAIN-SUFFIX,myfilebase.com
 DOMAIN-SUFFIX,myfontastic.com
 DOMAIN-SUFFIX,myfreecams.com
 DOMAIN-SUFFIX,myfutanari.com
+DOMAIN-SUFFIX,myip.ae
+DOMAIN-SUFFIX,myip.at
+DOMAIN-SUFFIX,myip.by
+DOMAIN-SUFFIX,myip.ch
+DOMAIN-SUFFIX,myip.cx
+DOMAIN-SUFFIX,myip.dk
+DOMAIN-SUFFIX,myip.eu
+DOMAIN-SUFFIX,myip.fi
+DOMAIN-SUFFIX,myip.ge
+DOMAIN-SUFFIX,myip.hk
+DOMAIN-SUFFIX,myip.id
+DOMAIN-SUFFIX,myip.is
+DOMAIN-SUFFIX,myip.kz
+DOMAIN-SUFFIX,myip.lt
+DOMAIN-SUFFIX,myip.lv
+DOMAIN-SUFFIX,myip.ma
+DOMAIN-SUFFIX,myip.md
+DOMAIN-SUFFIX,myip.mk
+DOMAIN-SUFFIX,myip.mn
+DOMAIN-SUFFIX,myip.mx
+DOMAIN-SUFFIX,myip.my
+DOMAIN-SUFFIX,myip.ng
+DOMAIN-SUFFIX,myip.nl
+DOMAIN-SUFFIX,myip.pw
+DOMAIN-SUFFIX,myip.qa
+DOMAIN-SUFFIX,myip.ro
+DOMAIN-SUFFIX,myip.rs
+DOMAIN-SUFFIX,myip.sg
+DOMAIN-SUFFIX,myip.sh
+DOMAIN-SUFFIX,myip.sk
 DOMAIN-SUFFIX,myipstack.com
 DOMAIN-SUFFIX,mypikpak.com
 DOMAIN-SUFFIX,mypinata.cloud
@@ -5145,6 +5200,7 @@ DOMAIN-SUFFIX,network
 DOMAIN-SUFFIX,neulion.com
 DOMAIN-SUFFIX,new
 DOMAIN-SUFFIX,neweggimages.com
+DOMAIN-SUFFIX,newgrounds.com
 DOMAIN-SUFFIX,newipnow.com
 DOMAIN-SUFFIX,newrepublic.com
 DOMAIN-SUFFIX,news.com.au
@@ -5278,6 +5334,7 @@ DOMAIN-SUFFIX,osxdaily.com
 DOMAIN-SUFFIX,otstatic.com
 DOMAIN-SUFFIX,ouo.io
 DOMAIN-SUFFIX,ouo.si
+DOMAIN-SUFFIX,ouryahoo.com
 DOMAIN-SUFFIX,overcast.fm
 DOMAIN-SUFFIX,overdrive.com
 DOMAIN-SUFFIX,ovpnleaktest.com
@@ -5502,10 +5559,12 @@ DOMAIN-SUFFIX,readthedocs.io
 DOMAIN-SUFFIX,readwise.io
 DOMAIN-SUFFIX,readyatdawn.com
 DOMAIN-SUFFIX,realgfporn.com
+DOMAIN-SUFFIX,reallyfreegeoip.org
 DOMAIN-SUFFIX,reasoningtheory.net
 DOMAIN-SUFFIX,rechargecdn.com
 DOMAIN-SUFFIX,recharts.org
 DOMAIN-SUFFIX,recombee.com
+DOMAIN-SUFFIX,reconvert-cdn.com
 DOMAIN-SUFFIX,redbull.com
 DOMAIN-SUFFIX,redbullracing.com
 DOMAIN-SUFFIX,redcdn.net
@@ -5523,6 +5582,7 @@ DOMAIN-SUFFIX,redtubepremium.com
 DOMAIN-SUFFIX,regex101.com
 DOMAIN-SUFFIX,registry.gitplac.si
 DOMAIN-SUFFIX,reimu.net
+DOMAIN-SUFFIX,remna.st
 DOMAIN-SUFFIX,render.com
 DOMAIN-SUFFIX,replicate.delivery
 DOMAIN-SUFFIX,replicateassets.com
@@ -5579,6 +5639,7 @@ DOMAIN-SUFFIX,sascdn.com
 DOMAIN-SUFFIX,saucenao.com
 DOMAIN-SUFFIX,sb
 DOMAIN-SUFFIX,sb-cd.com
+DOMAIN-SUFFIX,sb.sb
 DOMAIN-SUFFIX,sbcdnvideo.com
 DOMAIN-SUFFIX,sc-cdn.com
 DOMAIN-SUFFIX,sc-cdn.net
@@ -5868,12 +5929,29 @@ DOMAIN-SUFFIX,terabox.com
 DOMAIN-SUFFIX,teraboxcdn.com
 DOMAIN-SUFFIX,termius.com
 DOMAIN-SUFFIX,tesco.com
+DOMAIN-SUFFIX,test-ipv6.alpinedc.ch
+DOMAIN-SUFFIX,test-ipv6.ams.vr.org
+DOMAIN-SUFFIX,test-ipv6.arauc.br
+DOMAIN-SUFFIX,test-ipv6.cl
+DOMAIN-SUFFIX,test-ipv6.com
+DOMAIN-SUFFIX,test-ipv6.csclub.uwaterloo.ca
+DOMAIN-SUFFIX,test-ipv6.cz
+DOMAIN-SUFFIX,test-ipv6.fratec.net
+DOMAIN-SUFFIX,test-ipv6.jp
+DOMAIN-SUFFIX,test-ipv6.nl
+DOMAIN-SUFFIX,test-ipv6.noroutetohost.net
+DOMAIN-SUFFIX,test-ipv6.roedu.net
+DOMAIN-SUFFIX,test-ipv6.run
+DOMAIN-SUFFIX,test-ipv6.se
+DOMAIN-SUFFIX,test.version6.ru
+DOMAIN-SUFFIX,testipv6.de
 DOMAIN-SUFFIX,textnow.com
 DOMAIN-SUFFIX,textnow.me
 DOMAIN-SUFFIX,tfbnw.net
 DOMAIN-SUFFIX,tgstat.com
 DOMAIN-SUFFIX,tgstat.ru
 DOMAIN-SUFFIX,thaiheadlines.com
+DOMAIN-SUFFIX,thatsmyip.com
 DOMAIN-SUFFIX,theage.com.au
 DOMAIN-SUFFIX,theatlantic.com
 DOMAIN-SUFFIX,theaustralian.com.au
@@ -6189,6 +6267,7 @@ DOMAIN-SUFFIX,welt.de
 DOMAIN-SUFFIX,wenxuecity.com
 DOMAIN-SUFFIX,westca.com
 DOMAIN-SUFFIX,westpoint.edu
+DOMAIN-SUFFIX,whatismyip.io
 DOMAIN-SUFFIX,whispersystems.org
 DOMAIN-SUFFIX,whoer.cc
 DOMAIN-SUFFIX,whoer.com
@@ -6262,6 +6341,7 @@ DOMAIN-SUFFIX,www.s81c.com
 DOMAIN-SUFFIX,x-art.com
 DOMAIN-SUFFIX,x.co
 DOMAIN-SUFFIX,x.com
+DOMAIN-SUFFIX,x86.fr
 DOMAIN-SUFFIX,xanga.com
 DOMAIN-SUFFIX,xascdn.li
 DOMAIN-SUFFIX,xbooru.com
@@ -6301,6 +6381,7 @@ DOMAIN-SUFFIX,yadi.sk
 DOMAIN-SUFFIX,yahoo.co.jp
 DOMAIN-SUFFIX,yahoo.com
 DOMAIN-SUFFIX,yahooapis.com
+DOMAIN-SUFFIX,yahooinc.com
 DOMAIN-SUFFIX,yammerusercontent.com
 DOMAIN-SUFFIX,yande.re
 DOMAIN-SUFFIX,yandex.com

@@ -1,6 +1,6 @@
 # NAME: China
-# UPDATED: 2026-07-01
-# SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, Shuijiao manual overrides
+# UPDATED: 2026-08-30
+# SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, Shuijiao manual overrides
 payload:
   - DOMAIN,analytics.strava.com
   - DOMAIN,blzddist1-a.akamaihd.net
@@ -84,6 +84,7 @@ payload:
   - DOMAIN-SUFFIX,1nongjing.com
   - DOMAIN-SUFFIX,1ting.com
   - DOMAIN-SUFFIX,1zhe.com
+  - DOMAIN-SUFFIX,20130123.com
   - DOMAIN-SUFFIX,21cn.com
   - DOMAIN-SUFFIX,21jingji.com
   - DOMAIN-SUFFIX,2265.com
@@ -333,6 +334,7 @@ payload:
   - DOMAIN-SUFFIX,aicoinstorge.com
   - DOMAIN-SUFFIX,aiemy.com
   - DOMAIN-SUFFIX,aiganggu.com
+  - DOMAIN-SUFFIX,aigefurniture.com
   - DOMAIN-SUFFIX,aiketour.com
   - DOMAIN-SUFFIX,aiops.com
   - DOMAIN-SUFFIX,aip.org
@@ -613,7 +615,6 @@ payload:
   - DOMAIN-SUFFIX,bosera.com
   - DOMAIN-SUFFIX,bosszhipin.com
   - DOMAIN-SUFFIX,broadcasthe.net
-  - DOMAIN-SUFFIX,browserleaks.com
   - DOMAIN-SUFFIX,bstatic.com
   - DOMAIN-SUFFIX,btcfans.com
   - DOMAIN-SUFFIX,btgtravel.com
@@ -2173,6 +2174,7 @@ payload:
   - DOMAIN-SUFFIX,lingkou.com
   - DOMAIN-SUFFIX,linglonglife.com
   - DOMAIN-SUFFIX,lingshoujia.com
+  - DOMAIN-SUFFIX,lingxing.com
   - DOMAIN-SUFFIX,linkvans.com
   - DOMAIN-SUFFIX,linsn.com
   - DOMAIN-SUFFIX,linuxidc.com
@@ -2298,6 +2300,7 @@ payload:
   - DOMAIN-SUFFIX,metalrevolution.com
   - DOMAIN-SUFFIX,metatrader4.com
   - DOMAIN-SUFFIX,metatrader5.com
+  - DOMAIN-SUFFIX,metax-tech.com
   - DOMAIN-SUFFIX,mfcteda.com
   - DOMAIN-SUFFIX,mgtv.com
   - DOMAIN-SUFFIX,mi-img.com
@@ -3030,6 +3033,7 @@ payload:
   - DOMAIN-SUFFIX,tenpay.com
   - DOMAIN-SUFFIX,tenxcloud.com
   - DOMAIN-SUFFIX,test-cignacmb.com
+  - DOMAIN-SUFFIX,testipv6.cn
   - DOMAIN-SUFFIX,testwaf.com
   - DOMAIN-SUFFIX,texasholdemcup.com
   - DOMAIN-SUFFIX,texasholdemcup.net
@@ -3661,6 +3665,7 @@ payload:
   - DOMAIN-SUFFIX,zijiecdn.net
   - DOMAIN-SUFFIX,zimuzu.io
   - DOMAIN-SUFFIX,zimuzu.tv
+  - DOMAIN-SUFFIX,ziniao.com
   - DOMAIN-SUFFIX,ziroom.com
   - DOMAIN-SUFFIX,ziroomapartment.com
   - DOMAIN-SUFFIX,zixiaomao.com
@@ -3931,6 +3936,7 @@ payload:
   - IP-CIDR,103.143.230.0/24,no-resolve
   - IP-CIDR,103.143.92.0/23,no-resolve
   - IP-CIDR,103.144.158.0/23,no-resolve
+  - IP-CIDR,103.144.244.0/23,no-resolve
   - IP-CIDR,103.144.66.0/23,no-resolve
   - IP-CIDR,103.144.70.0/24,no-resolve
   - IP-CIDR,103.145.42.0/23,no-resolve
@@ -4842,8 +4848,7 @@ payload:
   - IP-CIDR,116.165.0.0/16,no-resolve
   - IP-CIDR,116.167.0.0/16,no-resolve
   - IP-CIDR,116.168.0.0/14,no-resolve
-  - IP-CIDR,116.172.128.0/17,no-resolve
-  - IP-CIDR,116.172.64.0/18,no-resolve
+  - IP-CIDR,116.172.0.0/16,no-resolve
   - IP-CIDR,116.174.0.0/15,no-resolve
   - IP-CIDR,116.176.0.0/14,no-resolve
   - IP-CIDR,116.181.0.0/16,no-resolve
@@ -4914,8 +4919,7 @@ payload:
   - IP-CIDR,116.85.1.0/24,no-resolve
   - IP-CIDR,116.85.13.0/24,no-resolve
   - IP-CIDR,116.85.14.0/24,no-resolve
-  - IP-CIDR,116.85.16.0/23,no-resolve
-  - IP-CIDR,116.85.18.0/24,no-resolve
+  - IP-CIDR,116.85.16.0/22,no-resolve
   - IP-CIDR,116.85.2.0/23,no-resolve
   - IP-CIDR,116.85.240.0/20,no-resolve
   - IP-CIDR,116.85.64.0/20,no-resolve
@@ -5956,6 +5960,7 @@ payload:
   - IP-CIDR,192.163.11.0/24,no-resolve
   - IP-CIDR,192.193.73.0/24,no-resolve
   - IP-CIDR,192.232.97.0/24,no-resolve
+  - IP-CIDR,192.51.172.0/23,no-resolve
   - IP-CIDR,193.112.0.0/16,no-resolve
   - IP-CIDR,193.9.44.0/24,no-resolve
   - IP-CIDR,193.9.46.0/24,no-resolve
@@ -6197,6 +6202,8 @@ payload:
   - IP-CIDR,203.202.236.0/23,no-resolve
   - IP-CIDR,203.205.238.0/23,no-resolve
   - IP-CIDR,203.205.254.0/23,no-resolve
+  - IP-CIDR,203.205.64.0/20,no-resolve
+  - IP-CIDR,203.205.80.0/21,no-resolve
   - IP-CIDR,203.205.88.0/24,no-resolve
   - IP-CIDR,203.207.104.0/22,no-resolve
   - IP-CIDR,203.207.112.0/20,no-resolve
@@ -6662,10 +6669,8 @@ payload:
   - IP-CIDR,211.98.0.0/16,no-resolve
   - IP-CIDR,211.99.112.0/22,no-resolve
   - IP-CIDR,211.99.116.0/24,no-resolve
-  - IP-CIDR,211.99.12.0/24,no-resolve
   - IP-CIDR,211.99.122.0/24,no-resolve
   - IP-CIDR,211.99.128.0/18,no-resolve
-  - IP-CIDR,211.99.14.0/23,no-resolve
   - IP-CIDR,211.99.16.0/23,no-resolve
   - IP-CIDR,211.99.192.0/19,no-resolve
   - IP-CIDR,211.99.25.0/24,no-resolve
@@ -6673,7 +6678,6 @@ payload:
   - IP-CIDR,211.99.28.0/22,no-resolve
   - IP-CIDR,211.99.32.0/19,no-resolve
   - IP-CIDR,211.99.64.0/19,no-resolve
-  - IP-CIDR,211.99.8.0/22,no-resolve
   - IP-CIDR,211.99.96.0/20,no-resolve
   - IP-CIDR,212.103.62.0/24,no-resolve
   - IP-CIDR,212.129.128.0/17,no-resolve
@@ -7069,6 +7073,7 @@ payload:
   - IP-CIDR,36.51.253.0/24,no-resolve
   - IP-CIDR,36.56.0.0/13,no-resolve
   - IP-CIDR,36.96.0.0/12,no-resolve
+  - IP-CIDR,38.226.199.0/24,no-resolve
   - IP-CIDR,39.104.0.0/14,no-resolve
   - IP-CIDR,39.108.0.0/16,no-resolve
   - IP-CIDR,39.128.0.0/10,no-resolve
@@ -7602,7 +7607,6 @@ payload:
   - IP-CIDR,72.163.248.0/22,no-resolve
   - IP-CIDR,74.114.51.0/24,no-resolve
   - IP-CIDR,74.214.161.0/24,no-resolve
-  - IP-CIDR,77.73.8.0/24,no-resolve
   - IP-CIDR,8.128.32.0/19,no-resolve
   - IP-CIDR,8.128.4.0/22,no-resolve
   - IP-CIDR,8.128.64.0/19,no-resolve
