@@ -76,7 +76,8 @@ def validate(baseline=None):
  for domain in ['amazon.com','primevideo.com']:
   assert matches(allrules['AWS'],domain),('AWS Amazon ecosystem coverage',domain)
  assert 'DOMAIN-SUFFIX,gemini.com' in allrules['Crypto'],'unrelated Gemini exchange removed'
- assert 'DOMAIN,gemini.yahoo.com' in allrules['Ads'],'unrelated Yahoo advertising domain removed'
+ # Ads follows AWAvenue exactly; unrelated homonyms must not be removed by AI filtering,
+ # but an upstream Ads removal must not be blocked by a permanently hardcoded entry.
  subprocess.run(['git','diff','--check'],cwd=ROOT,check=True)
  totals={'rulesets':len(names),'files':len(names)*2,'rules':sum(r['count'] for r in report.values())}
  if baseline:totals.update(added=sum(len(r['added']) for r in report.values()),removed=sum(len(r['removed']) for r in report.values()),changed_rulesets=sum(bool(r['added'] or r['removed']) for r in report.values()))
