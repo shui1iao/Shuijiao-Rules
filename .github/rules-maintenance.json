@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_date": "2026-09-12",
+  "checked_date": "2026-09-13",
   "upstream_repositories": [
     "SukkaW/Surge",
     "blackmatrix7/ios_rule_script",
@@ -165,16 +165,16 @@
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "d660fd0475de2cec": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/non_ip/ai.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/non_ip/ai.conf",
       "sha256": "544b4a3fb8a65aeb98afdfff68e4bdc6809c377d0d03f67f6c7533bbf318f3bc",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/non_ip/ai.conf",
       "repo": "SukkaW/Surge"
     },
     "a5db8aa8ad315f2e": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/non_ip/apple_intelligence.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/non_ip/apple_intelligence.conf",
       "sha256": "e69aa5b2accd96ac4b2451d970352555d56193ae0e99d5126e9c7e5e963181ee",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/non_ip/apple_intelligence.conf",
       "repository": "SukkaW/Surge"
     },
@@ -571,9 +571,9 @@
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "2f10ee47aa7d2025": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/non_ip/global.conf",
-      "sha256": "e2be2ae12b38235babedc1081283acc54cdcdde94364eedcbdd6076bb2b07614",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/non_ip/global.conf",
+      "sha256": "394f003f075e606759cff106b31310154a11e3d29c792b23e58869f354a6143f",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/non_ip/global.conf",
       "repo": "SukkaW/Surge"
     },
@@ -809,16 +809,16 @@
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "3c5438ab3df54ea7": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/237bd96c062b7e2854811cf44e1543ba806b51b9/List/domainset/speedtest.conf",
-      "sha256": "3d1782c91d61e5d53bdaf2e0f406e3a54c6de04d2a4366318a591e404ae6d6aa",
-      "commit": "237bd96c062b7e2854811cf44e1543ba806b51b9",
+      "url": "https://ruleset.skk.moe/List/domainset/speedtest.conf",
+      "sha256": "6ca29baa6951f136699cf398746bb6e019c9f5bff5fd12e2afa260bbd2ca0ce4",
+      "commit": null,
       "path": "List/domainset/speedtest.conf",
-      "repository": "SukkaLab/ruleset.skk.moe"
+      "repository": "SukkaW/Surge"
     },
     "dddfbaefb431fb76": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/domainset/speedtest.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/domainset/speedtest.conf",
       "sha256": "1e7e92342426849f8a785e246f5edc29195d0ea5930fc98be98f5dada2d65111",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/domainset/speedtest.conf",
       "repository": "SukkaW/Surge"
     },
@@ -893,16 +893,16 @@
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "42451f3118e538a7": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/ip/telegram_asn.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/ip/telegram_asn.conf",
       "sha256": "e05e19b6b7d605baccae71498f7dd77bd7c9aa790c05de51c89653968a8a0748",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/ip/telegram_asn.conf",
       "repository": "SukkaW/Surge"
     },
     "78507a55ab02738b": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/non_ip/telegram.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/non_ip/telegram.conf",
       "sha256": "8eab4b09048a3b0174c413290e0b036035e8a711aa340cda55a88bc260e124be",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/non_ip/telegram.conf",
       "repository": "SukkaW/Surge"
     },
@@ -956,9 +956,9 @@
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "148a99820884bc78": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/ip/lan.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/ip/lan.conf",
       "sha256": "7ba0d9a458494a9401b8bc1b094ec9756981d153bc4f29c94dc5e549a6ce5c2b",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/ip/lan.conf",
       "repository": "SukkaW/Surge"
     },
@@ -1600,37 +1600,37 @@
       "repo": "blackmatrix7/ios_rule_script"
     },
     "ec8160d75b09df5c": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/domainset/game-download.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/domainset/game-download.conf",
       "sha256": "096214d4531ef980f2c4dc22754cc0636448a3d544eed139541e872388ceb152",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/domainset/game-download.conf",
       "repo": "SukkaW/Surge"
     },
     "36d1c784c82f6c99": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/ip/apple_services.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/ip/apple_services.conf",
       "sha256": "aa8aa4e1235e551fbabb7a7d1d9caf3d45390fe1c79bcea4c577b3d1bb62a4b8",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/ip/apple_services.conf",
       "repo": "SukkaW/Surge"
     },
     "8ea120a60731c21d": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/non_ip/apple_cn.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/non_ip/apple_cn.conf",
       "sha256": "0df672d130fecb1d9a082ac5215fbd96501ab35d07552805b385ed9877c480d3",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/non_ip/apple_cn.conf",
       "repo": "SukkaW/Surge"
     },
     "56e08cea14c23a21": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/non_ip/apple_services.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/non_ip/apple_services.conf",
       "sha256": "f68a78fdb896030f6dea0b971273f7e8b3d3d5f4e50a97f46df459cb0af1dc80",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/non_ip/apple_services.conf",
       "repo": "SukkaW/Surge"
     },
     "61908b5590c201ed": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/024fd5d8d6d3c8a534c0536c57d4803257c4a023/Source/stream.ts",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ce53726272f4545ae48d7be2a5eed1699232e0c5/Source/stream.ts",
       "sha256": "1fc800a4d195e280972282d733a68dd6a4e2257936a5585940e9996482ff773e",
-      "commit": "024fd5d8d6d3c8a534c0536c57d4803257c4a023",
+      "commit": "ce53726272f4545ae48d7be2a5eed1699232e0c5",
       "path": "Source/stream.ts",
       "repo": "SukkaW/Surge"
     },
@@ -2944,7 +2944,7 @@
     },
     "5ef2951dfc3c0daa": {
       "url": "https://ruleset.skk.moe/List/non_ip/global.conf",
-      "sha256": "0a48f1f27effe13fa8e3f55e347a59c4d40778adf62e6c18448b59a8a4e4b5d8"
+      "sha256": "270bb9779f34df58825dab7ed591c51cd949411a6e54c8e2a06741da7a639eaa"
     },
     "aa71708ff70289a2": {
       "url": "https://ruleset.skk.moe/List/non_ip/domestic.conf",
@@ -3053,10 +3053,10 @@
       ],
       "selection": "Dedicated product categories; preserve baseline manual entries; skip redundant matches and unsupported expressions without widening.",
       "rule_count": 386,
-      "added": 240,
+      "added": 0,
       "removed": 0,
-      "change_percent": 164.38,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "AWS": {
       "source_refs": [
@@ -3083,10 +3083,10 @@
       ],
       "selection": "Dedicated product categories; preserve baseline manual entries; skip redundant matches and unsupported expressions without widening.",
       "rule_count": 245,
-      "added": 165,
+      "added": 0,
       "removed": 0,
-      "change_percent": 206.25,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "Crypto": {
       "source_refs": [
@@ -3124,10 +3124,10 @@
       ],
       "selection": "Dedicated product categories; preserve baseline manual entries; skip redundant matches and unsupported expressions without widening.",
       "rule_count": 364,
-      "added": 125,
+      "added": 0,
       "removed": 0,
-      "change_percent": 52.3,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "GitHub": {
       "source_refs": [
@@ -3141,10 +3141,10 @@
       ],
       "selection": "Dedicated product categories; preserve baseline manual entries; skip redundant matches and unsupported expressions without widening.",
       "rule_count": 60,
-      "added": 24,
+      "added": 0,
       "removed": 0,
-      "change_percent": 66.67,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "Speedtest": {
       "source_refs": [
@@ -3159,10 +3159,10 @@
       ],
       "selection": "Dedicated product categories; preserve baseline manual entries; skip redundant matches and unsupported expressions without widening.",
       "rule_count": 1252,
-      "added": 1124,
+      "added": 0,
       "removed": 0,
-      "change_percent": 878.12,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "Telegram": {
       "source_refs": [
@@ -3180,10 +3180,10 @@
       ],
       "selection": "Dedicated product categories; preserve baseline manual entries; skip redundant matches and unsupported expressions without widening.",
       "rule_count": 54,
-      "added": 4,
+      "added": 0,
       "removed": 0,
-      "change_percent": 8.0,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "LAN": {
       "source_refs": [
@@ -3197,10 +3197,10 @@
       ],
       "selection": "Dedicated product categories; preserve baseline manual entries; skip redundant matches and unsupported expressions without widening.",
       "rule_count": 172,
-      "added": 27,
+      "added": 0,
       "removed": 0,
-      "change_percent": 18.62,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "Apple": {
       "source_refs": [
@@ -3236,10 +3236,10 @@
       "selection": "Preserve all original manual/baseline additions unless independently proven semantically wrong; upstream disappearance alone is not deletion evidence",
       "unchanged_reason": null,
       "rule_count": 187,
-      "added": 4,
+      "added": 0,
       "removed": 0,
-      "change_percent": 2.19,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "AppleCN": {
       "source_refs": [
@@ -3256,7 +3256,7 @@
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-09-12"
+      "checked_date": "2026-09-13"
     },
     "Google": {
       "source_refs": [
@@ -3279,10 +3279,10 @@
       "selection": "Preserve all original manual/baseline additions unless independently proven semantically wrong; upstream disappearance alone is not deletion evidence",
       "unchanged_reason": null,
       "rule_count": 954,
-      "added": 203,
+      "added": 0,
       "removed": 0,
-      "change_percent": 27.03,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "Douyin": {
       "source_refs": [
@@ -3295,10 +3295,10 @@
       "selection": "Preserve all original manual/baseline additions unless independently proven semantically wrong; upstream disappearance alone is not deletion evidence",
       "unchanged_reason": null,
       "rule_count": 77,
-      "added": 47,
+      "added": 0,
       "removed": 0,
-      "change_percent": 156.67,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "Streaming": {
       "source_refs": [
@@ -3380,10 +3380,10 @@
       "selection": "Preserve all original manual/baseline additions unless independently proven semantically wrong; upstream disappearance alone is not deletion evidence",
       "unchanged_reason": null,
       "rule_count": 1939,
-      "added": 88,
-      "removed": 2,
-      "change_percent": 4.86,
-      "checked_date": "2026-09-12"
+      "added": 0,
+      "removed": 0,
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "Game": {
       "source_refs": [
@@ -3436,10 +3436,10 @@
       "selection": "Preserve all original manual/baseline additions unless independently proven semantically wrong; upstream disappearance alone is not deletion evidence",
       "unchanged_reason": null,
       "rule_count": 757,
-      "added": 68,
+      "added": 0,
       "removed": 0,
-      "change_percent": 9.87,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "Pay": {
       "source_refs": [
@@ -3468,10 +3468,10 @@
       "selection": "Preserve all original manual/baseline additions unless independently proven semantically wrong; upstream disappearance alone is not deletion evidence",
       "unchanged_reason": null,
       "rule_count": 495,
-      "added": 115,
+      "added": 0,
       "removed": 0,
-      "change_percent": 30.26,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "China": {
       "source_refs": [
@@ -3539,10 +3539,10 @@
         }
       ],
       "rule_count": 7884,
-      "added": 240,
+      "added": 0,
       "removed": 0,
-      "change_percent": 3.14,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     },
     "Proxy": {
       "source_refs": [
@@ -3742,11 +3742,11 @@
           "reason": "overlaps prior China/LAN/AppleCN direct policy; do not introduce ambiguous route"
         }
       ],
-      "rule_count": 12524,
-      "added": 4904,
+      "rule_count": 12525,
+      "added": 1,
       "removed": 0,
-      "change_percent": 64.36,
-      "checked_date": "2026-09-12"
+      "change_percent": 0.01,
+      "checked_date": "2026-09-13"
     },
     "Ads": {
       "source_refs": [
@@ -3755,10 +3755,10 @@
       "selection": "Exact replacement from AWAvenue native Surge RULE-SET; removals follow sole authoritative source.",
       "excluded_candidates": [],
       "rule_count": 952,
-      "added": 54,
-      "removed": 4,
-      "change_percent": 6.43,
-      "checked_date": "2026-09-12"
+      "added": 0,
+      "removed": 0,
+      "change_percent": 0.0,
+      "checked_date": "2026-09-13"
     }
   },
   "validation": {
@@ -3767,11 +3767,54 @@
     "unit_tests": "python3 -B -m unittest discover -s .github/scripts -p test_*.py",
     "rule_pair_count": 17,
     "all_rulesets_checked": true,
-    "changed_rulesets": 16,
+    "changed_rulesets": 1,
     "traffic_tested": false
   },
+  "weekly_review": {
+    "baseline": "c3b611fd75f26b1681088f509115852dd4d1e71f",
+    "checked_date": "2026-09-13",
+    "source_matrix": "Every categories.*.source_refs entry was fetched and hashed. Unlisted source deltas below are empty; retain existing category selection/exclusions rather than importing whole catalogs. Per-category added/removed counters are relative to baseline.",
+    "applicable_source_count": 329,
+    "applicable_source_failures": 0,
+    "source_deltas": {
+      "2f10ee47aa7d2025": {
+        "added": ["DOMAIN-SUFFIX,boxcloud.com"],
+        "removed": [],
+        "decision": "Box content delivery belongs in Proxy, not Crypto/GitHub/Speedtest/Google/Pay; source and generated distribution share ancestry."
+      },
+      "5ef2951dfc3c0daa": {
+        "added": ["DOMAIN-SUFFIX,boxcloud.com"],
+        "removed": [],
+        "decision": "Adopt into Proxy; no earlier LAN/AppleCN/China overlap. Apex/subdomain positives and near-name negatives passed. Box firewall documentation also identifies dl.boxcloud.com and public.boxcloud.com."
+      },
+      "3c5438ab3df54ea7": {
+        "added": ["speedtest.netpool.in"],
+        "removed": [],
+        "decision": "Generated DOMAIN-SET exact host is already covered by existing DOMAIN-KEYWORD,speedtest; do not add redundant rule or change Speedtest header date."
+      }
+    },
+    "unchanged_categories": ["AI", "AWS", "Ads", "Apple", "AppleCN", "China", "Crypto", "Douyin", "Game", "GitHub", "Google", "LAN", "Pay", "Speedtest", "Streaming", "Telegram"],
+    "snapshot_notes": [
+      "SukkaLab GitHub mirror returned 404. Used the official ruleset.skk.moe generated distribution, not handwritten Source as a replacement. Unchanged mirror snapshots were matched byte-for-byte by SHA256; the changed Speedtest snapshot now records the working CDN URL.",
+      "Old generated Speedtest/global snapshots were recovered from local previous-run evidence and their hashes matched the baseline manifest before computing deltas.",
+      "Meta root recursive tree was truncated; traversed root -> geo -> geosite and fetched its complete 9496-entry subtree. Meta and v2fly remain correlated evidence.",
+      "Checked blackmatrix expanded Apple_All, China_All, Global_All and Proxy_All files; upstream commit is unchanged. Apple_All includes brand-protection/legacy domains, shared CDN domains and unsupported USER-AGENT rules; no unconditional expansion beyond the existing Apple service scope or AppleCN's minimal no-iCloud scope.",
+      "v2fly OpenAI snapshot is unchanged; oaistatsig.com and subdomains remain covered. Ads exactly matches the current sole-source AWAvenue rule sequence; no upstream removals this run.",
+      "Unreferenced historical marketing-page snapshots are not routing sources; a Mastercard marketing-page 403 is not evidence to change Pay or a missing applicable source."
+    ],
+    "expanded_apple_source": {
+      "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/0087bb74e91b335e17a79fd07a8514277f7d77b4/rule/Surge/Apple/Apple_All.list",
+      "sha256": "7521d86d5e13edd5fe7c36e7917a53e68dc2917ca68652d3b0655dcdff999b7a",
+      "categories": ["Apple", "AppleCN"],
+      "upstream_added": [],
+      "upstream_removed": []
+    },
+    "box_reference": "https://support.box.com/hc/en-us/articles/360043696434-Configuring-A-Firewall-For-Box-Applications-and-Services",
+    "net_rules": 1,
+    "size_gate_passed": true
+  },
   "review": {
-    "mode": "User-authorized full source expansion with per-category manual review, not unattended auto-publish.",
+    "mode": "Weekly maintenance against c3b611fd75f26b1681088f509115852dd4d1e71f; all-category source review with unattended publication gates enabled.",
     "automated_future_gates": {
       "category_change_percent": 20,
       "repository_net_rules": 500,

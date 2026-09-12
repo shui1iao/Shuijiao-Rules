@@ -9,7 +9,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 - Same content: files with the same name share the same normalized rules; only the wrapper format differs
 - CDN is merged into `Proxy`
 - MTProto DC mapping: `Surge/mtproto-dc-config.json` is regenerated daily with Surge's official generator
-- Updated: `2026-09-12`
+- Updated: `2026-09-13`
 
 ## Rule files
 
@@ -24,7 +24,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 | `Google` | `954` | `Surge/Google.list` | `Mihomo/Google.yaml` |
 | `Apple` | `187` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
 | `AppleCN` | `8` | `Surge/AppleCN.list` | `Mihomo/AppleCN.yaml` |
-| `Proxy` | `12524` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
+| `Proxy` | `12525` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
 | `China` | `7884` | `Surge/China.list` | `Mihomo/China.yaml` |
 | `Douyin` | `77` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
 | `LAN` | `172` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |

@@ -1,5 +1,5 @@
 # NAME: Proxy
-# UPDATED: 2026-09-12
+# UPDATED: 2026-09-13
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,0x0.st
@@ -4337,6 +4337,7 @@ DOMAIN-SUFFIX,bowenpress.com
 DOMAIN-SUFFIX,box.com
 DOMAIN-SUFFIX,box.net
 DOMAIN-SUFFIX,boxcdn.net
+DOMAIN-SUFFIX,boxcloud.com
 DOMAIN-SUFFIX,boxpn.com
 DOMAIN-SUFFIX,boxun.com
 DOMAIN-SUFFIX,boxun.tv
