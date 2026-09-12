@@ -1,6 +1,6 @@
 # NAME: Pay
-# UPDATED: 2026-07-01
-# SOURCE: blackmatrix7/ios_rule_script, Shuijiao manual overrides
+# UPDATED: 2026-09-12
+# SOURCE: blackmatrix7/ios_rule_script, v2fly/domain-list-community, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 payload:
   - DOMAIN-SUFFIX,95516.com
   - DOMAIN-SUFFIX,95516.net
@@ -13,6 +13,22 @@ payload:
   - DOMAIN-SUFFIX,adyen.com
   - DOMAIN-SUFFIX,airepay.net
   - DOMAIN-SUFFIX,airwallex.com
+  - DOMAIN-SUFFIX,alipay
+  - DOMAIN-SUFFIX,alipay-corp.com
+  - DOMAIN-SUFFIX,alipay-eco.com
+  - DOMAIN-SUFFIX,alipay-inc.com
+  - DOMAIN-SUFFIX,alipay-traffic.com
+  - DOMAIN-SUFFIX,alipay.cn
+  - DOMAIN-SUFFIX,alipay.com
+  - DOMAIN-SUFFIX,alipay.com.cn
+  - DOMAIN-SUFFIX,alipay.hk
+  - DOMAIN-SUFFIX,alipay.net
+  - DOMAIN-SUFFIX,alipaydev.com
+  - DOMAIN-SUFFIX,alipaydns.com
+  - DOMAIN-SUFFIX,alipaylog.com
+  - DOMAIN-SUFFIX,alipaymo.com
+  - DOMAIN-SUFFIX,alipayobjects.com
+  - DOMAIN-SUFFIX,alipayplus.com
   - DOMAIN-SUFFIX,americanexpress.com
   - DOMAIN-SUFFIX,amex.com
   - DOMAIN-SUFFIX,anfutong.cn
@@ -46,6 +62,7 @@ payload:
   - DOMAIN-SUFFIX,chinapay.cn
   - DOMAIN-SUFFIX,chinapay.com
   - DOMAIN-SUFFIX,chinapayhongkong.com
+  - DOMAIN-SUFFIX,chinaums.com
   - DOMAIN-SUFFIX,chinaunionpay.com
   - DOMAIN-SUFFIX,chinaunionpay.com.cn
   - DOMAIN-SUFFIX,chinaunionpay.net
@@ -60,11 +77,95 @@ payload:
   - DOMAIN-SUFFIX,i-o-u.info
   - DOMAIN-SUFFIX,klarna.com
   - DOMAIN-SUFFIX,krakenjs.com
+  - DOMAIN-SUFFIX,link.com
   - DOMAIN-SUFFIX,loanbuilder.com
   - DOMAIN-SUFFIX,login-paypal.com
   - DOMAIN-SUFFIX,login-paypal.info
+  - DOMAIN-SUFFIX,mastercard.ae
+  - DOMAIN-SUFFIX,mastercard.at
+  - DOMAIN-SUFFIX,mastercard.az
+  - DOMAIN-SUFFIX,mastercard.ba
+  - DOMAIN-SUFFIX,mastercard.be
+  - DOMAIN-SUFFIX,mastercard.bg
+  - DOMAIN-SUFFIX,mastercard.by
+  - DOMAIN-SUFFIX,mastercard.ca
+  - DOMAIN-SUFFIX,mastercard.ch
+  - DOMAIN-SUFFIX,mastercard.cl
+  - DOMAIN-SUFFIX,mastercard.cn
+  - DOMAIN-SUFFIX,mastercard.co.id
+  - DOMAIN-SUFFIX,mastercard.co.il
+  - DOMAIN-SUFFIX,mastercard.co.in
+  - DOMAIN-SUFFIX,mastercard.co.jp
+  - DOMAIN-SUFFIX,mastercard.co.ke
+  - DOMAIN-SUFFIX,mastercard.co.kr
+  - DOMAIN-SUFFIX,mastercard.co.nz
+  - DOMAIN-SUFFIX,mastercard.co.th
+  - DOMAIN-SUFFIX,mastercard.co.uk
+  - DOMAIN-SUFFIX,mastercard.co.ve
+  - DOMAIN-SUFFIX,mastercard.co.za
   - DOMAIN-SUFFIX,mastercard.com
+  - DOMAIN-SUFFIX,mastercard.com.ar
+  - DOMAIN-SUFFIX,mastercard.com.au
+  - DOMAIN-SUFFIX,mastercard.com.bh
+  - DOMAIN-SUFFIX,mastercard.com.br
+  - DOMAIN-SUFFIX,mastercard.com.bz
+  - DOMAIN-SUFFIX,mastercard.com.cn
+  - DOMAIN-SUFFIX,mastercard.com.co
+  - DOMAIN-SUFFIX,mastercard.com.cy
+  - DOMAIN-SUFFIX,mastercard.com.eg
+  - DOMAIN-SUFFIX,mastercard.com.ge
+  - DOMAIN-SUFFIX,mastercard.com.gt
+  - DOMAIN-SUFFIX,mastercard.com.hk
+  - DOMAIN-SUFFIX,mastercard.com.kw
+  - DOMAIN-SUFFIX,mastercard.com.lb
+  - DOMAIN-SUFFIX,mastercard.com.mx
+  - DOMAIN-SUFFIX,mastercard.com.my
+  - DOMAIN-SUFFIX,mastercard.com.ng
+  - DOMAIN-SUFFIX,mastercard.com.pe
+  - DOMAIN-SUFFIX,mastercard.com.ph
+  - DOMAIN-SUFFIX,mastercard.com.sa
+  - DOMAIN-SUFFIX,mastercard.com.sg
+  - DOMAIN-SUFFIX,mastercard.com.tr
+  - DOMAIN-SUFFIX,mastercard.com.tw
+  - DOMAIN-SUFFIX,mastercard.com.ve
+  - DOMAIN-SUFFIX,mastercard.com.vn
+  - DOMAIN-SUFFIX,mastercard.cz
+  - DOMAIN-SUFFIX,mastercard.de
+  - DOMAIN-SUFFIX,mastercard.dk
+  - DOMAIN-SUFFIX,mastercard.es
+  - DOMAIN-SUFFIX,mastercard.eu
+  - DOMAIN-SUFFIX,mastercard.fi
+  - DOMAIN-SUFFIX,mastercard.fr
+  - DOMAIN-SUFFIX,mastercard.gr
+  - DOMAIN-SUFFIX,mastercard.hr
+  - DOMAIN-SUFFIX,mastercard.hu
+  - DOMAIN-SUFFIX,mastercard.ie
+  - DOMAIN-SUFFIX,mastercard.inc
+  - DOMAIN-SUFFIX,mastercard.it
+  - DOMAIN-SUFFIX,mastercard.jo
+  - DOMAIN-SUFFIX,mastercard.ke
+  - DOMAIN-SUFFIX,mastercard.kz
+  - DOMAIN-SUFFIX,mastercard.lu
+  - DOMAIN-SUFFIX,mastercard.md
+  - DOMAIN-SUFFIX,mastercard.my
+  - DOMAIN-SUFFIX,mastercard.nl
+  - DOMAIN-SUFFIX,mastercard.no
+  - DOMAIN-SUFFIX,mastercard.om
+  - DOMAIN-SUFFIX,mastercard.pl
+  - DOMAIN-SUFFIX,mastercard.pt
+  - DOMAIN-SUFFIX,mastercard.qa
+  - DOMAIN-SUFFIX,mastercard.ro
+  - DOMAIN-SUFFIX,mastercard.rs
+  - DOMAIN-SUFFIX,mastercard.ru
+  - DOMAIN-SUFFIX,mastercard.se
+  - DOMAIN-SUFFIX,mastercard.si
+  - DOMAIN-SUFFIX,mastercard.sk
+  - DOMAIN-SUFFIX,mastercard.ua
   - DOMAIN-SUFFIX,mastercard.us
+  - DOMAIN-SUFFIX,mastercardconnect.com
+  - DOMAIN-SUFFIX,mastercardidtheftalerts.com
+  - DOMAIN-SUFFIX,mastercardservices.com
+  - DOMAIN-SUFFIX,masterpassteststore.com
   - DOMAIN-SUFFIX,mywaytopay.info
   - DOMAIN-SUFFIX,mywaytopay.net
   - DOMAIN-SUFFIX,pa9pal.com
@@ -228,6 +329,7 @@ payload:
   - DOMAIN-SUFFIX,paypalsurvey.com
   - DOMAIN-SUFFIX,paypalx.com
   - DOMAIN-SUFFIX,paypaly.com
+  - DOMAIN-SUFFIX,paypass.net
   - DOMAIN-SUFFIX,payppal.com
   - DOMAIN-SUFFIX,payypal.com
   - DOMAIN-SUFFIX,pdncommunity.com
@@ -243,6 +345,9 @@ payload:
   - DOMAIN-SUFFIX,secure-paypal.info
   - DOMAIN-SUFFIX,securepaypal.info
   - DOMAIN-SUFFIX,simility.com
+  - DOMAIN-SUFFIX,simplify.com
+  - DOMAIN-SUFFIX,simplifycommerce.com
+  - DOMAIN-SUFFIX,sinopayment.com.cn
   - DOMAIN-SUFFIX,squareup.com
   - DOMAIN-SUFFIX,sslpaypal.org
   - DOMAIN-SUFFIX,stripe.com
@@ -255,6 +360,7 @@ payload:
   - DOMAIN-SUFFIX,swiftfinancial.net
   - DOMAIN-SUFFIX,thepaypalshop.com
   - DOMAIN-SUFFIX,theshoppingexpresslane.net
+  - DOMAIN-SUFFIX,transferwise.com
   - DOMAIN-SUFFIX,unionpay.com
   - DOMAIN-SUFFIX,unionpay.net
   - DOMAIN-SUFFIX,unionpayintl.cn
@@ -266,9 +372,11 @@ payload:
   - DOMAIN-SUFFIX,venmo.net
   - DOMAIN-SUFFIX,venmo.org
   - DOMAIN-SUFFIX,venmo.s3.amazonaws.com
+  - DOMAIN-SUFFIX,visa-atm.com
   - DOMAIN-SUFFIX,visa.be
   - DOMAIN-SUFFIX,visa.ca
   - DOMAIN-SUFFIX,visa.cl
+  - DOMAIN-SUFFIX,visa.cn
   - DOMAIN-SUFFIX,visa.co.ao
   - DOMAIN-SUFFIX,visa.co.cr
   - DOMAIN-SUFFIX,visa.co.id
@@ -339,6 +447,7 @@ payload:
   - DOMAIN-SUFFIX,visa.gd
   - DOMAIN-SUFFIX,visa.gp
   - DOMAIN-SUFFIX,visa.gr
+  - DOMAIN-SUFFIX,visa.hk
   - DOMAIN-SUFFIX,visa.hu
   - DOMAIN-SUFFIX,visa.ie
   - DOMAIN-SUFFIX,visa.is
@@ -357,13 +466,19 @@ payload:
   - DOMAIN-SUFFIX,visa.sx
   - DOMAIN-SUFFIX,visa.tc
   - DOMAIN-SUFFIX,visabg.com
+  - DOMAIN-SUFFIX,visacheckout.net
+  - DOMAIN-SUFFIX,visacheckout.org
+  - DOMAIN-SUFFIX,visadpsonline.us
   - DOMAIN-SUFFIX,visaeurope.at
   - DOMAIN-SUFFIX,visaeurope.ch
   - DOMAIN-SUFFIX,visaeurope.lu
   - DOMAIN-SUFFIX,visaeurope.si
+  - DOMAIN-SUFFIX,visaicsdirect.com
   - DOMAIN-SUFFIX,visaitalia.com
   - DOMAIN-SUFFIX,visakorea.com
   - DOMAIN-SUFFIX,visamiddleeast.com
+  - DOMAIN-SUFFIX,visanet.net
+  - DOMAIN-SUFFIX,visapcsdirect.com
   - DOMAIN-SUFFIX,visasoutheasteurope.com
   - DOMAIN-SUFFIX,webmoneyinfo.com
   - DOMAIN-SUFFIX,westernunion.com

@@ -5,40 +5,41 @@
 水饺自用的 Surge / Mihomo 分流规则。仓库只保留两个规则目录：`Surge/` 和 `Mihomo/`。
 
 - 主要参考：[`SukkaW/Surge`](https://github.com/SukkaW/Surge)、[`blackmatrix7/ios_rule_script`](https://github.com/blackmatrix7/ios_rule_script) 与 [`v2fly/domain-list-community`](https://github.com/v2fly/domain-list-community)
+- 补充交叉核对：[`ACL4SSR/ACL4SSR`](https://github.com/ACL4SSR/ACL4SSR)、[`MetaCubeX/meta-rules-dat`](https://github.com/MetaCubeX/meta-rules-dat)；按分类补缺，不无条件合并全部上游规则，共同上游不视为独立佐证
 - 去广告规则：`Ads` 来源于 [`TG-Twilight/AWAvenue-Ads-Rule`](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)，推荐搭配 `REJECT` 策略使用
 - 输出格式：Surge 使用 `.list`，Mihomo 使用 `behavior: classical` 的 `.yaml`
 - 内容一致：同名的 Surge 与 Mihomo 文件使用同一份规则内容，只是文件格式不同
 - CDN 规则：已经合并进 `Proxy`，不单独提供 `CDN` 文件
 - MTProto DC 配置：使用 Surge 官方生成器每日自动更新 `Surge/mtproto-dc-config.json`
-- 更新时间：`2026-08-30`
+- 更新时间：`2026-09-12`
 
 ## 规则列表
 
 | 规则 | 条数 | Surge | Mihomo |
 |---|---:|---|---|
-| `Telegram` | `50` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
-| `GitHub` | `36` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
-| `AWS` | `80` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `146` | `Surge/AI.list` | `Mihomo/AI.yaml` |
-| `Speedtest` | `128` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
-| `Crypto` | `239` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
-| `Google` | `751` | `Surge/Google.list` | `Mihomo/Google.yaml` |
-| `Apple` | `183` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
+| `Telegram` | `54` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
+| `GitHub` | `60` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
+| `AWS` | `245` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
+| `AI` | `386` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `Speedtest` | `1252` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
+| `Crypto` | `364` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
+| `Google` | `954` | `Surge/Google.list` | `Mihomo/Google.yaml` |
+| `Apple` | `187` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
 | `AppleCN` | `8` | `Surge/AppleCN.list` | `Mihomo/AppleCN.yaml` |
-| `Proxy` | `7620` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
-| `China` | `7644` | `Surge/China.list` | `Mihomo/China.yaml` |
-| `Douyin` | `30` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
-| `LAN` | `145` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
-| `Ads` | `902` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
-| `Streaming` | `1853` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
-| `Game` | `689` | `Surge/Game.list` | `Mihomo/Game.yaml` |
-| `Pay` | `380` | `Surge/Pay.list` | `Mihomo/Pay.yaml` |
+| `Proxy` | `12524` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
+| `China` | `7884` | `Surge/China.list` | `Mihomo/China.yaml` |
+| `Douyin` | `77` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
+| `LAN` | `172` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
+| `Ads` | `952` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
+| `Streaming` | `1939` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
+| `Game` | `757` | `Surge/Game.list` | `Mihomo/Game.yaml` |
+| `Pay` | `495` | `Surge/Pay.list` | `Mihomo/Pay.yaml` |
 
 ## 分类说明
 
 - `Telegram`：Telegram 域名、ASN/IP 段。
 - `GitHub`：GitHub、GitHub Assets/UserContent、GitHub Container Registry、npm 相关域名。
-- `AWS`：Amazon Web Services 全球及中国区域名，包括 AWS 控制台与文档、Amazon API 域名、CloudFront、Amplify、Elastic Beanstalk、Cognito、SES 等；不包含亚马逊购物和 Prime Video。
+- `AWS`：Amazon Web Services 全球及中国区域名，以及亚马逊购物、Prime Video 等 Amazon 生态；包括 AWS 控制台与文档、Amazon API 域名、CloudFront、Amplify、Elastic Beanstalk、Cognito、SES 等。
 - `AI`：OpenAI / ChatGPT / Claude / Grok / Perplexity / Poe / Copilot / Midjourney / Hugging Face / Mistral / Cursor / Windsurf 等 AI 服务；不包含 Gemini、Bard、AI Studio 与 Gemini API。
 - `Speedtest`：Ookla Speedtest、Fast、Cloudflare Speed、M-Lab、LibreSpeed 以及常见测速节点。
 - `Crypto`：Binance、Bybit、OKX、Coinbase、Kraken、KuCoin、Gate、MEXC、Bitget、HTX/Huobi、行情、钱包、DeFi 与链上浏览器。
@@ -134,6 +135,20 @@ rules:
   - MATCH,Proxy
 ```
 
+## 多源维护与校验
+
+- 每次逐项检查全部 17 个规则集；无有效差异的文件保留原日期，不为凑更新而改动。
+- [来源清单与分类策略](.github/rules-maintenance.json) 记录来源 URL、快照哈希、分类覆盖和审查决定。补充源用于查漏，不等于全量并集；既有人工策略优先。
+- 2026-09-12 全量复核：16 类有内容变化，`AppleCN` 核对后保持不变；补齐 `oaistatsig.com`。`AWS` 已纳入购物和 Prime Video 域名，但不将整个云租户 IP 目录无条件归入该域名分类。
+- 大幅变化需逐项复核；自动维护遇到单类增删超过 20% 或全仓净变化超过 500 条仍停止发布，不因本次扩源而关闭保护。
+- 校验覆盖规则语法、双格式顺序一致、去重、文档计数及人工排除项；不等同于真实设备的端到端流量测试。
+
+```bash
+# 需要 Python 3 和 PyYAML
+python3 -B .github/scripts/validate-rules.py
+python3 -B -m unittest discover -s .github/scripts -p 'test_*.py'
+```
+
 ## 来源与授权
 
 本仓库为个人自用规则整理，不声明上游规则原创权。规则主要来自并参考：
@@ -141,6 +156,8 @@ rules:
 - [`SukkaW/Surge`](https://github.com/SukkaW/Surge)
 - [`blackmatrix7/ios_rule_script`](https://github.com/blackmatrix7/ios_rule_script)
 - [`v2fly/domain-list-community`](https://github.com/v2fly/domain-list-community)
+- [`ACL4SSR/ACL4SSR`](https://github.com/ACL4SSR/ACL4SSR)
+- [`MetaCubeX/meta-rules-dat`](https://github.com/MetaCubeX/meta-rules-dat)
 - [`TG-Twilight/AWAvenue-Ads-Rule`](https://github.com/TG-Twilight/AWAvenue-Ads-Rule)
 
 本仓库仅做格式转换、去重、合并和个人补丁维护。使用前请自行确认上游项目的授权、免责声明和适用范围。

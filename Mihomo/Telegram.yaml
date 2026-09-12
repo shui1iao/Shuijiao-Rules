@@ -1,6 +1,6 @@
 # NAME: Telegram
-# UPDATED: 2026-07-01
-# SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, Shuijiao manual overrides
+# UPDATED: 2026-09-12
+# SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 payload:
   - DOMAIN,api.imem.app
   - DOMAIN,api.swiftgram.app
@@ -30,9 +30,13 @@ payload:
   - IP-CIDR,109.239.140.0/24,no-resolve
   - IP-CIDR,139.59.210.98/32,no-resolve
   - IP-CIDR,149.154.160.0/20,no-resolve
+  - IP-CIDR,185.76.151.0/24,no-resolve
+  - IP-CIDR,194.221.250.50/32,no-resolve
   - IP-CIDR,196.55.216.167/32,no-resolve
   - IP-CIDR,5.28.192.0/18,no-resolve
+  - IP-CIDR,91.105.192.0/23,no-resolve
   - IP-CIDR,91.108.0.0/16,no-resolve
+  - IP-CIDR,95.161.64.0/20,no-resolve
   - IP-CIDR6,2001:67c:4e8::/48,no-resolve
   - IP-CIDR6,2001:b28:f23c::/47,no-resolve
   - IP-CIDR6,2001:b28:f23f::/48,no-resolve
