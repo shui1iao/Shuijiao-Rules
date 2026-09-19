@@ -1,5 +1,5 @@
 # NAME: Speedtest
-# UPDATED: 2026-09-12
+# UPDATED: 2026-09-20
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 payload:
   - DOMAIN,172673828273027382738738.de
@@ -272,6 +272,7 @@ payload:
   - DOMAIN,redeultramf.net.br
   - DOMAIN,reflector.aberythmic.com
   - DOMAIN,reikonteste.reikoninternet.com.br
+  - DOMAIN,reunion3.d2m.c2d.liveservices.fr
   - DOMAIN,riorancho1.cabospeed.com
   - DOMAIN,rsghost.rsgsn.com
   - DOMAIN,rspeed.mi-group.com.tr
@@ -288,6 +289,7 @@ payload:
   - DOMAIN,seednet-tn1.seed.net.tw
   - DOMAIN,seednet-ty1.seed.net.tw
   - DOMAIN,serv.qwistel.in
+  - DOMAIN,serv8.a2jnetwork.in
   - DOMAIN,servidor.speedplay.com.br
   - DOMAIN,seveninternet.brsserver.com.br
   - DOMAIN,sg.cloudhost.asia

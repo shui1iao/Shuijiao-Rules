@@ -11,7 +11,7 @@
 - 内容一致：同名的 Surge 与 Mihomo 文件使用同一份规则内容，只是文件格式不同
 - CDN 规则：已经合并进 `Proxy`，不单独提供 `CDN` 文件
 - MTProto DC 配置：使用 Surge 官方生成器每日自动更新 `Surge/mtproto-dc-config.json`
-- 更新时间：`2026-09-13`
+- 更新时间：`2026-09-20`
 
 ## 规则列表
 
@@ -21,12 +21,12 @@
 | `GitHub` | `60` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `245` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
 | `AI` | `386` | `Surge/AI.list` | `Mihomo/AI.yaml` |
-| `Speedtest` | `1252` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
+| `Speedtest` | `1254` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `364` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `954` | `Surge/Google.list` | `Mihomo/Google.yaml` |
 | `Apple` | `187` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
 | `AppleCN` | `8` | `Surge/AppleCN.list` | `Mihomo/AppleCN.yaml` |
-| `Proxy` | `12525` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
+| `Proxy` | `12529` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
 | `China` | `7884` | `Surge/China.list` | `Mihomo/China.yaml` |
 | `Douyin` | `77` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
 | `LAN` | `172` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
@@ -138,6 +138,7 @@ rules:
 ## 多源维护与校验
 
 - 每次逐项检查全部 17 个规则集；无有效差异的文件保留原日期，不为凑更新而改动。
+- 2026-09-20 周维护：`Speedtest` 新增 2 个精确测速节点，`Proxy` 新增 quakemachinex 与 3 个 Stripe 域名；其余分类保持不变。`rednotecdn.com` 存在上游直连/海外分类分歧，暂不新增到 `China`。
 - [来源清单与分类策略](.github/rules-maintenance.json) 记录来源 URL、快照哈希、分类覆盖和审查决定。补充源用于查漏，不等于全量并集；既有人工策略优先。
 - 2026-09-12 全量复核：16 类有内容变化，`AppleCN` 核对后保持不变；补齐 `oaistatsig.com`。`AWS` 已纳入购物和 Prime Video 域名，但不将整个云租户 IP 目录无条件归入该域名分类。
 - 大幅变化需逐项复核；自动维护遇到单类增删超过 20% 或全仓净变化超过 500 条仍停止发布，不因本次扩源而关闭保护。

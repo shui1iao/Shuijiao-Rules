@@ -9,7 +9,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 - Same content: files with the same name share the same normalized rules; only the wrapper format differs
 - CDN is merged into `Proxy`
 - MTProto DC mapping: `Surge/mtproto-dc-config.json` is regenerated daily with Surge's official generator
-- Updated: `2026-09-13`
+- Updated: `2026-09-20`
 
 ## Rule files
 
@@ -19,12 +19,12 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 | `GitHub` | `60` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `245` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
 | `AI` | `386` | `Surge/AI.list` | `Mihomo/AI.yaml` |
-| `Speedtest` | `1252` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
+| `Speedtest` | `1254` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `364` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `954` | `Surge/Google.list` | `Mihomo/Google.yaml` |
 | `Apple` | `187` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
 | `AppleCN` | `8` | `Surge/AppleCN.list` | `Mihomo/AppleCN.yaml` |
-| `Proxy` | `12525` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
+| `Proxy` | `12529` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
 | `China` | `7884` | `Surge/China.list` | `Mihomo/China.yaml` |
 | `Douyin` | `77` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
 | `LAN` | `172` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
@@ -77,6 +77,7 @@ This file maps Telegram DC IDs to current production endpoints; it does not repl
 ## Multi-source maintenance and validation
 
 - Check all 17 categories on each refresh. Preserve the date of a file whose effective rule content is unchanged.
+- Weekly maintenance on 2026-09-20 adds 2 exact Speedtest nodes and 4 Proxy suffixes (quakemachinex and 3 Stripe domains); other categories are unchanged. `rednotecdn.com` is not added to `China` because upstream direct/overseas classifications disagree.
 - The [source manifest and category policies](.github/rules-maintenance.json) record source URLs, snapshot hashes, coverage and review decisions. Supplemental sources identify gaps, not an unconditional union; manual policy wins.
 - Full review on 2026-09-12 changed 16 categories; `AppleCN` was checked and intentionally unchanged. `oaistatsig.com` is included. `AWS` now includes Amazon Shopping and Prime Video domains without indiscriminately importing the entire cloud-tenant IP catalog into the existing domain category.
 - Large diffs require explicit review. Unattended maintenance still stops above 20% per-category churn or 500 net rules repository-wide.
