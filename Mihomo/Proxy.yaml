@@ -1,5 +1,5 @@
 # NAME: Proxy
-# UPDATED: 2026-09-20
+# UPDATED: 2026-09-27
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 payload:
@@ -4719,6 +4719,7 @@ payload:
   - DOMAIN-SUFFIX,chinesedemocracy.com
   - DOMAIN-SUFFIX,chinesegay.org
   - DOMAIN-SUFFIX,chinesepen.org
+  - DOMAIN-SUFFIX,chineseposters.net
   - DOMAIN-SUFFIX,chineseradioseattle.com
   - DOMAIN-SUFFIX,chinesetalks.net
   - DOMAIN-SUFFIX,chineseupress.com
@@ -4856,6 +4857,7 @@ payload:
   - DOMAIN-SUFFIX,code1984.com
   - DOMAIN-SUFFIX,codeberg.org
   - DOMAIN-SUFFIX,codeberg.page
+  - DOMAIN-SUFFIX,codebuff.com
   - DOMAIN-SUFFIX,codecov.io
   - DOMAIN-SUFFIX,codeforces.com
   - DOMAIN-SUFFIX,codeforces.org
@@ -5674,8 +5676,10 @@ payload:
   - DOMAIN-SUFFIX,finler.net
   - DOMAIN-SUFFIX,firearmsworld.net
   - DOMAIN-SUFFIX,firebase.com
+  - DOMAIN-SUFFIX,firebase.dev
   - DOMAIN-SUFFIX,firebaseio.com
   - DOMAIN-SUFFIX,firebasestorage.googleapis.com
+  - DOMAIN-SUFFIX,firefox-portal-detection.com
   - DOMAIN-SUFFIX,firefox.com
   - DOMAIN-SUFFIX,firefoxusercontent.com
   - DOMAIN-SUFFIX,fireofliberty.info
@@ -5781,6 +5785,7 @@ payload:
   - DOMAIN-SUFFIX,freebeacon.com
   - DOMAIN-SUFFIX,freebearblog.org
   - DOMAIN-SUFFIX,freebrowser.org
+  - DOMAIN-SUFFIX,freebuff.com
   - DOMAIN-SUFFIX,freechal.com
   - DOMAIN-SUFFIX,freechina.net
   - DOMAIN-SUFFIX,freechina.news

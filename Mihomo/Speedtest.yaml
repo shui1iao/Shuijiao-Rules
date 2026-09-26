@@ -1,5 +1,5 @@
 # NAME: Speedtest
-# UPDATED: 2026-09-20
+# UPDATED: 2026-09-27
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 payload:
   - DOMAIN,172673828273027382738738.de
@@ -398,6 +398,7 @@ payload:
   - DOMAIN,spd-pub-mi-01-01.fastwebnet.it
   - DOMAIN,spd-pub-rm-01-01.fastwebnet.it
   - DOMAIN,spd-sndacawa.wyyerd.io
+  - DOMAIN,spd-sndgcajw.wyyerd.io
   - DOMAIN,spd-tr-istanbul.hostlayici.net
   - DOMAIN,spd.basefix.net
   - DOMAIN,spd.cndd.net
@@ -668,6 +669,7 @@ payload:
   - DOMAIN,spthl1.taiwanmobile.com
   - DOMAIN,sptkh1_tc.taiwanmobile.com
   - DOMAIN,sptkh2.taiwanmobile.com
+  - DOMAIN,sptst1.ntua.net
   - DOMAIN,spttc2.taiwanmobile.com
   - DOMAIN,spttn2.taiwanmobile.com
   - DOMAIN,spttp1.taiwanmobile.com

@@ -1,5 +1,5 @@
 # NAME: Google
-# UPDATED: 2026-09-12
+# UPDATED: 2026-09-27
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,alt1-mtalk.google.com
@@ -235,6 +235,7 @@ DOMAIN-SUFFIX,feedburner.com
 DOMAIN-SUFFIX,fflick.com
 DOMAIN-SUFFIX,financeleadsonline.com
 DOMAIN-SUFFIX,firebase.com
+DOMAIN-SUFFIX,firebase.dev
 DOMAIN-SUFFIX,firebase.io
 DOMAIN-SUFFIX,firebaseapp.com
 DOMAIN-SUFFIX,firebaseio.com

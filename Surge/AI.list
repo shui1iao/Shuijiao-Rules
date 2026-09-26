@@ -1,5 +1,5 @@
 # NAME: AI
-# UPDATED: 2026-09-12
+# UPDATED: 2026-09-27
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,ai.zhaomi.cn
@@ -101,6 +101,7 @@ DOMAIN-SUFFIX,clawhub.ai
 DOMAIN-SUFFIX,client-api.arkoselabs.com
 DOMAIN-SUFFIX,clipdrop.co
 DOMAIN-SUFFIX,codebuddy.cn
+DOMAIN-SUFFIX,codebuff.com
 DOMAIN-SUFFIX,codeium.com
 DOMAIN-SUFFIX,codeiumdata.com
 DOMAIN-SUFFIX,coderabbit.ai
@@ -169,6 +170,8 @@ DOMAIN-SUFFIX,faxingbao.com
 DOMAIN-SUFFIX,featuregates.org
 DOMAIN-SUFFIX,fireworks.ai
 DOMAIN-SUFFIX,flow.google
+DOMAIN-SUFFIX,flow.google.com
+DOMAIN-SUFFIX,freebuff.com
 DOMAIN-SUFFIX,gateway.ai.cloudflare.com
 DOMAIN-SUFFIX,gerwin.io
 DOMAIN-SUFFIX,giga.chat
@@ -249,6 +252,7 @@ DOMAIN-SUFFIX,mozilla.ai
 DOMAIN-SUFFIX,myparallelstory.com
 DOMAIN-SUFFIX,n.cn
 DOMAIN-SUFFIX,namiso.com
+DOMAIN-SUFFIX,notebook.google
 DOMAIN-SUFFIX,notebook.google.com
 DOMAIN-SUFFIX,notebooklm.google
 DOMAIN-SUFFIX,notebooklm.google.com

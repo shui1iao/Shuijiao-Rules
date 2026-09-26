@@ -1,5 +1,5 @@
 # NAME: China
-# UPDATED: 2026-09-12
+# UPDATED: 2026-09-27
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,analytics.strava.com
@@ -2882,6 +2882,7 @@ DOMAIN-SUFFIX,resset.com
 DOMAIN-SUFFIX,rfchost.com
 DOMAIN-SUFFIX,rj.m.taobao.co
 DOMAIN-SUFFIX,rmwxgame.com
+DOMAIN-SUFFIX,rnote.com
 DOMAIN-SUFFIX,rockyenglish.com
 DOMAIN-SUFFIX,rong360.com
 DOMAIN-SUFFIX,rongechain.com
@@ -3943,6 +3944,7 @@ DOMAIN-KEYWORD,tencent
 DOMAIN-KEYWORD,tmall.com
 DOMAIN-KEYWORD,wechat
 DOMAIN-WILDCARD,*.qhimgs?.com
+DOMAIN-WILDCARD,qhimgs?.com
 IP-CIDR,1.1.8.0/24,no-resolve
 IP-CIDR,1.116.0.0/15,no-resolve
 IP-CIDR,1.119.0.0/17,no-resolve
