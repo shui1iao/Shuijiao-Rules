@@ -1,5 +1,5 @@
 # NAME: AI
-# UPDATED: 2026-09-27
+# UPDATED: 2026-10-04
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,ai.zhaomi.cn
@@ -211,6 +211,7 @@ DOMAIN-SUFFIX,kiro.dev
 DOMAIN-SUFFIX,kling-ai.com
 DOMAIN-SUFFIX,klingai.com
 DOMAIN-SUFFIX,krea.ai
+DOMAIN-SUFFIX,labstailwind.pa.googleapis.com
 DOMAIN-SUFFIX,langchain.com
 DOMAIN-SUFFIX,launchdarkly.com
 DOMAIN-SUFFIX,leonardo.ai
@@ -236,6 +237,7 @@ DOMAIN-SUFFIX,mcprev.cn
 DOMAIN-SUFFIX,mcpworld.com
 DOMAIN-SUFFIX,meta.ai
 DOMAIN-SUFFIX,meta.law
+DOMAIN-SUFFIX,metaaivm.com
 DOMAIN-SUFFIX,metaso.cn
 DOMAIN-SUFFIX,miaibox.com
 DOMAIN-SUFFIX,miaoda.cn
@@ -249,6 +251,7 @@ DOMAIN-SUFFIX,modal.run
 DOMAIN-SUFFIX,moonshot.ai
 DOMAIN-SUFFIX,moonshot.cn
 DOMAIN-SUFFIX,mozilla.ai
+DOMAIN-SUFFIX,muse.ai
 DOMAIN-SUFFIX,myparallelstory.com
 DOMAIN-SUFFIX,n.cn
 DOMAIN-SUFFIX,namiso.com
@@ -274,6 +277,7 @@ DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,openaicom.imgix.net
 DOMAIN-SUFFIX,openart.ai
 DOMAIN-SUFFIX,openclaw.ai
+DOMAIN-SUFFIX,opencode.ai
 DOMAIN-SUFFIX,openrouter.ai
 DOMAIN-SUFFIX,openspec.dev
 DOMAIN-SUFFIX,oystermercury.top
@@ -392,3 +396,4 @@ IP-CIDR,72.146.20.246/32,no-resolve
 IP-CIDR,74.248.148.7/32,no-resolve
 IP-ASN,14061,no-resolve
 IP-ASN,20473,no-resolve
+IP-ASN,399358,no-resolve

@@ -1,5 +1,5 @@
 # NAME: China
-# UPDATED: 2026-09-27
+# UPDATED: 2026-10-04
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 payload:
@@ -25,6 +25,7 @@ payload:
   - DOMAIN,res.viayoo.com
   - DOMAIN,sms.imagetasks.com
   - DOMAIN,steamcommunity-a.akamaihd.net
+  - DOMAIN,time.xtracloud.net
   - DOMAIN,viayoo.com
   - DOMAIN,weixin.com
   - DOMAIN,www.layuicdn.com
@@ -1043,6 +1044,7 @@ payload:
   - DOMAIN-SUFFIX,cn88.net
   - DOMAIN-SUFFIX,cnanzhi.com
   - DOMAIN-SUFFIX,cnb.cool
+  - DOMAIN-SUFFIX,cnb.space
   - DOMAIN-SUFFIX,cnbeta.com
   - DOMAIN-SUFFIX,cnbetacdn.com
   - DOMAIN-SUFFIX,cnbksy.com

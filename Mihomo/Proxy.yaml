@@ -1,5 +1,5 @@
 # NAME: Proxy
-# UPDATED: 2026-09-27
+# UPDATED: 2026-10-04
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 payload:
@@ -4442,6 +4442,7 @@ payload:
   - DOMAIN-SUFFIX,c-est-simple.com
   - DOMAIN-SUFFIX,c-span.org
   - DOMAIN-SUFFIX,c-spanvideo.org
+  - DOMAIN-SUFFIX,c.go-mpulse.net
   - DOMAIN-SUFFIX,c.mi.com
   - DOMAIN-SUFFIX,c100tibet.org
   - DOMAIN-SUFFIX,c2cx.com
@@ -4773,6 +4774,7 @@ payload:
   - DOMAIN-SUFFIX,clashyun.com
   - DOMAIN-SUFFIX,classicalguitarblog.net
   - DOMAIN-SUFFIX,claude.com
+  - DOMAIN-SUFFIX,claude.dev
   - DOMAIN-SUFFIX,claudeusercontent.com
   - DOMAIN-SUFFIX,cldup.com
   - DOMAIN-SUFFIX,cleansite.biz
@@ -5919,6 +5921,7 @@ payload:
   - DOMAIN-SUFFIX,fututrustee.com
   - DOMAIN-SUFFIX,fux.com
   - DOMAIN-SUFFIX,fuyin.net
+  - DOMAIN-SUFFIX,fuyin116.com
   - DOMAIN-SUFFIX,fuyindiantai.org
   - DOMAIN-SUFFIX,fw-cdn.com
   - DOMAIN-SUFFIX,fw.cm
@@ -6731,6 +6734,7 @@ payload:
   - DOMAIN-SUFFIX,huanghuagang.org
   - DOMAIN-SUFFIX,huangyiyu.com
   - DOMAIN-SUFFIX,huaren4us.com
+  - DOMAIN-SUFFIX,huarun.win
   - DOMAIN-SUFFIX,huashangnews.com
   - DOMAIN-SUFFIX,huasing.org
   - DOMAIN-SUFFIX,huaxia-news.com
@@ -7777,6 +7781,7 @@ payload:
   - DOMAIN-SUFFIX,mesotw.com
   - DOMAIN-SUFFIX,messenger.com
   - DOMAIN-SUFFIX,meta.com
+  - DOMAIN-SUFFIX,metaaivm.com
   - DOMAIN-SUFFIX,metacafe.com
   - DOMAIN-SUFFIX,metacritic.com
   - DOMAIN-SUFFIX,metafilter.com
@@ -8923,6 +8928,7 @@ payload:
   - DOMAIN-SUFFIX,qiwen.lu
   - DOMAIN-SUFFIX,qkshare.com
   - DOMAIN-SUFFIX,qmp4.com
+  - DOMAIN-SUFFIX,qobuz.com
   - DOMAIN-SUFFIX,qooqlevideo.com
   - DOMAIN-SUFFIX,qoos.com
   - DOMAIN-SUFFIX,qpoe.com
@@ -10165,6 +10171,7 @@ payload:
   - DOMAIN-SUFFIX,token.im
   - DOMAIN-SUFFIX,tokenlon.im
   - DOMAIN-SUFFIX,tokenplus.app
+  - DOMAIN-SUFFIX,tokens.ci
   - DOMAIN-SUFFIX,tokto-motion.net
   - DOMAIN-SUFFIX,tokyo-247.com
   - DOMAIN-SUFFIX,tokyo-hot.com
@@ -10577,6 +10584,7 @@ payload:
   - DOMAIN-SUFFIX,vanpeople.com
   - DOMAIN-SUFFIX,vansky.com
   - DOMAIN-SUFFIX,vatn.org
+  - DOMAIN-SUFFIX,vava8.com
   - DOMAIN-SUFFIX,vbstatic.co
   - DOMAIN-SUFFIX,vcf-online.org
   - DOMAIN-SUFFIX,vcfbuilder.org
@@ -10756,6 +10764,7 @@ payload:
   - DOMAIN-SUFFIX,wakatime.com
   - DOMAIN-SUFFIX,walletconnect.com
   - DOMAIN-SUFFIX,walletconnect.org
+  - DOMAIN-SUFFIX,wallhaven.cc
   - DOMAIN-SUFFIX,wallmama.com
   - DOMAIN-SUFFIX,wallornot.org
   - DOMAIN-SUFFIX,wallpapercasa.com

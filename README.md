@@ -11,7 +11,7 @@
 - 内容一致：同名的 Surge 与 Mihomo 文件使用同一份规则内容，只是文件格式不同
 - CDN 规则：已经合并进 `Proxy`，不单独提供 `CDN` 文件
 - MTProto DC 配置：使用 Surge 官方生成器每日自动更新 `Surge/mtproto-dc-config.json`
-- 更新时间：`2026-09-27`
+- 更新时间：`2026-10-04`
 
 ## 规则列表
 
@@ -20,14 +20,14 @@
 | `Telegram` | `54` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
 | `GitHub` | `60` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `245` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `390` | `Surge/AI.list` | `Mihomo/AI.yaml` |
-| `Speedtest` | `1256` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
+| `AI` | `395` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `Speedtest` | `1259` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `364` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `955` | `Surge/Google.list` | `Mihomo/Google.yaml` |
 | `Apple` | `187` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
 | `AppleCN` | `8` | `Surge/AppleCN.list` | `Mihomo/AppleCN.yaml` |
-| `Proxy` | `12534` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
-| `China` | `7886` | `Surge/China.list` | `Mihomo/China.yaml` |
+| `Proxy` | `12543` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
+| `China` | `7888` | `Surge/China.list` | `Mihomo/China.yaml` |
 | `Douyin` | `77` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
 | `LAN` | `172` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
 | `Ads` | `965` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
@@ -138,6 +138,7 @@ rules:
 ## 多源维护与校验
 
 - 每次逐项检查全部 17 个规则集；无有效差异的文件保留原日期，不为凑更新而改动。
+- 2026-10-04 周维护：`AI` +5（Meta Muse、OpenCode、NotebookLM 后端、Anthropic ASN），`Proxy` +9，`Speedtest` +3，`China` +2；无删除，其余 13 类保持原内容与日期。新增 Gemini 网页端点（geminiweb-pa）仍不进入 `AI`，已由 `Google` 覆盖；新 Global IP 段属于 PotatoChat，不并入 `Proxy`。
 - 2026-09-27 周维护：`AI` +4（Codebuff/Freebuff、Flow、NotebookLM），`Ads` +13，`China` +2，`Google` +1，`Proxy` +5，`Speedtest` +2；无删除，其余 11 类保持原内容与日期。Gemini 专用域名仍排除；`China` 不盲目合并补充源大目录，`rednotecdn.com` 的地域分类分歧继续保留待审。
 - [来源清单与分类策略](.github/rules-maintenance.json) 记录来源 URL、快照哈希、分类覆盖和审查决定。补充源用于查漏，不等于全量并集；既有人工策略优先。
 - 2026-09-12 全量复核：16 类有内容变化，`AppleCN` 核对后保持不变；补齐 `oaistatsig.com`。`AWS` 已纳入购物和 Prime Video 域名，但不将整个云租户 IP 目录无条件归入该域名分类。
