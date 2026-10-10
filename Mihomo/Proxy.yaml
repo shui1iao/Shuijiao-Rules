@@ -1,5 +1,5 @@
 # NAME: Proxy
-# UPDATED: 2026-10-04
+# UPDATED: 2026-10-11
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 payload:
@@ -3938,6 +3938,7 @@ payload:
   - DOMAIN-SUFFIX,apple-dns.net
   - DOMAIN-SUFFIX,applecensorship.com
   - DOMAIN-SUFFIX,appmifile.com
+  - DOMAIN-SUFFIX,approveit.today
   - DOMAIN-SUFFIX,appsflyersdk.com
   - DOMAIN-SUFFIX,appshopper.com
   - DOMAIN-SUFFIX,appsocks.net
@@ -4305,6 +4306,7 @@ payload:
   - DOMAIN-SUFFIX,bloombergview.com
   - DOMAIN-SUFFIX,bloomfortune.com
   - DOMAIN-SUFFIX,blubrry.com
+  - DOMAIN-SUFFIX,blue-plus.net
   - DOMAIN-SUFFIX,blueangellive.com
   - DOMAIN-SUFFIX,bmdru.com
   - DOMAIN-SUFFIX,bmfinn.com
@@ -4346,6 +4348,7 @@ payload:
   - DOMAIN-SUFFIX,boxunclub.com
   - DOMAIN-SUFFIX,boyangu.com
   - DOMAIN-SUFFIX,boyfriendtv.com
+  - DOMAIN-SUFFIX,boylove.cc
   - DOMAIN-SUFFIX,boysfood.com
   - DOMAIN-SUFFIX,boysmaster.com
   - DOMAIN-SUFFIX,bp.blogspot.com
@@ -5120,6 +5123,7 @@ payload:
   - DOMAIN-SUFFIX,devpn.com
   - DOMAIN-SUFFIX,devrum.uptime.com
   - DOMAIN-SUFFIX,dfn.org
+  - DOMAIN-SUFFIX,dh.net
   - DOMAIN-SUFFIX,dharamsalanet.com
   - DOMAIN-SUFFIX,dharmakara.net
   - DOMAIN-SUFFIX,dhcp.biz
@@ -5420,6 +5424,7 @@ payload:
   - DOMAIN-SUFFIX,emuparadise.me
   - DOMAIN-SUFFIX,encrypt.me
   - DOMAIN-SUFFIX,encyclopedia.com
+  - DOMAIN-SUFFIX,energotransbank.com
   - DOMAIN-SUFFIX,enewstree.com
   - DOMAIN-SUFFIX,engadget.com
   - DOMAIN-SUFFIX,engagedaily.org
@@ -6366,6 +6371,7 @@ payload:
   - DOMAIN-SUFFIX,googlemashups.com
   - DOMAIN-SUFFIX,googlepagecreator.com
   - DOMAIN-SUFFIX,googleplay.com
+  - DOMAIN-SUFFIX,googleplaycensorship.com
   - DOMAIN-SUFFIX,googleplus.com
   - DOMAIN-SUFFIX,googlescholar.com
   - DOMAIN-SUFFIX,googlesile.com
@@ -6540,6 +6546,7 @@ payload:
   - DOMAIN-SUFFIX,henread.xyz
   - DOMAIN-SUFFIX,hentai.tv
   - DOMAIN-SUFFIX,hentaicdn.com
+  - DOMAIN-SUFFIX,hentaiclub.net
   - DOMAIN-SUFFIX,hentaiera.com
   - DOMAIN-SUFFIX,hentaifox.com
   - DOMAIN-SUFFIX,hentaipaw.com
@@ -6662,6 +6669,7 @@ payload:
   - DOMAIN-SUFFIX,holopin.io
   - DOMAIN-SUFFIX,holymountaincn.com
   - DOMAIN-SUFFIX,holyspiritspeaks.org
+  - DOMAIN-SUFFIX,home.bank
   - DOMAIN-SUFFIX,home.saxo
   - DOMAIN-SUFFIX,homedepot.com
   - DOMAIN-SUFFIX,homeperversion.com
@@ -7013,6 +7021,7 @@ payload:
   - DOMAIN-SUFFIX,ip-api.com
   - DOMAIN-SUFFIX,ip-scan.adspower.net
   - DOMAIN-SUFFIX,ip.sb
+  - DOMAIN-SUFFIX,ipac.global
   - DOMAIN-SUFFIX,ipaddress.com
   - DOMAIN-SUFFIX,ipaddress.to
   - DOMAIN-SUFFIX,ipalter.com
@@ -7384,6 +7393,7 @@ payload:
   - DOMAIN-SUFFIX,koranmandarin.com
   - DOMAIN-SUFFIX,korea.net
   - DOMAIN-SUFFIX,korenan2.com
+  - DOMAIN-SUFFIX,koronapay.com
   - DOMAIN-SUFFIX,kpkuang.org
   - DOMAIN-SUFFIX,kqes.net
   - DOMAIN-SUFFIX,kr
@@ -7684,6 +7694,7 @@ payload:
   - DOMAIN-SUFFIX,maplew.com
   - DOMAIN-SUFFIX,maptiler.com
   - DOMAIN-SUFFIX,marc.info
+  - DOMAIN-SUFFIX,maritimebank.com
   - DOMAIN-SUFFIX,marketing.aws.dev
   - DOMAIN-SUFFIX,marketwatch.com
   - DOMAIN-SUFFIX,martau.com
@@ -7705,6 +7716,7 @@ payload:
   - DOMAIN-SUFFIX,mathable.io
   - DOMAIN-SUFFIX,mathiew-badimon.com
   - DOMAIN-SUFFIX,mathjax.org
+  - DOMAIN-SUFFIX,matichon.co.th
   - DOMAIN-SUFFIX,matome-plus.com
   - DOMAIN-SUFFIX,matome-plus.net
   - DOMAIN-SUFFIX,matrix.org
@@ -7755,6 +7767,7 @@ payload:
   - DOMAIN-SUFFIX,mega.nz
   - DOMAIN-SUFFIX,megaproxy.com
   - DOMAIN-SUFFIX,megarotic.com
+  - DOMAIN-SUFFIX,megas4.com
   - DOMAIN-SUFFIX,megaupload.com
   - DOMAIN-SUFFIX,megavideo.com
   - DOMAIN-SUFFIX,megurineluka.com
@@ -7859,6 +7872,7 @@ payload:
   - DOMAIN-SUFFIX,mirrorbooks.com
   - DOMAIN-SUFFIX,missav.ai
   - DOMAIN-SUFFIX,missav.com
+  - DOMAIN-SUFFIX,missav.live
   - DOMAIN-SUFFIX,missav.ws
   - DOMAIN-SUFFIX,missav123.com
   - DOMAIN-SUFFIX,misskey.io
@@ -7904,8 +7918,10 @@ payload:
   - DOMAIN-SUFFIX,moegirl.org
   - DOMAIN-SUFFIX,moegirl.tw
   - DOMAIN-SUFFIX,moegirl.uk
+  - DOMAIN-SUFFIX,moeli-desu.com
   - DOMAIN-SUFFIX,moeload.com
   - DOMAIN-SUFFIX,moeshare.cc
+  - DOMAIN-SUFFIX,moex.com
   - DOMAIN-SUFFIX,mofaxiehui.com
   - DOMAIN-SUFFIX,mofos.com
   - DOMAIN-SUFFIX,mog.com
@@ -8113,6 +8129,7 @@ payload:
   - DOMAIN-SUFFIX,nationalinterest.org
   - DOMAIN-SUFFIX,nationalreview.com
   - DOMAIN-SUFFIX,nationsonline.org
+  - DOMAIN-SUFFIX,nationthailand.com
   - DOMAIN-SUFFIX,nationwide.com
   - DOMAIN-SUFFIX,naughtyamerica.com
   - DOMAIN-SUFFIX,naver.com
@@ -8810,6 +8827,7 @@ payload:
   - DOMAIN-SUFFIX,prhcdn.com
   - DOMAIN-SUFFIX,primevideo.com
   - DOMAIN-SUFFIX,printfriendly.com
+  - DOMAIN-SUFFIX,priovtb.com
   - DOMAIN-SUFFIX,prism-break.org
   - DOMAIN-SUFFIX,prisma.io
   - DOMAIN-SUFFIX,prismic.io
@@ -8870,6 +8888,7 @@ payload:
   - DOMAIN-SUFFIX,pshvpn.com
   - DOMAIN-SUFFIX,psiphon3.com
   - DOMAIN-SUFFIX,psiphontoday.com
+  - DOMAIN-SUFFIX,pskb.com
   - DOMAIN-SUFFIX,pstatic.net
   - DOMAIN-SUFFIX,pstorage.space
   - DOMAIN-SUFFIX,pt.im
@@ -9122,6 +9141,7 @@ payload:
   - DOMAIN-SUFFIX,rocketcdn.me
   - DOMAIN-SUFFIX,rocks
   - DOMAIN-SUFFIX,rocksdb.org
+  - DOMAIN-SUFFIX,rocmgov.org
   - DOMAIN-SUFFIX,rojo.com
   - DOMAIN-SUFFIX,rolfoundation.org
   - DOMAIN-SUFFIX,rolia.net
@@ -9332,6 +9352,7 @@ payload:
   - DOMAIN-SUFFIX,shat-tibet.com
   - DOMAIN-SUFFIX,shattered.io
   - DOMAIN-SUFFIX,shazam.com
+  - DOMAIN-SUFFIX,shedevrum.com
   - DOMAIN-SUFFIX,sheikyermami.com
   - DOMAIN-SUFFIX,shemalez.com
   - DOMAIN-SUFFIX,shenshou.org
@@ -9767,6 +9788,7 @@ payload:
   - DOMAIN-SUFFIX,surrenderat20.net
   - DOMAIN-SUFFIX,surrit.com
   - DOMAIN-SUFFIX,surrit.store
+  - DOMAIN-SUFFIX,surveymonkey.com
   - DOMAIN-SUFFIX,susercontent.com
   - DOMAIN-SUFFIX,suyangg.com
   - DOMAIN-SUFFIX,suyingtv.com
@@ -10583,6 +10605,7 @@ payload:
   - DOMAIN-SUFFIX,vanityfair.com
   - DOMAIN-SUFFIX,vanpeople.com
   - DOMAIN-SUFFIX,vansky.com
+  - DOMAIN-SUFFIX,vanta.com
   - DOMAIN-SUFFIX,vatn.org
   - DOMAIN-SUFFIX,vava8.com
   - DOMAIN-SUFFIX,vbstatic.co
@@ -10735,6 +10758,7 @@ payload:
   - DOMAIN-SUFFIX,vscode-cdn.net
   - DOMAIN-SUFFIX,vscode-unpkg.net
   - DOMAIN-SUFFIX,vsmarketplacebadges.dev
+  - DOMAIN-SUFFIX,vtb.com
   - DOMAIN-SUFFIX,vtunnel.com
   - DOMAIN-SUFFIX,vuku.cc
   - DOMAIN-SUFFIX,vultr.com
@@ -10916,6 +10940,7 @@ payload:
   - DOMAIN-SUFFIX,wikiplus-app.com
   - DOMAIN-SUFFIX,wikiquote.org
   - DOMAIN-SUFFIX,wikisource.org
+  - DOMAIN-SUFFIX,wikispecies.org
   - DOMAIN-SUFFIX,wikissl.com
   - DOMAIN-SUFFIX,wikiunblocked.org
   - DOMAIN-SUFFIX,wikiversity.org
@@ -11105,6 +11130,7 @@ payload:
   - DOMAIN-SUFFIX,xn--11xs86f.icu
   - DOMAIN-SUFFIX,xn--1jqvh729avzfcy2d8ummib.com
   - DOMAIN-SUFFIX,xn--4gq171p.com
+  - DOMAIN-SUFFIX,xn--90ab2c.xn--p1ai
   - DOMAIN-SUFFIX,xn--90wwvt03e.com
   - DOMAIN-SUFFIX,xn--9iqy04a7fi01l.com
   - DOMAIN-SUFFIX,xn--9pr62r24a.com
@@ -11142,6 +11168,7 @@ payload:
   - DOMAIN-SUFFIX,xvideos-cdn.com
   - DOMAIN-SUFFIX,xvideos.com
   - DOMAIN-SUFFIX,xvinlink.com
+  - DOMAIN-SUFFIX,xx.net
   - DOMAIN-SUFFIX,xxbbx.com
   - DOMAIN-SUFFIX,xxlmovies.com
   - DOMAIN-SUFFIX,xxuz.com
@@ -11167,9 +11194,15 @@ payload:
   - DOMAIN-SUFFIX,yam.com
   - DOMAIN-SUFFIX,yammerusercontent.com
   - DOMAIN-SUFFIX,yande.re
+  - DOMAIN-SUFFIX,yandex-team.com
   - DOMAIN-SUFFIX,yandex.com
+  - DOMAIN-SUFFIX,yandex.market
   - DOMAIN-SUFFIX,yandex.net
+  - DOMAIN-SUFFIX,yandex.pro
   - DOMAIN-SUFFIX,yandex.ru
+  - DOMAIN-SUFFIX,yandex.taxi
+  - DOMAIN-SUFFIX,yandex.travel
+  - DOMAIN-SUFFIX,yandexdataschool.com
   - DOMAIN-SUFFIX,yanghengjun.com
   - DOMAIN-SUFFIX,yangjianli.com
   - DOMAIN-SUFFIX,yangzhi.org
@@ -11177,6 +11210,7 @@ payload:
   - DOMAIN-SUFFIX,yastatic.net
   - DOMAIN-SUFFIX,yayabay.com
   - DOMAIN-SUFFIX,ycombinator.com
+  - DOMAIN-SUFFIX,ydb.tech
   - DOMAIN-SUFFIX,ydy.com
   - DOMAIN-SUFFIX,yeahteentube.com
   - DOMAIN-SUFFIX,yecl.net
@@ -11476,6 +11510,7 @@ payload:
   - DOMAIN-WILDCARD,ocsp.*.amazontrust.com
   - DOMAIN-WILDCARD,proxy-*.dailymotion.com
   - DOMAIN-WILDCARD,rr?---??.ouo.si
+  - DOMAIN-WILDCARD,rum-ingest.*.signalfx.com
   - DOMAIN-WILDCARD,s3-*.figma.com
   - DOMAIN-WILDCARD,s3.*.wasabisys.com
   - DOMAIN-WILDCARD,s?.maxstream.org

@@ -1,5 +1,5 @@
 # NAME: AI
-# UPDATED: 2026-10-04
+# UPDATED: 2026-10-11
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,ai.zhaomi.cn
@@ -320,6 +320,7 @@ DOMAIN-SUFFIX,stitch.withgoogle.com
 DOMAIN-SUFFIX,stripe.com
 DOMAIN-SUFFIX,suno.ai
 DOMAIN-SUFFIX,suno.com
+DOMAIN-SUFFIX,syntx.ai
 DOMAIN-SUFFIX,tabnine.com
 DOMAIN-SUFFIX,talkai.info
 DOMAIN-SUFFIX,tapnow.ai
