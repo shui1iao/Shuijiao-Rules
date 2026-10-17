@@ -1,5 +1,5 @@
 # NAME: Speedtest
-# UPDATED: 2026-10-11
+# UPDATED: 2026-10-18
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,172673828273027382738738.de
@@ -62,6 +62,7 @@ DOMAIN,dc-spdtst.treas.host
 DOMAIN,dc1-speed1.alpha-tech.us
 DOMAIN,de-fra2-lg1.level66.network
 DOMAIN,de-lg.h2.nexus
+DOMAIN,de.riospeed.com
 DOMAIN,de.st.spacecore.pro
 DOMAIN,debit.psrv.ch
 DOMAIN,dehradun.blueskynetwork.in
@@ -120,6 +121,7 @@ DOMAIN,hk01.bigball.top
 DOMAIN,hl-speed.twmbroadband.com
 DOMAIN,hmb-tc.wsqm.telekom-dienste.de
 DOMAIN,hoshiyomi.ratatoskr.org
+DOMAIN,hoyalclub.synology.me
 DOMAIN,hs13.aratwifi.com.tr
 DOMAIN,hs14.aratwifi.com.tr
 DOMAIN,hv1.juce.ca

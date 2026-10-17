@@ -1,5 +1,5 @@
 # NAME: LAN
-# UPDATED: 2026-09-12
+# UPDATED: 2026-10-18
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,asusrouter.com
@@ -9,6 +9,8 @@ DOMAIN,homerouter.cpe
 DOMAIN,instant.arubanetworks.com
 DOMAIN,local.adguard.org
 DOMAIN,localhost
+DOMAIN,localhost.weixin.qq.com
+DOMAIN,localhost.work.weixin.qq.com
 DOMAIN,mobile.hotspot
 DOMAIN,ntt.setup
 DOMAIN,oasisauth.h3c.com

@@ -1,5 +1,5 @@
 # NAME: Proxy
-# UPDATED: 2026-10-11
+# UPDATED: 2026-10-18
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,0x0.st
@@ -3625,6 +3625,7 @@ DOMAIN-SUFFIX,7cow.com
 DOMAIN-SUFFIX,7mmtv.me
 DOMAIN-SUFFIX,7mmtv.sx
 DOMAIN-SUFFIX,7mmtv.tv
+DOMAIN-SUFFIX,7x24hrs.com
 DOMAIN-SUFFIX,8-d.com
 DOMAIN-SUFFIX,85cc.net
 DOMAIN-SUFFIX,85st.com
@@ -3639,6 +3640,7 @@ DOMAIN-SUFFIX,91dasai.com
 DOMAIN-SUFFIX,91pic.org
 DOMAIN-SUFFIX,91porn.com
 DOMAIN-SUFFIX,91porny.com
+DOMAIN-SUFFIX,91short.com
 DOMAIN-SUFFIX,91vps.club
 DOMAIN-SUFFIX,92ccav.com
 DOMAIN-SUFFIX,98avcdn.xyz
@@ -4986,6 +4988,7 @@ DOMAIN-SUFFIX,culturedcode.com
 DOMAIN-SUFFIX,cumlouder.com
 DOMAIN-SUFFIX,curseforge.com
 DOMAIN-SUFFIX,cursor-cdn.com
+DOMAIN-SUFFIX,cursorvm.com
 DOMAIN-SUFFIX,curvefish.com
 DOMAIN-SUFFIX,customerioforms.com
 DOMAIN-SUFFIX,customeriomail.com
@@ -8467,6 +8470,7 @@ DOMAIN-SUFFIX,ooni.org
 DOMAIN-SUFFIX,oopsforum.com
 DOMAIN-SUFFIX,ooyala.com
 DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.org
 DOMAIN-SUFFIX,openallweb.com
 DOMAIN-SUFFIX,openbase.com
 DOMAIN-SUFFIX,opencollective.com
@@ -9237,10 +9241,12 @@ DOMAIN-SUFFIX,sc-cdn.com
 DOMAIN-SUFFIX,sc-cdn.net
 DOMAIN-SUFFIX,scasino.com
 DOMAIN-SUFFIX,scdn.co
+DOMAIN-SUFFIX,scea.com
 DOMAIN-SUFFIX,scene7.com
 DOMAIN-SUFFIX,schema.org
 DOMAIN-SUFFIX,schemastore.org
 DOMAIN-SUFFIX,schwab.com
+DOMAIN-SUFFIX,schwabcdn.com
 DOMAIN-SUFFIX,sciencedaily.com
 DOMAIN-SUFFIX,sciencedirectassets.com
 DOMAIN-SUFFIX,sciencemag.org
@@ -9538,7 +9544,9 @@ DOMAIN-SUFFIX,sonatype.org
 DOMAIN-SUFFIX,songjianjun.com
 DOMAIN-SUFFIX,sonicbbs.cc
 DOMAIN-SUFFIX,sonidodelaesperanza.org
+DOMAIN-SUFFIX,sony.com.py
 DOMAIN-SUFFIX,sony.net
+DOMAIN-SUFFIX,sonyinteractive.com
 DOMAIN-SUFFIX,sopcast.com
 DOMAIN-SUFFIX,sopcast.org
 DOMAIN-SUFFIX,sophos.com
@@ -10146,6 +10154,8 @@ DOMAIN-SUFFIX,timdir.com
 DOMAIN-SUFFIX,time.com
 DOMAIN-SUFFIX,timeinc.net
 DOMAIN-SUFFIX,timesnownews.com
+DOMAIN-SUFFIX,timeweb.tech
+DOMAIN-SUFFIX,timewebcloud.kz
 DOMAIN-SUFFIX,timsah.com
 DOMAIN-SUFFIX,timtales.com
 DOMAIN-SUFFIX,tinc-vpn.org

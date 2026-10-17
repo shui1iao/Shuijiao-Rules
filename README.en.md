@@ -9,7 +9,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 - Same content: files with the same name share the same normalized rules; only the wrapper format differs
 - CDN is merged into `Proxy`
 - MTProto DC mapping: `Surge/mtproto-dc-config.json` is regenerated daily with Surge's official generator
-- Updated: `2026-10-11`
+- Updated: `2026-10-18`
 
 ## Rule files
 
@@ -18,18 +18,18 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 | `Telegram` | `54` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
 | `GitHub` | `60` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `245` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `396` | `Surge/AI.list` | `Mihomo/AI.yaml` |
-| `Speedtest` | `1264` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
+| `AI` | `398` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `Speedtest` | `1266` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `364` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `955` | `Surge/Google.list` | `Mihomo/Google.yaml` |
 | `Apple` | `187` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
 | `AppleCN` | `8` | `Surge/AppleCN.list` | `Mihomo/AppleCN.yaml` |
-| `Proxy` | `12578` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
+| `Proxy` | `12588` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
 | `China` | `7888` | `Surge/China.list` | `Mihomo/China.yaml` |
 | `Douyin` | `77` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
-| `LAN` | `172` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
+| `LAN` | `174` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
 | `Ads` | `965` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
-| `Streaming` | `1939` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
+| `Streaming` | `1942` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
 | `Game` | `757` | `Surge/Game.list` | `Mihomo/Game.yaml` |
 | `Pay` | `495` | `Surge/Pay.list` | `Mihomo/Pay.yaml` |
 
@@ -77,6 +77,7 @@ This file maps Telegram DC IDs to current production endpoints; it does not repl
 ## Multi-source maintenance and validation
 
 - Check all 17 categories on each refresh. Preserve the date of a file whose effective rule content is unchanged.
+- Weekly maintenance on 2026-10-18: `AI` +2 (Cursor VM, Jev), `Speedtest` +2 (exact nodes), `LAN` +2 (WeChat/WeCom local login), optional `Streaming` +3 (CapCut), and `Proxy` +10; no removals. The other 12 categories retain their content and dates. Hold 31 aggregate-only Meta CN additions for insufficient evidence; upstream aggregate removals alone do not delete manual rules. Already-covered OpenAI/Windsurf/PlayStation entries are not duplicated.
 - Weekly maintenance on 2026-10-11: `AI` +1 (SYNTX), `Speedtest` +5 (exact test nodes), and `Proxy` +35; no removals. The other 14 categories retain their content and dates. The 371 new entries in the aggregate Meta CN catalog lack sufficient geographic/product evidence and are not bulk-imported; `yandex-ad.cn` keeps China direct routing and is excluded from Proxy.
 - Weekly maintenance on 2026-10-04: `AI` +5 (Meta Muse, OpenCode, a NotebookLM backend and the Anthropic ASN), `Proxy` +9, `Speedtest` +3 and `China` +2; no removals. The other 13 categories retain their content and dates. New Gemini web endpoints (geminiweb-pa) stay out of `AI` and are already covered by `Google`; the new Global IP ranges belong to PotatoChat and are not merged into `Proxy`.
 - Weekly maintenance on 2026-09-27: `AI` +4 (Codebuff/Freebuff, Flow, NotebookLM), `Ads` +13, `China` +2, `Google` +1, `Proxy` +5, and `Speedtest` +2; no removals. The other 11 categories retain their content and dates. Dedicated Gemini endpoints remain excluded. No bulk union of the supplementary CN catalog; the disputed geography of `rednotecdn.com` remains under review.
