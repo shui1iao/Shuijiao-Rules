@@ -1,5 +1,5 @@
 # NAME: AI
-# UPDATED: 2026-10-18
+# UPDATED: 2026-10-25
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,ai.zhaomi.cn
@@ -59,11 +59,13 @@ DOMAIN-SUFFIX,algolia.net
 DOMAIN-SUFFIX,alice.yandex.net
 DOMAIN-SUFFIX,alice.yandex.ru
 DOMAIN-SUFFIX,alicepro.yandex.ru
+DOMAIN-SUFFIX,ant.dev
 DOMAIN-SUFFIX,antafu.com
 DOMAIN-SUFFIX,antaq.com
 DOMAIN-SUFFIX,anthropic.com
 DOMAIN-SUFFIX,antigravity-unleash.goog
 DOMAIN-SUFFIX,antigravity.google
+DOMAIN-SUFFIX,antspace.dev
 DOMAIN-SUFFIX,anythingllm.com
 DOMAIN-SUFFIX,aorizon.cn
 DOMAIN-SUFFIX,api-building.fun
@@ -225,6 +227,7 @@ DOMAIN-SUFFIX,lmstudio.ai
 DOMAIN-SUFFIX,lovart.ai
 DOMAIN-SUFFIX,lpsnmedia.net
 DOMAIN-SUFFIX,luma.ai
+DOMAIN-SUFFIX,magnific.com
 DOMAIN-SUFFIX,manus.im
 DOMAIN-SUFFIX,manuscdn.com
 DOMAIN-SUFFIX,maoxiangai.com

@@ -1,5 +1,5 @@
 # NAME: China
-# UPDATED: 2026-10-04
+# UPDATED: 2026-10-25
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 payload:
@@ -596,6 +596,7 @@ payload:
   - DOMAIN-SUFFIX,bibaodao.com
   - DOMAIN-SUFFIX,bidchance.com
   - DOMAIN-SUFFIX,biddingx.com
+  - DOMAIN-SUFFIX,bigdatacq.com
   - DOMAIN-SUFFIX,bihu.com
   - DOMAIN-SUFFIX,biji.com
   - DOMAIN-SUFFIX,biliapi.com
@@ -802,6 +803,8 @@ payload:
   - DOMAIN-SUFFIX,cdntip.com
   - DOMAIN-SUFFIX,cdntips.com
   - DOMAIN-SUFFIX,cdntips.net
+  - DOMAIN-SUFFIX,cdrcb.com
+  - DOMAIN-SUFFIX,cdrcbank.com
   - DOMAIN-SUFFIX,ceair.com
   - DOMAIN-SUFFIX,cebbank.com
   - DOMAIN-SUFFIX,ceblease.com
@@ -915,6 +918,7 @@ payload:
   - DOMAIN-SUFFIX,clarivate.com
   - DOMAIN-SUFFIX,clashroyaleapp.com
   - DOMAIN-SUFFIX,classix-unlimited.co.uk
+  - DOMAIN-SUFFIX,cldisk.com
   - DOMAIN-SUFFIX,click.qianqian.com
   - DOMAIN-SUFFIX,clk1.top
   - DOMAIN-SUFFIX,cloud-beijing.com
@@ -1096,7 +1100,9 @@ payload:
   - DOMAIN-SUFFIX,cpppf.org
   - DOMAIN-SUFFIX,cqcbank.com
   - DOMAIN-SUFFIX,cqccn.com
+  - DOMAIN-SUFFIX,cqdcg.com
   - DOMAIN-SUFFIX,cqvip.com
+  - DOMAIN-SUFFIX,cqyyxc.com
   - DOMAIN-SUFFIX,cr173.com
   - DOMAIN-SUFFIX,crggcn.com
   - DOMAIN-SUFFIX,crsky.com
@@ -1217,6 +1223,7 @@ payload:
   - DOMAIN-SUFFIX,didimobility.co.jp
   - DOMAIN-SUFFIX,didistatic.com
   - DOMAIN-SUFFIX,dig.bdurl.net
+  - DOMAIN-SUFFIX,digitalcnzz.com
   - DOMAIN-SUFFIX,dilidili.wang
   - DOMAIN-SUFFIX,dingding.xin
   - DOMAIN-SUFFIX,dingtalk.com
@@ -1318,6 +1325,7 @@ payload:
   - DOMAIN-SUFFIX,dzsc.com
   - DOMAIN-SUFFIX,dzw3.com
   - DOMAIN-SUFFIX,dzwww.com
+  - DOMAIN-SUFFIX,easemob.com
   - DOMAIN-SUFFIX,easesale.com
   - DOMAIN-SUFFIX,easiu.com
   - DOMAIN-SUFFIX,easou.com
@@ -1772,6 +1780,7 @@ payload:
   - DOMAIN-SUFFIX,i3839.com
   - DOMAIN-SUFFIX,ialicdn.com
   - DOMAIN-SUFFIX,iask.com
+  - DOMAIN-SUFFIX,ibangbank.com
   - DOMAIN-SUFFIX,ibaotu.com
   - DOMAIN-SUFFIX,ibcet.org
   - DOMAIN-SUFFIX,ibidian.com
@@ -1910,6 +1919,7 @@ payload:
   - DOMAIN-SUFFIX,irs01.com
   - DOMAIN-SUFFIX,isd.com
   - DOMAIN-SUFFIX,ishumei.com
+  - DOMAIN-SUFFIX,isigning.com
   - DOMAIN-SUFFIX,ispqcloud.com
   - DOMAIN-SUFFIX,isvjcloud.com
   - DOMAIN-SUFFIX,isvjd.com
@@ -2556,6 +2566,7 @@ payload:
   - DOMAIN-SUFFIX,na-mexico-1.myhuaweicloud.com
   - DOMAIN-SUFFIX,nagcloudcs.com
   - DOMAIN-SUFFIX,naixuecha.com
+  - DOMAIN-SUFFIX,nanocorechip.com
   - DOMAIN-SUFFIX,nanyangpt.com
   - DOMAIN-SUFFIX,nattest-china.com
   - DOMAIN-SUFFIX,nature.com
@@ -3105,6 +3116,8 @@ payload:
   - DOMAIN-SUFFIX,szbdyd.com
   - DOMAIN-SUFFIX,szfw.org
   - DOMAIN-SUFFIX,szhk.com
+  - DOMAIN-SUFFIX,szu.app
+  - DOMAIN-SUFFIX,szu.moe
   - DOMAIN-SUFFIX,szzfgjj.com
   - DOMAIN-SUFFIX,t.tt
   - DOMAIN-SUFFIX,t00ls.cc
@@ -3671,6 +3684,7 @@ payload:
   - DOMAIN-SUFFIX,xuexi365.com
   - DOMAIN-SUFFIX,xuexi365.net
   - DOMAIN-SUFFIX,xuexicha.com
+  - DOMAIN-SUFFIX,xuexitong.com
   - DOMAIN-SUFFIX,xueyuanjun.com
   - DOMAIN-SUFFIX,xundupdf.com
   - DOMAIN-SUFFIX,xunfeixxj.com
