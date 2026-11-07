@@ -11,7 +11,7 @@
   "ads_only_source": "TG-Twilight/AWAvenue-Ads-Rule",
   "lineage_note": "MetaCubeX and ACL may derive individual rules from other listed sources; shared ancestry is not independent proof. A reference does not imply automatic union.",
   "policy": {
-    "AI": "Exclude Gemini/Bard/AIStudio/Gemini API/CodeAssist dedicated endpoints; oaistatsig.com is required. Other separate AI products remain allowed.",
+    "AI": "Include Gemini/Bard/AI Studio/Gemini API/Code Assist and dedicated Workspace Gemini endpoints per user decision 2026-11-03, superseding the previous exclusion. Keep oaistatsig.com and other existing AI products. Do not add shared apis.google.com, blanket Google suffixes or broad Gemini keywords; unrelated homonyms keep their existing categories.",
     "AWS": "AWS and Amazon ecosystem domains/services, including shopping and Prime Video. No consumer-product exclusion. Retain original domain category scope; do not automatically import cloud-tenant CIDR catalogs.",
     "AppleCN": "No iCloud; keep existing minimal China Apple direct scope.",
     "Ads": "Exact sole-source AWAvenue RULE-SET content, including upstream removals.",
@@ -3177,8 +3177,54 @@
         "fe099783c6536e3e",
         "ff7a4d400aca1340"
       ],
-      "selection": "Dedicated AI products including Freebuff/Codebuff, Flow and NotebookLM; Gemini/Bard/AI Studio/API/Code Assist dedicated endpoints stay excluded. Preserve baseline manual entries and suppress only new redundant rules.",
-      "rule_count": 401,
+      "selection": "Dedicated AI products including Gemini/Bard, AI Studio, Gemini API, Code Assist and Workspace Gemini endpoints, plus existing Freebuff/Codebuff, Flow and NotebookLM. Preserve baseline manual entries and suppress only new redundant rules. See gemini_update for the targeted 2026-11-03 policy change; the checked_date and weekly delta below still refer to the last full weekly review.",
+      "rule_count": 429,
+      "gemini_update": {
+        "date": "2026-11-03",
+        "scope": "Gemini-only addition requested by the user; not a full weekly source refresh. Supersedes historical Gemini exclusions elsewhere in this manifest.",
+        "before": 401,
+        "added": 28,
+        "removed": 0,
+        "tests_run": false,
+        "published": false,
+        "sources": [
+          {
+            "repository": "v2fly/domain-list-community",
+            "path": "data/google-deepmind",
+            "commit": "476b009f4d0176426958b3fdadf87f2a2688baa5",
+            "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/476b009f4d0176426958b3fdadf87f2a2688baa5/data/google-deepmind",
+            "sha256": "6f768291aa81a8d88fa48fc20613f55be646674cfa24a3b3c152a97e859c33a8"
+          },
+          {
+            "repository": "SukkaW/Surge",
+            "path": "Source/non_ip/ai.conf",
+            "commit": "d46d9ca1a28e74f2a40f6c0bae93569f85c3aa75",
+            "url": "https://raw.githubusercontent.com/SukkaW/Surge/d46d9ca1a28e74f2a40f6c0bae93569f85c3aa75/Source/non_ip/ai.conf",
+            "sha256": "fdd9b5bebf65d755cefff467d151386d8e6fce74a7f706f564c6b1fbbee48375"
+          },
+          {
+            "repository": "blackmatrix7/ios_rule_script",
+            "path": "rule/Surge/Gemini/Gemini.list",
+            "commit": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+            "url": "https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/0b6897dc17e0c513d25449c935a9694818e32f0c/rule/Surge/Gemini/Gemini.list",
+            "sha256": "db8f69154426dca76792ab80b3ad6b0e2d078ebe0e52e76faec1724245a4ec49"
+          },
+          {
+            "repository": "ACL4SSR/ACL4SSR",
+            "path": "Clash/Ruleset/Gemini.list",
+            "commit": "c15bf546085b825afd238e211f750bb7868c7132",
+            "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/c15bf546085b825afd238e211f750bb7868c7132/Clash/Ruleset/Gemini.list",
+            "sha256": "ba743f476d3dc37538f225e2d63b126756a95a1f71ae665de293909e617da451"
+          }
+        ],
+        "selection_notes": [
+          "v2fly google-gemini is now a compatibility include of google-deepmind; select only the requested Gemini services, not every product in that file.",
+          "Preserve all 401 pre-existing AI rules and all other categories. Keep the 2026-11-01 weekly candidate separate.",
+          "Use exact or product-specific suffix matches; do not add shared apis.google.com or broad generativelanguage / Gemini keywords.",
+          "Do not convert Sukka's www.google.com URL-REGEX into a whole-domain rule; paired Surge/Mihomo output keeps the existing supported rule types.",
+          "Sources with shared upstream ancestry are not independent corroboration."
+        ]
+      },
       "added": 3,
       "removed": 0,
       "change_percent": 0.75,

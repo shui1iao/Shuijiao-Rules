@@ -1,8 +1,11 @@
 # NAME: AI
-# UPDATED: 2026-10-25
+# UPDATED: 2026-11-03
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 payload:
+  - DOMAIN,ai.google.dev
   - DOMAIN,ai.zhaomi.cn
+  - DOMAIN,alkalicore-pa.clients6.google.com
+  - DOMAIN,alkalimakersuite-pa.clients6.google.com
   - DOMAIN,antigravity-pa.googleapis.com
   - DOMAIN,antigravity-unleash.goog
   - DOMAIN,antigravity.google
@@ -15,10 +18,14 @@ payload:
   - DOMAIN,apple-relay.apple.com
   - DOMAIN,apple-relay.cloudflare.com
   - DOMAIN,apple-relay.fastly-edge.com
+  - DOMAIN,appsgenaiserver-pa.clients.google.com
+  - DOMAIN,appsgenaiserver-pa.clients6.google.com
+  - DOMAIN,appsgenaiserver-pa.googleapis.com
   - DOMAIN,assets.msn.com
   - DOMAIN,browser-intake-datadoghq.com
   - DOMAIN,cdn.usefathom.com
   - DOMAIN,chat.openai.com.cdn.cloudflare.net
+  - DOMAIN,cloudaicompanion.googleapis.com
   - DOMAIN,copilot-telemetry-service.githubusercontent.com
   - DOMAIN,copilot-telemetry.githubusercontent.com
   - DOMAIN,copilot-workspace.githubnext.com
@@ -26,9 +33,12 @@ payload:
   - DOMAIN,copilotprodattachments.blob.core.windows.net
   - DOMAIN,cp4.cloudflare.com
   - DOMAIN,cueme-api.quark.cn
+  - DOMAIN,daily-cloudcode-pa.googleapis.com
   - DOMAIN,gateway.ai.cloudflare.com
   - DOMAIN,gateway.bingviz.microsoft.net
   - DOMAIN,gateway.bingviz.microsoftapp.net
+  - DOMAIN,geminiweb-pa.clients.google.com
+  - DOMAIN,geminiweb-pa.clients6.google.com
   - DOMAIN,gspe1-ssl.ls.apple.com
   - DOMAIN,in.appcenter.ms
   - DOMAIN,jules.google.com
@@ -49,12 +59,18 @@ payload:
   - DOMAIN,services.bingapis.com
   - DOMAIN,static.cloudflareinsights.com
   - DOMAIN,sydney.bing.com
+  - DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
   - DOMAIN,www.bing.com
   - DOMAIN-SUFFIX,agentclientprotocol.com
   - DOMAIN-SUFFIX,ai.azure.com
   - DOMAIN-SUFFIX,ai.com
+  - DOMAIN-SUFFIX,ai.studio
+  - DOMAIN-SUFFIX,aicode.googleapis.com
+  - DOMAIN-SUFFIX,aida.googleapis.com
   - DOMAIN-SUFFIX,aiesa.ru
+  - DOMAIN-SUFFIX,aisandbox-pa.googleapis.com
   - DOMAIN-SUFFIX,aispeech.com
+  - DOMAIN-SUFFIX,aistudio.google.com
   - DOMAIN-SUFFIX,algolia.net
   - DOMAIN-SUFFIX,alice.yandex.net
   - DOMAIN-SUFFIX,alice.yandex.ru
@@ -75,6 +91,7 @@ payload:
   - DOMAIN-SUFFIX,askdiandian.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,baichuan-ai.com
+  - DOMAIN-SUFFIX,bard.google.com
   - DOMAIN-SUFFIX,bigmodel.cn
   - DOMAIN-SUFFIX,bing-shopping.microsoft-falcon.io
   - DOMAIN-SUFFIX,bing.com
@@ -102,6 +119,7 @@ payload:
   - DOMAIN-SUFFIX,clawhub.ai
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
   - DOMAIN-SUFFIX,clipdrop.co
+  - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
   - DOMAIN-SUFFIX,codebuddy.cn
   - DOMAIN-SUFFIX,codebuff.com
   - DOMAIN-SUFFIX,codeium.com
@@ -175,7 +193,14 @@ payload:
   - DOMAIN-SUFFIX,flow.google
   - DOMAIN-SUFFIX,flow.google.com
   - DOMAIN-SUFFIX,freebuff.com
+  - DOMAIN-SUFFIX,g.ai
   - DOMAIN-SUFFIX,gateway.ai.cloudflare.com
+  - DOMAIN-SUFFIX,geller-pa.googleapis.com
+  - DOMAIN-SUFFIX,gemini.google
+  - DOMAIN-SUFFIX,gemini.google.com
+  - DOMAIN-SUFFIX,gemini.gstatic.com
+  - DOMAIN-SUFFIX,generativeai.google
+  - DOMAIN-SUFFIX,generativelanguage.googleapis.com
   - DOMAIN-SUFFIX,gerwin.io
   - DOMAIN-SUFFIX,giga.chat
   - DOMAIN-SUFFIX,githubcopilot.com
@@ -228,6 +253,7 @@ payload:
   - DOMAIN-SUFFIX,lpsnmedia.net
   - DOMAIN-SUFFIX,luma.ai
   - DOMAIN-SUFFIX,magnific.com
+  - DOMAIN-SUFFIX,makersuite.google.com
   - DOMAIN-SUFFIX,manus.im
   - DOMAIN-SUFFIX,manuscdn.com
   - DOMAIN-SUFFIX,maoxiangai.com
@@ -295,6 +321,7 @@ payload:
   - DOMAIN-SUFFIX,poecdn.net
   - DOMAIN-SUFFIX,polza.ai
   - DOMAIN-SUFFIX,pplx.ai
+  - DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com
   - DOMAIN-SUFFIX,qianwen.aliyun.com
   - DOMAIN-SUFFIX,qianwen.com
   - DOMAIN-SUFFIX,qianwenai.com
@@ -303,6 +330,7 @@ payload:
   - DOMAIN-SUFFIX,qwenlm.ai
   - DOMAIN-SUFFIX,replicate.com
   - DOMAIN-SUFFIX,replit.com
+  - DOMAIN-SUFFIX,robinfrontend-pa.googleapis.com
   - DOMAIN-SUFFIX,robotext.io
   - DOMAIN-SUFFIX,rugpt.io
   - DOMAIN-SUFFIX,runwayml.cloud

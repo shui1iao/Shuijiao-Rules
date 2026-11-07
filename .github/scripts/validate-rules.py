@@ -11,17 +11,20 @@ from typing import Any
 ROOT=pathlib.Path(__file__).resolve().parents[2]
 EXPECTED={'AI','AWS','Ads','Apple','AppleCN','China','Crypto','Douyin','Game','GitHub','Google','LAN','Pay','Proxy','Speedtest','Streaming','Telegram'}
 TYPES={'DOMAIN','DOMAIN-SUFFIX','DOMAIN-KEYWORD','DOMAIN-WILDCARD','IP-CIDR','IP-CIDR6','IP-ASN','PROCESS-NAME'}
-GEMINI={
- 'DOMAIN,ai.google.dev','DOMAIN,aida.googleapis.com','DOMAIN,aisandbox-pa.googleapis.com',
- 'DOMAIN,alkalicore-pa.clients6.google.com','DOMAIN,alkalimakersuite-pa.clients6.google.com',
- 'DOMAIN,daily-cloudcode-pa.googleapis.com','DOMAIN,generativelanguage.googleapis.com',
- 'DOMAIN,makersuite.google.com','DOMAIN,robinfrontend-pa.googleapis.com',
- 'DOMAIN-SUFFIX,ai.google.dev','DOMAIN-SUFFIX,aistudio.google.com','DOMAIN-SUFFIX,apis.google.com',
- 'DOMAIN-SUFFIX,bard.google.com','DOMAIN-SUFFIX,cloudcode-pa.googleapis.com','DOMAIN-SUFFIX,g.ai',
- 'DOMAIN-SUFFIX,geller-pa.googleapis.com','DOMAIN-SUFFIX,gemini.google','DOMAIN-SUFFIX,gemini.google.com',
- 'DOMAIN-SUFFIX,generativeai.google','DOMAIN-SUFFIX,generativelanguage.googleapis.com',
- 'DOMAIN-SUFFIX,makersuite.google.com','DOMAIN-SUFFIX,proactivebackend-pa.googleapis.com',
- 'DOMAIN-KEYWORD,alkalimakersuite-pa.clients6.google.com','DOMAIN-KEYWORD,generativelanguage'}
+# User policy changed on 2026-11-03: include Gemini's dedicated services,
+# without turning AI into a catch-all for unrelated Google traffic.
+GEMINI_DOMAINS=(
+ 'ai.google.dev','ai.studio','aicode.googleapis.com','aida.googleapis.com',
+ 'aisandbox-pa.googleapis.com','aistudio.google.com',
+ 'alkalicore-pa.clients6.google.com','alkalimakersuite-pa.clients6.google.com',
+ 'appsgenaiserver-pa.clients.google.com','appsgenaiserver-pa.clients6.google.com',
+ 'appsgenaiserver-pa.googleapis.com','bard.google.com','cloudaicompanion.googleapis.com',
+ 'cloudcode-pa.googleapis.com','daily-cloudcode-pa.googleapis.com','g.ai',
+ 'geller-pa.googleapis.com','gemini.google','gemini.google.com','gemini.gstatic.com',
+ 'geminiweb-pa.clients.google.com','geminiweb-pa.clients6.google.com',
+ 'generativeai.google','generativelanguage.googleapis.com','makersuite.google.com',
+ 'proactivebackend-pa.googleapis.com','robinfrontend-pa.googleapis.com',
+ 'webchannel-alkalimakersuite-pa.clients6.google.com')
 def surge(text):return [l.strip() for l in text.splitlines() if l.strip() and not l.lstrip().startswith('#')]
 def syntax(rule):
  p=rule.split(',');assert len(p) in (2,3),f'field count: {rule}'
@@ -67,9 +70,10 @@ def validate(baseline=None):
   text=(ROOT/doc).read_text();counts=dict((n,int(c)) for n,c in re.findall(r'\| `([^`]+)` \| `(\d+)` \|',text));assert set(counts)==names,(doc,'inventory')
   assert all(counts[n]==report[n]['count'] for n in names),(doc,'counts')
  assert 'DOMAIN-SUFFIX,oaistatsig.com' in allrules['AI'],'missing OpenAI Statsig domain'
- assert not (allrules['AI']&GEMINI),'Gemini exclusion regression'
- for domain in ['gemini.google.com','bard.google.com','aistudio.google.com','ai.google.dev','generativelanguage.googleapis.com','daily-cloudcode-pa.googleapis.com']:
-  assert not matches(allrules['AI'],domain),('AI semantic exclusion',domain)
+ for domain in GEMINI_DOMAINS:
+  assert matches(allrules['AI'],domain),('AI Gemini coverage',domain)
+ for domain in ['www.google.com','mail.google.com','apis.google.com','gemini.com','gemini.yahoo.com']:
+  assert not matches(allrules['AI'],domain),('AI unrelated Google or Gemini homonym',domain)
  for domain in ['icloud.com','icloud.com.cn','icloud-content.com','me.com']:
   assert not matches(allrules['AppleCN'],domain),('AppleCN iCloud exclusion',domain)
  # AWS includes the Amazon consumer ecosystem by explicit user policy.

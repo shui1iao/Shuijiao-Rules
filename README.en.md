@@ -9,7 +9,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 - Same content: files with the same name share the same normalized rules; only the wrapper format differs
 - CDN is merged into `Proxy`
 - MTProto DC mapping: `Surge/mtproto-dc-config.json` is regenerated daily with Surge's official generator
-- Updated: `2026-10-25`
+- Updated: `2026-11-03`
 
 ## Rule files
 
@@ -18,7 +18,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 | `Telegram` | `54` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
 | `GitHub` | `60` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `245` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `401` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `AI` | `429` | `Surge/AI.list` | `Mihomo/AI.yaml` |
 | `Speedtest` | `1409` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `368` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `955` | `Surge/Google.list` | `Mihomo/Google.yaml` |
@@ -61,7 +61,7 @@ Game      -> Final / Game
 Pay       -> Final / Pay
 ```
 
-`GitHub` covers GitHub, GitHub Assets/UserContent, GitHub Container Registry, and npm-related domains. `AWS` covers Amazon Web Services global and China domains, including the AWS console and documentation, Amazon API endpoints, CloudFront, Amplify, Elastic Beanstalk, Cognito, and SES, plus Amazon Shopping, Prime Video, and the wider Amazon ecosystem. `AI` excludes Gemini, Bard, AI Studio, and the Gemini API; those requests fall through to the later `Google` / `Proxy` rules. `China` includes domains, keywords, and China BGP CIDR rules. `Douyin` is for the mainland Douyin app and related CDN/video domains, not international TikTok. `AppleCN` intentionally excludes iCloud. `Ads` uses AWAvenue only and avoids larger blocklists to reduce false positives. `Douyin`, `Streaming`, `Game`, and `Pay` are provided as optional standby rules and are not meant to be enabled by default.
+`GitHub` covers GitHub, GitHub Assets/UserContent, GitHub Container Registry, and npm-related domains. `AWS` covers Amazon Web Services global and China domains, including the AWS console and documentation, Amazon API endpoints, CloudFront, Amplify, Elastic Beanstalk, Cognito, and SES, plus Amazon Shopping, Prime Video, and the wider Amazon ecosystem. `AI` includes Gemini, Bard, AI Studio, the Gemini API, Gemini Code Assist and dedicated Workspace Gemini backends. Place `AI` before `Google` / `Proxy`; this does not route all Google domains through `AI`. `China` includes domains, keywords, and China BGP CIDR rules. `Douyin` is for the mainland Douyin app and related CDN/video domains, not international TikTok. `AppleCN` intentionally excludes iCloud. `Ads` uses AWAvenue only and avoids larger blocklists to reduce false positives. `Douyin`, `Streaming`, `Game`, and `Pay` are provided as optional standby rules and are not meant to be enabled by default.
 
 ## Surge MTProto DC configuration
 
@@ -77,6 +77,7 @@ This file maps Telegram DC IDs to current production endpoints; it does not repl
 ## Multi-source maintenance and validation
 
 - Check all 17 categories on each refresh. Preserve the date of a file whose effective rule content is unchanged.
+- Targeted change on 2026-11-03: at the user's request, supersede the former Gemini exclusion with 28 dedicated Gemini / Bard, AI Studio, API, Code Assist and Workspace Gemini rules. Preserve all 401 existing AI rules and every other category. Do not add shared `apis.google.com`, all-Google suffixes or broad keywords. The historical Gemini exclusion decisions below no longer describe current policy.
 - Weekly maintenance on 2026-10-25: `Speedtest` +143 (v2fly speed-test sites and exact Sukka test nodes), `Proxy` +74, `China` +14 (explicitly annotated mainland bank, education, government and company domains in v2fly), `Game` +13 (SteamOS and Valve-owned IP ranges), `Ads` +11 (AWAvenue sync), `Crypto` +4, `AI` +3 (Anthropic, Magnific), and optional `Streaming` +1 (Twitch); no removals. The other 9 categories retain their content and dates. Hold 11 aggregate-only Meta CN additions for insufficient evidence; `nperf.cn` overlaps China direct routing and stays out of `Speedtest`; the new v2fly flight-simulator category is unmapped and does not widen `Game`, while existing Microsoft Flight Simulator entries are kept.
 - Weekly maintenance on 2026-10-18: `AI` +2 (Cursor VM, Jev), `Speedtest` +2 (exact nodes), `LAN` +2 (WeChat/WeCom local login), optional `Streaming` +3 (CapCut), and `Proxy` +10; no removals. The other 12 categories retain their content and dates. Hold 31 aggregate-only Meta CN additions for insufficient evidence; upstream aggregate removals alone do not delete manual rules. Already-covered OpenAI/Windsurf/PlayStation entries are not duplicated.
 - Weekly maintenance on 2026-10-11: `AI` +1 (SYNTX), `Speedtest` +5 (exact test nodes), and `Proxy` +35; no removals. The other 14 categories retain their content and dates. The 371 new entries in the aggregate Meta CN catalog lack sufficient geographic/product evidence and are not bulk-imported; `yandex-ad.cn` keeps China direct routing and is excluded from Proxy.

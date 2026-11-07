@@ -11,7 +11,7 @@
 - 内容一致：同名的 Surge 与 Mihomo 文件使用同一份规则内容，只是文件格式不同
 - CDN 规则：已经合并进 `Proxy`，不单独提供 `CDN` 文件
 - MTProto DC 配置：使用 Surge 官方生成器每日自动更新 `Surge/mtproto-dc-config.json`
-- 更新时间：`2026-10-25`
+- 更新时间：`2026-11-03`
 
 ## 规则列表
 
@@ -20,7 +20,7 @@
 | `Telegram` | `54` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
 | `GitHub` | `60` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `245` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `401` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `AI` | `429` | `Surge/AI.list` | `Mihomo/AI.yaml` |
 | `Speedtest` | `1409` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `368` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `955` | `Surge/Google.list` | `Mihomo/Google.yaml` |
@@ -40,10 +40,10 @@
 - `Telegram`：Telegram 域名、ASN/IP 段。
 - `GitHub`：GitHub、GitHub Assets/UserContent、GitHub Container Registry、npm 相关域名。
 - `AWS`：Amazon Web Services 全球及中国区域名，以及亚马逊购物、Prime Video 等 Amazon 生态；包括 AWS 控制台与文档、Amazon API 域名、CloudFront、Amplify、Elastic Beanstalk、Cognito、SES 等。
-- `AI`：OpenAI / ChatGPT / Claude / Grok / Perplexity / Poe / Copilot / Midjourney / Hugging Face / Mistral / Cursor / Windsurf 等 AI 服务；不包含 Gemini、Bard、AI Studio 与 Gemini API。
+- `AI`：OpenAI / ChatGPT / Claude / Gemini / Grok / Perplexity / Poe / Copilot / Midjourney / Hugging Face / Mistral / Cursor / Windsurf 等 AI 服务；包含 Bard、AI Studio、Gemini API、Gemini Code Assist 及 Workspace Gemini 专用后端，不扩大为整个 Google 域名。
 - `Speedtest`：Ookla Speedtest、Fast、Cloudflare Speed、M-Lab、LibreSpeed 以及常见测速节点。
 - `Crypto`：Binance、Bybit、OKX、Coinbase、Kraken、KuCoin、Gate、MEXC、Bitget、HTX/Huobi、行情、钱包、DeFi 与链上浏览器。
-- `Google`：Google、YouTube、Gmail、Drive、Firebase 等常规 Google 服务；Gemini / AI Studio 不再放入 `AI`，将按后续 `Google` / `Proxy` 规则处理。
+- `Google`：Google、YouTube、Gmail、Drive、Firebase 等常规 Google 服务；Gemini / AI Studio 等专用端点优先由前面的 `AI` 规则处理。
 - `Apple`：Apple 国际服务、Apple Media、Apple TV、Apple Developer、Apple CDN 与 Apple IP。
 - `AppleCN`：参考 Sukka 的中国区 Apple 规则，但刻意移除 iCloud；建议直连。
 - `Proxy`：常见国外站点、国外 CDN、开发者服务、社交服务等；已合并 CDN。
@@ -138,6 +138,7 @@ rules:
 ## 多源维护与校验
 
 - 每次逐项检查全部 17 个规则集；无有效差异的文件保留原日期，不为凑更新而改动。
+- 2026-11-03 定向调整：按用户要求撤销此前的 Gemini 排除策略，`AI` +28，纳入 Gemini / Bard、AI Studio、API、Code Assist 与 Workspace Gemini 专用端点；原有 401 条及其余分类不变。只采用可核实的专用域名，不加入通用 `apis.google.com`、整片 Google 域名或泛化关键词。下列历史维护记录中的 Gemini 排除决定已被本次策略取代。
 - 2026-10-25 周维护：`Speedtest` +143（v2fly 测速站点与 Sukka 精确测速节点），`Proxy` +74，`China` +14（v2fly 明确标注的大陆银行、教育、政务与企业域名），`Game` +13（SteamOS 与 Valve 自有 IP 段），`Ads` +11（同步 AWAvenue），`Crypto` +4，`AI` +3（Anthropic、Magnific），备用 `Streaming` +1（Twitch）；无删除，其余 9 类保留内容与日期。Meta China 汇总新增 11 项证据不足暂不并入；`nperf.cn` 与 China 直连重叠不进 `Speedtest`；v2fly 新增飞行模拟分类未映射，不扩大 `Game` 范围，已有微软飞行模拟条目保留。
 - 2026-10-18 周维护：`AI` +2（Cursor VM、Jev），`Speedtest` +2（精确测速节点），`LAN` +2（微信/企业微信本地登录），备用 `Streaming` +3（CapCut），`Proxy` +10；无删除，其余 12 类保留内容与日期。Meta China 汇总新增 31 项证据不足暂不并入，汇总撤下的旧项不据此删除人工规则；已覆盖的 OpenAI/Windsurf/PlayStation 等条目不重复添加。
 - 2026-10-11 周维护：`AI` +1（SYNTX），`Speedtest` +5（精确测速节点），`Proxy` +35；无删除，其余 14 类保留内容与日期。Meta China 汇总目录新增 371 项缺少足够地域/产品证据，不批量并入；`yandex-ad.cn` 保留 China 直连，不加入 Proxy。
