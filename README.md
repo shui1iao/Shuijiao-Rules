@@ -11,27 +11,27 @@
 - 内容一致：同名的 Surge 与 Mihomo 文件使用同一份规则内容，只是文件格式不同
 - CDN 规则：已经合并进 `Proxy`，不单独提供 `CDN` 文件
 - MTProto DC 配置：使用 Surge 官方生成器每日自动更新 `Surge/mtproto-dc-config.json`
-- 更新时间：`2026-11-03`
+- 更新时间：`2026-11-15`
 
 ## 规则列表
 
 | 规则 | 条数 | Surge | Mihomo |
 |---|---:|---|---|
 | `Telegram` | `54` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
-| `GitHub` | `60` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
+| `GitHub` | `62` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `245` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `429` | `Surge/AI.list` | `Mihomo/AI.yaml` |
-| `Speedtest` | `1409` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
+| `AI` | `438` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `Speedtest` | `1420` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `368` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `955` | `Surge/Google.list` | `Mihomo/Google.yaml` |
 | `Apple` | `187` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
 | `AppleCN` | `8` | `Surge/AppleCN.list` | `Mihomo/AppleCN.yaml` |
-| `Proxy` | `12662` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
-| `China` | `7902` | `Surge/China.list` | `Mihomo/China.yaml` |
+| `Proxy` | `12707` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
+| `China` | `7982` | `Surge/China.list` | `Mihomo/China.yaml` |
 | `Douyin` | `77` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
 | `LAN` | `174` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
-| `Ads` | `976` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
-| `Streaming` | `1943` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
+| `Ads` | `984` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
+| `Streaming` | `1944` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
 | `Game` | `770` | `Surge/Game.list` | `Mihomo/Game.yaml` |
 | `Pay` | `495` | `Surge/Pay.list` | `Mihomo/Pay.yaml` |
 
@@ -138,6 +138,7 @@ rules:
 ## 多源维护与校验
 
 - 每次逐项检查全部 17 个规则集；无有效差异的文件保留原日期，不为凑更新而改动。
+- 2026-11-15 周维护：`China` +81/-1（补齐 v2fly 明确标注的大陆证券、制造、医疗、教育、媒体、运营商 3GPP 与 Sukka 国内 CDN 域名，同步移除 v2fly 修正误收的泰国二级公共后缀 `in.th`），`Proxy` +45（海外站点与开发服务），`Ads` +25/-17（同步 AWAvenue），`Speedtest` +11（Sukka 精确测速节点与 Megabitus），`AI` +9（Copilot WebPubSub、xAI Grok、Cline、Context7、Nous、Meta AI、豆包等专用域名；Gemini Workspace 新增端点已覆盖），`GitHub` +2（Copilot WebPubSub、`npmx.dev`），备用 `Streaming` +1（Spotify CDN 后缀）；其余 10 类核对无差异保留原内容与日期。OpenAI `chatgpt-voice.json`（及 Sukka `ai.conf` IP）由 25 条突增至 540 条云端 `/32`（+519/-2），单类及全仓均超自动门限，整组暂缓待审、不截断导入；Meta China 汇总独有新增 25 项证据不足暂不并入；v2fly 正则与 `@telemetry` 共享遥测不扩大或误纳。
 - 2026-11-03 定向调整：按用户要求撤销此前的 Gemini 排除策略，`AI` +28，纳入 Gemini / Bard、AI Studio、API、Code Assist 与 Workspace Gemini 专用端点；原有 401 条及其余分类不变。只采用可核实的专用域名，不加入通用 `apis.google.com`、整片 Google 域名或泛化关键词。下列历史维护记录中的 Gemini 排除决定已被本次策略取代。
 - 2026-10-25 周维护：`Speedtest` +143（v2fly 测速站点与 Sukka 精确测速节点），`Proxy` +74，`China` +14（v2fly 明确标注的大陆银行、教育、政务与企业域名），`Game` +13（SteamOS 与 Valve 自有 IP 段），`Ads` +11（同步 AWAvenue），`Crypto` +4，`AI` +3（Anthropic、Magnific），备用 `Streaming` +1（Twitch）；无删除，其余 9 类保留内容与日期。Meta China 汇总新增 11 项证据不足暂不并入；`nperf.cn` 与 China 直连重叠不进 `Speedtest`；v2fly 新增飞行模拟分类未映射，不扩大 `Game` 范围，已有微软飞行模拟条目保留。
 - 2026-10-18 周维护：`AI` +2（Cursor VM、Jev），`Speedtest` +2（精确测速节点），`LAN` +2（微信/企业微信本地登录），备用 `Streaming` +3（CapCut），`Proxy` +10；无删除，其余 12 类保留内容与日期。Meta China 汇总新增 31 项证据不足暂不并入，汇总撤下的旧项不据此删除人工规则；已覆盖的 OpenAI/Windsurf/PlayStation 等条目不重复添加。

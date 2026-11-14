@@ -1,5 +1,5 @@
 # NAME: Streaming
-# UPDATED: 2026-10-25
+# UPDATED: 2026-11-15
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 payload:
   - DOMAIN,44wilhpljf.execute-api.ap-southeast-1.amazonaws.com
@@ -552,6 +552,7 @@ payload:
   - DOMAIN-SUFFIX,spotify-everywhere.com
   - DOMAIN-SUFFIX,spotify.app.link
   - DOMAIN-SUFFIX,spotify.com
+  - DOMAIN-SUFFIX,spotify.com.edgesuite.net
   - DOMAIN-SUFFIX,spotify.design
   - DOMAIN-SUFFIX,spotifycdn.com
   - DOMAIN-SUFFIX,spotifycdn.net

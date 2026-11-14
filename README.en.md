@@ -9,27 +9,27 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 - Same content: files with the same name share the same normalized rules; only the wrapper format differs
 - CDN is merged into `Proxy`
 - MTProto DC mapping: `Surge/mtproto-dc-config.json` is regenerated daily with Surge's official generator
-- Updated: `2026-11-03`
+- Updated: `2026-11-15`
 
 ## Rule files
 
 | Rule | Count | Surge | Mihomo |
 |---|---:|---|---|
 | `Telegram` | `54` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
-| `GitHub` | `60` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
+| `GitHub` | `62` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `245` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `429` | `Surge/AI.list` | `Mihomo/AI.yaml` |
-| `Speedtest` | `1409` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
+| `AI` | `438` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `Speedtest` | `1420` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `368` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `955` | `Surge/Google.list` | `Mihomo/Google.yaml` |
 | `Apple` | `187` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
 | `AppleCN` | `8` | `Surge/AppleCN.list` | `Mihomo/AppleCN.yaml` |
-| `Proxy` | `12662` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
-| `China` | `7902` | `Surge/China.list` | `Mihomo/China.yaml` |
+| `Proxy` | `12707` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
+| `China` | `7982` | `Surge/China.list` | `Mihomo/China.yaml` |
 | `Douyin` | `77` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
 | `LAN` | `174` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
-| `Ads` | `976` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
-| `Streaming` | `1943` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
+| `Ads` | `984` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
+| `Streaming` | `1944` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
 | `Game` | `770` | `Surge/Game.list` | `Mihomo/Game.yaml` |
 | `Pay` | `495` | `Surge/Pay.list` | `Mihomo/Pay.yaml` |
 
@@ -77,6 +77,7 @@ This file maps Telegram DC IDs to current production endpoints; it does not repl
 ## Multi-source maintenance and validation
 
 - Check all 17 categories on each refresh. Preserve the date of a file whose effective rule content is unchanged.
+- Weekly maintenance on 2026-11-15: `China` +81/-1 (verified mainland securities, electronics, healthcare, education, media, carrier 3GPP and Sukka domestic CDN domains; remove `in.th` after v2fly fixed its erroneous inclusion under `tencent-games`), `Proxy` +45, `Ads` +25/-17 (AWAvenue sync), `Speedtest` +11 (exact Sukka test nodes and Megabitus), `AI` +9 (Copilot WebPubSub, xAI Grok, Cline, Context7, Nous, Meta AI, Doubao dedicated domains; Workspace Gemini endpoints already covered), `GitHub` +2 (Copilot WebPubSub and `npmx.dev`), and optional `Streaming` +1 (Spotify CDN suffix); the other 10 categories retain their content and dates. Hold the OpenAI `chatgpt-voice.json` / Sukka `ai.conf` IP burst (+519/-2 `/32` cloud endpoints, 25 -> 540) intact for human review instead of truncating across the 20% / 500-rule gates; hold 25 aggregate-only Meta CN additions; skip unsupported regexes and shared `@telemetry` intakes.
 - Targeted change on 2026-11-03: at the user's request, supersede the former Gemini exclusion with 28 dedicated Gemini / Bard, AI Studio, API, Code Assist and Workspace Gemini rules. Preserve all 401 existing AI rules and every other category. Do not add shared `apis.google.com`, all-Google suffixes or broad keywords. The historical Gemini exclusion decisions below no longer describe current policy.
 - Weekly maintenance on 2026-10-25: `Speedtest` +143 (v2fly speed-test sites and exact Sukka test nodes), `Proxy` +74, `China` +14 (explicitly annotated mainland bank, education, government and company domains in v2fly), `Game` +13 (SteamOS and Valve-owned IP ranges), `Ads` +11 (AWAvenue sync), `Crypto` +4, `AI` +3 (Anthropic, Magnific), and optional `Streaming` +1 (Twitch); no removals. The other 9 categories retain their content and dates. Hold 11 aggregate-only Meta CN additions for insufficient evidence; `nperf.cn` overlaps China direct routing and stays out of `Speedtest`; the new v2fly flight-simulator category is unmapped and does not widen `Game`, while existing Microsoft Flight Simulator entries are kept.
 - Weekly maintenance on 2026-10-18: `AI` +2 (Cursor VM, Jev), `Speedtest` +2 (exact nodes), `LAN` +2 (WeChat/WeCom local login), optional `Streaming` +3 (CapCut), and `Proxy` +10; no removals. The other 12 categories retain their content and dates. Hold 31 aggregate-only Meta CN additions for insufficient evidence; upstream aggregate removals alone do not delete manual rules. Already-covered OpenAI/Windsurf/PlayStation entries are not duplicated.

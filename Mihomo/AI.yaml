@@ -1,5 +1,5 @@
 # NAME: AI
-# UPDATED: 2026-11-03
+# UPDATED: 2026-11-15
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 payload:
   - DOMAIN,ai.google.dev
@@ -52,6 +52,7 @@ payload:
   - DOMAIN,openrouter.ai
   - DOMAIN,ppl-ai-file-upload.s3.amazonaws.com
   - DOMAIN,pplx-res.cloudinary.com
+  - DOMAIN,production-copilot-host-westus.webpubsub.azure.com
   - DOMAIN,production-openaicom-storage.azureedge.net
   - DOMAIN,r.bing.com
   - DOMAIN,self.events.data.microsoft.com
@@ -88,6 +89,7 @@ payload:
   - DOMAIN-SUFFIX,api.microsoftapp.net
   - DOMAIN-SUFFIX,api.statsig.com
   - DOMAIN-SUFFIX,arena.ai
+  - DOMAIN-SUFFIX,artificialanalysis.ai
   - DOMAIN-SUFFIX,askdiandian.com
   - DOMAIN-SUFFIX,auth0.com
   - DOMAIN-SUFFIX,baichuan-ai.com
@@ -118,6 +120,7 @@ payload:
   - DOMAIN-SUFFIX,clawhub-mirror.com
   - DOMAIN-SUFFIX,clawhub.ai
   - DOMAIN-SUFFIX,client-api.arkoselabs.com
+  - DOMAIN-SUFFIX,cline.bot
   - DOMAIN-SUFFIX,clipdrop.co
   - DOMAIN-SUFFIX,cloudcode-pa.googleapis.com
   - DOMAIN-SUFFIX,codebuddy.cn
@@ -131,6 +134,8 @@ payload:
   - DOMAIN-SUFFIX,comfy.org
   - DOMAIN-SUFFIX,comfyci.org
   - DOMAIN-SUFFIX,comfyregistry.org
+  - DOMAIN-SUFFIX,commandcode.ai
+  - DOMAIN-SUFFIX,context7.com
   - DOMAIN-SUFFIX,copilot-proxy.githubusercontent.com
   - DOMAIN-SUFFIX,copilot-stg.com
   - DOMAIN-SUFFIX,copilot.cloud.microsoft
@@ -176,6 +181,7 @@ payload:
   - DOMAIN-SUFFIX,dola.com
   - DOMAIN-SUFFIX,doubao-dev.com
   - DOMAIN-SUFFIX,doubao.com
+  - DOMAIN-SUFFIX,doubaoapps.com
   - DOMAIN-SUFFIX,doubaocdn.com
   - DOMAIN-SUFFIX,doudou.com
   - DOMAIN-SUFFIX,dreamgen.com
@@ -210,6 +216,7 @@ payload:
   - DOMAIN-SUFFIX,grok.com
   - DOMAIN-SUFFIX,grok.x.ai
   - DOMAIN-SUFFIX,grok.x.com
+  - DOMAIN-SUFFIX,grokbot.com
   - DOMAIN-SUFFIX,grokipedia.com
   - DOMAIN-SUFFIX,groq.com
   - DOMAIN-SUFFIX,h2o.ai
@@ -267,6 +274,7 @@ payload:
   - DOMAIN-SUFFIX,mcpworld.com
   - DOMAIN-SUFFIX,meta.ai
   - DOMAIN-SUFFIX,meta.law
+  - DOMAIN-SUFFIX,metaaiusercontent.com
   - DOMAIN-SUFFIX,metaaivm.com
   - DOMAIN-SUFFIX,metaso.cn
   - DOMAIN-SUFFIX,miaibox.com
@@ -290,6 +298,7 @@ payload:
   - DOMAIN-SUFFIX,notebooklm.google
   - DOMAIN-SUFFIX,notebooklm.google.com
   - DOMAIN-SUFFIX,notegpt.io
+  - DOMAIN-SUFFIX,nousresearch.com
   - DOMAIN-SUFFIX,novelai.net
   - DOMAIN-SUFFIX,oaistatic.com
   - DOMAIN-SUFFIX,oaistatsig.com
