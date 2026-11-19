@@ -11,7 +11,7 @@
 - 内容一致：同名的 Surge 与 Mihomo 文件使用同一份规则内容，只是文件格式不同
 - CDN 规则：已经合并进 `Proxy`，不单独提供 `CDN` 文件
 - MTProto DC 配置：使用 Surge 官方生成器每日自动更新 `Surge/mtproto-dc-config.json`
-- 更新时间：`2026-11-15`
+- 更新时间：`2026-11-19`
 
 ## 规则列表
 
@@ -34,6 +34,7 @@
 | `Streaming` | `1944` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
 | `Game` | `770` | `Surge/Game.list` | `Mihomo/Game.yaml` |
 | `Pay` | `495` | `Surge/Pay.list` | `Mihomo/Pay.yaml` |
+| `PayPal` | `252` | `Surge/PayPal.list` | `Mihomo/PayPal.yaml` |
 
 ## 分类说明
 
@@ -54,6 +55,7 @@
 - `Streaming`：备用流媒体规则，覆盖 Netflix、Disney+、HBO/Max、Prime Video、Spotify、YouTube/YouTube Music、Hulu、Twitch、TikTok 等。
 - `Game`：备用游戏平台规则，覆盖 Steam、Epic、Battle.net、Xbox、PlayStation、Nintendo、EA、Ubisoft、Riot、Rockstar、GeForce Now 等。
 - `Pay`：备用传统支付规则，覆盖 PayPal、Stripe、Wise、Revolut、Visa、Mastercard、American Express、Payoneer、Airwallex 等。
+- `PayPal`：独立 PayPal 生态规则，覆盖 PayPal 主站与静态资源（`paypalobjects.com`）、PayPal.me、Braintree（含 `braintree-api.com`）、Venmo、Xoom、Hyperwallet（`hyperwallet.com`、`paylution.com`）、Honey（`joinhoney.com`）、Chargehound 等，方便为 PayPal 单独指定节点，不混入其他支付平台。
 
 ## 推荐优先级
 
@@ -83,6 +85,7 @@ Douyin   -> DIRECT / Final
 Streaming -> Final / Streaming
 Game      -> Final / Game
 Pay       -> Final / Pay
+PayPal    -> PayPal / Proxy
 ```
 
 优先级原则：`LAN` 永远最前；`Ads` 放在 `China` 前面，避免国内广告域名被直连规则提前命中；`AppleCN` 早于 `Apple`；`AI` 早于 `Google` / `Proxy`；`GitHub`、`AWS` 早于 `Proxy`；具体分类早于 `Proxy`。备用规则不默认启用，避免当前配置变复杂。
@@ -137,7 +140,8 @@ rules:
 
 ## 多源维护与校验
 
-- 每次逐项检查全部 17 个规则集；无有效差异的文件保留原日期，不为凑更新而改动。
+- 每次逐项检查全部 18 个规则集；无有效差异的文件保留原日期，不为凑更新而改动。
+- 2026-11-19 定向新增：按用户要求新增独立 `PayPal` 规则集（252 条），整合 `blackmatrix7/PayPal`、`v2fly/data/paypal` 与 `MetaCubeX/paypal.list`（剔除 Mihomo 不支持的 `USER-AGENT`，`venmo.s3.amazonaws.com` 保持精确 `DOMAIN`），并补充 TLS 证书实证归属 `PayPal, Inc.` 的 `braintree-api.com`、`hyperwallet.com`、`paylution.com`、`joinhoney.com`、`chargehound.com`；原有 `Pay` 及其他 16 类规则集保持原内容与日期不变。
 - 2026-11-15 周维护：`China` +81/-1（补齐 v2fly 明确标注的大陆证券、制造、医疗、教育、媒体、运营商 3GPP 与 Sukka 国内 CDN 域名，同步移除 v2fly 修正误收的泰国二级公共后缀 `in.th`），`Proxy` +45（海外站点与开发服务），`Ads` +25/-17（同步 AWAvenue），`Speedtest` +11（Sukka 精确测速节点与 Megabitus），`AI` +9（Copilot WebPubSub、xAI Grok、Cline、Context7、Nous、Meta AI、豆包等专用域名；Gemini Workspace 新增端点已覆盖），`GitHub` +2（Copilot WebPubSub、`npmx.dev`），备用 `Streaming` +1（Spotify CDN 后缀）；其余 10 类核对无差异保留原内容与日期。OpenAI `chatgpt-voice.json`（及 Sukka `ai.conf` IP）由 25 条突增至 540 条云端 `/32`（+519/-2），单类及全仓均超自动门限，整组暂缓待审、不截断导入；Meta China 汇总独有新增 25 项证据不足暂不并入；v2fly 正则与 `@telemetry` 共享遥测不扩大或误纳。
 - 2026-11-03 定向调整：按用户要求撤销此前的 Gemini 排除策略，`AI` +28，纳入 Gemini / Bard、AI Studio、API、Code Assist 与 Workspace Gemini 专用端点；原有 401 条及其余分类不变。只采用可核实的专用域名，不加入通用 `apis.google.com`、整片 Google 域名或泛化关键词。下列历史维护记录中的 Gemini 排除决定已被本次策略取代。
 - 2026-10-25 周维护：`Speedtest` +143（v2fly 测速站点与 Sukka 精确测速节点），`Proxy` +74，`China` +14（v2fly 明确标注的大陆银行、教育、政务与企业域名），`Game` +13（SteamOS 与 Valve 自有 IP 段），`Ads` +11（同步 AWAvenue），`Crypto` +4，`AI` +3（Anthropic、Magnific），备用 `Streaming` +1（Twitch）；无删除，其余 9 类保留内容与日期。Meta China 汇总新增 11 项证据不足暂不并入；`nperf.cn` 与 China 直连重叠不进 `Speedtest`；v2fly 新增飞行模拟分类未映射，不扩大 `Game` 范围，已有微软飞行模拟条目保留。

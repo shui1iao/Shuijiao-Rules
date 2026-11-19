@@ -15,7 +15,8 @@
     "AWS": "AWS and Amazon ecosystem domains/services, including shopping and Prime Video. No consumer-product exclusion. Retain original domain category scope; do not automatically import cloud-tenant CIDR catalogs.",
     "AppleCN": "No iCloud; keep existing minimal China Apple direct scope.",
     "Ads": "Exact sole-source AWAvenue RULE-SET content, including upstream removals.",
-    "Proxy": "Includes CDN; check new candidates against LAN/AppleCN/China direct rules. Do not use whole ICANN generic TLDs as a mainland-location assertion."
+    "Proxy": "Includes CDN; check new candidates against LAN/AppleCN/China direct rules. Do not use whole ICANN generic TLDs as a mainland-location assertion.",
+    "PayPal": "Dedicated PayPal ecosystem ruleset requested by user on 2026-11-19. Covers PayPal, PayPalObjects, Braintree (including braintree-api.com), Venmo, Xoom, Hyperwallet (hyperwallet.com, paylution.com), Honey (joinhoney.com), Chargehound, Simility, Swift Financial, LoanBuilder, and KrakenJS. Keep existing Pay ruleset intact for backward compatibility. Exclude unsupported USER-AGENT rules and do not merge non-PayPal payment providers or shared third-party CAPTCHA/CDN domains."
   },
   "sources": {
     "e221cd7718e7999a": {
@@ -3993,13 +3994,43 @@
       "change_percent": 4.3,
       "checked_date": "2026-11-15",
       "checked_source_count": 1
+    },
+    "PayPal": {
+      "source_refs": [
+        "356a1780e55f73af",
+        "444f47c5f679038c",
+        "d6e54b612080ca14"
+      ],
+      "selection": "Standalone PayPal ruleset built from blackmatrix7/PayPal, v2fly/data/paypal, and MetaCubeX/paypal.list (excluding unsupported USER-AGENT, keeping exact DOMAIN for venmo.s3.amazonaws.com), plus TLS-verified O=PayPal, Inc. supplements (braintree-api.com, chargehound.com, hyperwallet.com, joinhoney.com, paylution.com).",
+      "rule_count": 252,
+      "added": 252,
+      "removed": 0,
+      "change_percent": 100.0,
+      "checked_date": "2026-11-19",
+      "checked_source_count": 3,
+      "creation_note": {
+        "date": "2026-11-19",
+        "scope": "Standalone PayPal ruleset added at user request; existing Pay ruleset preserved unchanged.",
+        "manual_supplements": [
+          "braintree-api.com",
+          "chargehound.com",
+          "hyperwallet.com",
+          "joinhoney.com",
+          "paylution.com"
+        ],
+        "upstream_heads_checked": {
+          "blackmatrix7/ios_rule_script": "0b6897dc17e0c513d25449c935a9694818e32f0c",
+          "v2fly/domain-list-community": "bc3a8f5e24792303cf82bfff33b1ff164a0e4b3c",
+          "MetaCubeX/meta-rules-dat": "21a0aeef70681851c15d4741381dda538c9e8700"
+        }
+      }
     }
   },
   "validation": {
     "command": "python3 -B .github/scripts/validate-rules.py",
     "python_dependency": "PyYAML",
     "unit_tests": "python3 -B -m unittest discover -s .github/scripts -p test_*.py",
-    "rule_pair_count": 17,
+    "rule_pair_count": 18,
     "all_rulesets_checked": true,
     "changed_rulesets": 7,
     "traffic_tested": false

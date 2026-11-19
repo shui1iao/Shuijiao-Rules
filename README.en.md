@@ -9,7 +9,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 - Same content: files with the same name share the same normalized rules; only the wrapper format differs
 - CDN is merged into `Proxy`
 - MTProto DC mapping: `Surge/mtproto-dc-config.json` is regenerated daily with Surge's official generator
-- Updated: `2026-11-15`
+- Updated: `2026-11-19`
 
 ## Rule files
 
@@ -32,6 +32,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 | `Streaming` | `1944` | `Surge/Streaming.list` | `Mihomo/Streaming.yaml` |
 | `Game` | `770` | `Surge/Game.list` | `Mihomo/Game.yaml` |
 | `Pay` | `495` | `Surge/Pay.list` | `Mihomo/Pay.yaml` |
+| `PayPal` | `252` | `Surge/PayPal.list` | `Mihomo/PayPal.yaml` |
 
 ## Recommended order
 
@@ -59,9 +60,10 @@ Douyin   -> DIRECT / Final
 Streaming -> Final / Streaming
 Game      -> Final / Game
 Pay       -> Final / Pay
+PayPal    -> PayPal / Proxy
 ```
 
-`GitHub` covers GitHub, GitHub Assets/UserContent, GitHub Container Registry, and npm-related domains. `AWS` covers Amazon Web Services global and China domains, including the AWS console and documentation, Amazon API endpoints, CloudFront, Amplify, Elastic Beanstalk, Cognito, and SES, plus Amazon Shopping, Prime Video, and the wider Amazon ecosystem. `AI` includes Gemini, Bard, AI Studio, the Gemini API, Gemini Code Assist and dedicated Workspace Gemini backends. Place `AI` before `Google` / `Proxy`; this does not route all Google domains through `AI`. `China` includes domains, keywords, and China BGP CIDR rules. `Douyin` is for the mainland Douyin app and related CDN/video domains, not international TikTok. `AppleCN` intentionally excludes iCloud. `Ads` uses AWAvenue only and avoids larger blocklists to reduce false positives. `Douyin`, `Streaming`, `Game`, and `Pay` are provided as optional standby rules and are not meant to be enabled by default.
+`GitHub` covers GitHub, GitHub Assets/UserContent, GitHub Container Registry, and npm-related domains. `AWS` covers Amazon Web Services global and China domains, including the AWS console and documentation, Amazon API endpoints, CloudFront, Amplify, Elastic Beanstalk, Cognito, and SES, plus Amazon Shopping, Prime Video, and the wider Amazon ecosystem. `AI` includes Gemini, Bard, AI Studio, the Gemini API, Gemini Code Assist and dedicated Workspace Gemini backends. Place `AI` before `Google` / `Proxy`; this does not route all Google domains through `AI`. `China` includes domains, keywords, and China BGP CIDR rules. `Douyin` is for the mainland Douyin app and related CDN/video domains, not international TikTok. `AppleCN` intentionally excludes iCloud. `Ads` uses AWAvenue only and avoids larger blocklists to reduce false positives. `Douyin`, `Streaming`, `Game`, `Pay`, and `PayPal` are provided as optional standby rules and are not meant to be enabled by default. `PayPal` isolates the PayPal ecosystem (PayPal, PayPalObjects, Braintree including `braintree-api.com`, Venmo, Xoom, Hyperwallet/`paylution.com`, Honey, and Chargehound) from other payment providers for dedicated routing.
 
 ## Surge MTProto DC configuration
 
@@ -76,7 +78,8 @@ This file maps Telegram DC IDs to current production endpoints; it does not repl
 
 ## Multi-source maintenance and validation
 
-- Check all 17 categories on each refresh. Preserve the date of a file whose effective rule content is unchanged.
+- Check all 18 categories on each refresh. Preserve the date of a file whose effective rule content is unchanged.
+- Targeted addition on 2026-11-19: added standalone `PayPal` ruleset (252 rules) at the user's request, combining `blackmatrix7/PayPal`, `v2fly/data/paypal`, and `MetaCubeX/paypal.list` (dropping unsupported `USER-AGENT` and keeping exact `DOMAIN` for `venmo.s3.amazonaws.com`), plus TLS-verified `O=PayPal, Inc.` domains (`braintree-api.com`, `hyperwallet.com`, `paylution.com`, `joinhoney.com`, `chargehound.com`). Preserved `Pay` and all other 16 categories unchanged.
 - Weekly maintenance on 2026-11-15: `China` +81/-1 (verified mainland securities, electronics, healthcare, education, media, carrier 3GPP and Sukka domestic CDN domains; remove `in.th` after v2fly fixed its erroneous inclusion under `tencent-games`), `Proxy` +45, `Ads` +25/-17 (AWAvenue sync), `Speedtest` +11 (exact Sukka test nodes and Megabitus), `AI` +9 (Copilot WebPubSub, xAI Grok, Cline, Context7, Nous, Meta AI, Doubao dedicated domains; Workspace Gemini endpoints already covered), `GitHub` +2 (Copilot WebPubSub and `npmx.dev`), and optional `Streaming` +1 (Spotify CDN suffix); the other 10 categories retain their content and dates. Hold the OpenAI `chatgpt-voice.json` / Sukka `ai.conf` IP burst (+519/-2 `/32` cloud endpoints, 25 -> 540) intact for human review instead of truncating across the 20% / 500-rule gates; hold 25 aggregate-only Meta CN additions; skip unsupported regexes and shared `@telemetry` intakes.
 - Targeted change on 2026-11-03: at the user's request, supersede the former Gemini exclusion with 28 dedicated Gemini / Bard, AI Studio, API, Code Assist and Workspace Gemini rules. Preserve all 401 existing AI rules and every other category. Do not add shared `apis.google.com`, all-Google suffixes or broad keywords. The historical Gemini exclusion decisions below no longer describe current policy.
 - Weekly maintenance on 2026-10-25: `Speedtest` +143 (v2fly speed-test sites and exact Sukka test nodes), `Proxy` +74, `China` +14 (explicitly annotated mainland bank, education, government and company domains in v2fly), `Game` +13 (SteamOS and Valve-owned IP ranges), `Ads` +11 (AWAvenue sync), `Crypto` +4, `AI` +3 (Anthropic, Magnific), and optional `Streaming` +1 (Twitch); no removals. The other 9 categories retain their content and dates. Hold 11 aggregate-only Meta CN additions for insufficient evidence; `nperf.cn` overlaps China direct routing and stays out of `Speedtest`; the new v2fly flight-simulator category is unmapped and does not widen `Game`, while existing Microsoft Flight Simulator entries are kept.

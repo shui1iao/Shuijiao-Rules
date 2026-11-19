@@ -9,7 +9,7 @@ import argparse, collections, ipaddress, json, pathlib, re, subprocess
 import yaml
 from typing import Any
 ROOT=pathlib.Path(__file__).resolve().parents[2]
-EXPECTED={'AI','AWS','Ads','Apple','AppleCN','China','Crypto','Douyin','Game','GitHub','Google','LAN','Pay','Proxy','Speedtest','Streaming','Telegram'}
+EXPECTED={'AI','AWS','Ads','Apple','AppleCN','China','Crypto','Douyin','Game','GitHub','Google','LAN','Pay','PayPal','Proxy','Speedtest','Streaming','Telegram'}
 TYPES={'DOMAIN','DOMAIN-SUFFIX','DOMAIN-KEYWORD','DOMAIN-WILDCARD','IP-CIDR','IP-CIDR6','IP-ASN','PROCESS-NAME'}
 # User policy changed on 2026-11-03: include Gemini's dedicated services,
 # without turning AI into a catch-all for unrelated Google traffic.
@@ -59,9 +59,10 @@ def validate(baseline=None):
   assert not any(x in st+yt for x in ['<<<<<<<','>>>>>>>','BEGIN PRIVATE KEY','ghp_']),f'unsafe content: {name}'
   allrules[name]=set(rules);row: dict[str,Any]={'count':len(rules)}
   if baseline:
-   oldtext=subprocess.check_output(['git','show',f'{baseline}:Surge/{name}.list'],cwd=ROOT,text=True);old=set(surge(oldtext));new=set(rules)
+   proc=subprocess.run(['git','show',f'{baseline}:Surge/{name}.list'],cwd=ROOT,text=True,capture_output=True)
+   oldtext=proc.stdout if proc.returncode==0 else '';old=set(surge(oldtext));new=set(rules)
    row.update(added=sorted(new-old),removed=sorted(old-new),before=len(old));row['change_percent']=round((len(new-old)+len(old-new))/max(1,len(old))*100,2)
-   if new!=old:
+   if new!=old and oldtext:
     current_date=re.search(r'# UPDATED: (\d{4}-\d{2}-\d{2})',st);old_date=re.search(r'# UPDATED: (\d{4}-\d{2}-\d{2})',oldtext)
     assert current_date and old_date,name
     assert current_date.group(1)>=old_date.group(1),name
@@ -80,6 +81,10 @@ def validate(baseline=None):
  for domain in ['amazon.com','primevideo.com']:
   assert matches(allrules['AWS'],domain),('AWS Amazon ecosystem coverage',domain)
  assert 'DOMAIN-SUFFIX,gemini.com' in allrules['Crypto'],'unrelated Gemini exchange removed'
+ for domain in ['paypal.com','paypalobjects.com','paypal.me','payments.braintree-api.com','hyperwallet.com','paylution.com','venmo.com','xoom.com']:
+  assert matches(allrules['PayPal'],domain),('PayPal coverage',domain)
+ for domain in ['alipay.com','stripe.com','wise.com','visa.com','mastercard.com']:
+  assert not matches(allrules['PayPal'],domain),('PayPal non-PayPal payment exclusion',domain)
  # Ads follows AWAvenue exactly; unrelated homonyms must not be removed by AI filtering,
  # but an upstream Ads removal must not be blocked by a permanently hardcoded entry.
  subprocess.run(['git','diff','--check'],cwd=ROOT,check=True)
