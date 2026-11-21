@@ -1,5 +1,5 @@
 # NAME: Crypto
-# UPDATED: 2026-10-25
+# UPDATED: 2026-11-22
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 payload:
   - DOMAIN,bybit-exchange.github.io
@@ -149,6 +149,7 @@ payload:
   - DOMAIN-SUFFIX,dappradar.com
   - DOMAIN-SUFFIX,dcabtc.com
   - DOMAIN-SUFFIX,debank.com
+  - DOMAIN-SUFFIX,debot.ai
   - DOMAIN-SUFFIX,defieye.io
   - DOMAIN-SUFFIX,defillama.com
   - DOMAIN-SUFFIX,defipulse.com

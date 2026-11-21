@@ -1,5 +1,5 @@
 # NAME: Speedtest
-# UPDATED: 2026-11-15
+# UPDATED: 2026-11-22
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 payload:
   - DOMAIN,172673828273027382738738.de
@@ -58,6 +58,7 @@ payload:
   - DOMAIN,d-pcommunications.com
   - DOMAIN,da-speed.kbro.com.tw
   - DOMAIN,dabwali.softechinfosol.com
+  - DOMAIN,dallas.outboundrix.cloud
   - DOMAIN,dallas1.cabospeed.com
   - DOMAIN,dc-spdtst.treas.host
   - DOMAIN,dc1-speed1.alpha-tech.us
@@ -86,6 +87,7 @@ payload:
   - DOMAIN,fast.kabi.tk
   - DOMAIN,fastme.ir
   - DOMAIN,fetkt1.seed.net.tw
+  - DOMAIN,fetml1.seed.net.tw
   - DOMAIN,fetnt1.seed.net.tw
   - DOMAIN,fetsz1.seed.net.tw
   - DOMAIN,fetyl1.seed.net.tw
@@ -292,8 +294,11 @@ payload:
   - DOMAIN,sea.st.spacecore.pro
   - DOMAIN,seacaftest.aptalaska.net
   - DOMAIN,secretspeedsterserver2364.cpe.nj.crnrstn.comcast.net
+  - DOMAIN,seednet-hc1.seed.net.tw
+  - DOMAIN,seednet-ntp2.seed.net.tw
   - DOMAIN,seednet-tc1.seed.net.tw
   - DOMAIN,seednet-tn1.seed.net.tw
+  - DOMAIN,seednet-tp1.seed.net.tw
   - DOMAIN,seednet-ty1.seed.net.tw
   - DOMAIN,serv.qwistel.in
   - DOMAIN,serv8.a2jnetwork.in
