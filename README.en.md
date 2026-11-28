@@ -9,7 +9,7 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 - Same content: files with the same name share the same normalized rules; only the wrapper format differs
 - CDN is merged into `Proxy`
 - MTProto DC mapping: `Surge/mtproto-dc-config.json` is regenerated daily with Surge's official generator
-- Updated: `2026-11-22`
+- Updated: `2026-11-29`
 
 ## Rule files
 
@@ -18,14 +18,14 @@ Personal Surge / Mihomo routing rules for Shuijiao. The repository intentionally
 | `Telegram` | `54` | `Surge/Telegram.list` | `Mihomo/Telegram.yaml` |
 | `GitHub` | `62` | `Surge/GitHub.list` | `Mihomo/GitHub.yaml` |
 | `AWS` | `245` | `Surge/AWS.list` | `Mihomo/AWS.yaml` |
-| `AI` | `441` | `Surge/AI.list` | `Mihomo/AI.yaml` |
-| `Speedtest` | `1425` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
+| `AI` | `443` | `Surge/AI.list` | `Mihomo/AI.yaml` |
+| `Speedtest` | `1428` | `Surge/Speedtest.list` | `Mihomo/Speedtest.yaml` |
 | `Crypto` | `369` | `Surge/Crypto.list` | `Mihomo/Crypto.yaml` |
 | `Google` | `955` | `Surge/Google.list` | `Mihomo/Google.yaml` |
 | `Apple` | `187` | `Surge/Apple.list` | `Mihomo/Apple.yaml` |
 | `AppleCN` | `8` | `Surge/AppleCN.list` | `Mihomo/AppleCN.yaml` |
-| `Proxy` | `12734` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
-| `China` | `8013` | `Surge/China.list` | `Mihomo/China.yaml` |
+| `Proxy` | `12748` | `Surge/Proxy.list` | `Mihomo/Proxy.yaml` |
+| `China` | `8024` | `Surge/China.list` | `Mihomo/China.yaml` |
 | `Douyin` | `77` | `Surge/Douyin.list` | `Mihomo/Douyin.yaml` |
 | `LAN` | `174` | `Surge/LAN.list` | `Mihomo/LAN.yaml` |
 | `Ads` | `998` | `Surge/Ads.list` | `Mihomo/Ads.yaml` |
@@ -79,6 +79,7 @@ This file maps Telegram DC IDs to current production endpoints; it does not repl
 ## Multi-source maintenance and validation
 
 - Check all 18 categories on each refresh. Preserve the date of a file whose effective rule content is unchanged.
+- Weekly maintenance on 2026-11-29: `Proxy` +14 (2 Sukka CDN hosts, 3 corroborated GFWList domains, `soundcloud.cloud`, and 8 verified overseas dev/CDN/game-voice and Russian telecom cloud domains from v2fly), `China` +11 (5 v2fly mainland Wahlap and iCC Grow domains, plus 6 Focus Technology/Made-in-China and Tencent GCloud domains corroborated by ACL4SSR and v2fly), `Speedtest` +3 (exact Sukka test nodes), and `AI` +2 (Google Gemma `gemma.ai` and DevMachine `devmachine.ai`); no removals, and the other 14 categories (including `Ads`, whose upstream `#221` change only added `no-resolve` already normalized here) retain their content and dates. Continue holding the OpenAI `chatgpt-voice.json` / Sukka `ai.conf` IP burst (now 444 `/32` endpoints, +421/-2 vs baseline) intact for human review without truncation; suppress redundant `debian.map.fastlydns.net`, `.ru`/`.gg` and 12 keyword-covered speedtest nodes, and exclude 3 new `AmazonIp.list` cloud CIDRs per AWS domain-only policy.
 - Weekly maintenance on 2026-11-22: `China` +31 (verified v2fly mainland Ping An/YiQianBao, Changyou, 58/Anjuke, Hypergryph CN `@-!cn`, BaishanCloud, Fazhi, FAW-VW, and Lenovo domains), `Proxy` +27 (4 Sukka CDN domains, 16 corroborated GFW media/service domains, `yandex-bank.net`, and 6 verified overseas dev/AI/game domains from v2fly), `Ads` +14 (exact AWAvenue sync), `Speedtest` +5 (exact Sukka test nodes), `AI` +3 (`cloud.zed.dev`, Gemini Code Assist `daily-cloudcode-pa.sandbox.googleapis.com`, `elevenlabsusercontent.com`), and `Crypto` +1 (`debot.ai`); no removals, and the other 12 categories retain their content and dates. Continue holding the OpenAI `chatgpt-voice.json` / Sukka `ai.conf` IP burst (now 411 `/32` endpoints, +388/-2 vs baseline) intact for human review without truncation; exclude `DOMAIN-KEYWORD,antigravity`, `builds.dotnet.microsoft.com` (China `microsoft` keyword conflict), brand gTLDs `hkt`/`pccw`, `universalbeijingresort.com`, bulk NBCUniversal corporate sub-sites, and uncorroborated ACL4SSR-only aggregate additions.
 - Targeted addition on 2026-11-19: added standalone `PayPal` ruleset (252 rules) at the user's request, combining `blackmatrix7/PayPal`, `v2fly/data/paypal`, and `MetaCubeX/paypal.list` (dropping unsupported `USER-AGENT` and keeping exact `DOMAIN` for `venmo.s3.amazonaws.com`), plus TLS-verified `O=PayPal, Inc.` domains (`braintree-api.com`, `hyperwallet.com`, `paylution.com`, `joinhoney.com`, `chargehound.com`). Preserved `Pay` and all other 16 categories unchanged.
 - Weekly maintenance on 2026-11-15: `China` +81/-1 (verified mainland securities, electronics, healthcare, education, media, carrier 3GPP and Sukka domestic CDN domains; remove `in.th` after v2fly fixed its erroneous inclusion under `tencent-games`), `Proxy` +45, `Ads` +25/-17 (AWAvenue sync), `Speedtest` +11 (exact Sukka test nodes and Megabitus), `AI` +9 (Copilot WebPubSub, xAI Grok, Cline, Context7, Nous, Meta AI, Doubao dedicated domains; Workspace Gemini endpoints already covered), `GitHub` +2 (Copilot WebPubSub and `npmx.dev`), and optional `Streaming` +1 (Spotify CDN suffix); the other 10 categories retain their content and dates. Hold the OpenAI `chatgpt-voice.json` / Sukka `ai.conf` IP burst (+519/-2 `/32` cloud endpoints, 25 -> 540) intact for human review instead of truncating across the 20% / 500-rule gates; hold 25 aggregate-only Meta CN additions; skip unsupported regexes and shared `@telemetry` intakes.

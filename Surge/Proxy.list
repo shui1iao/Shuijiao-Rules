@@ -1,5 +1,5 @@
 # NAME: Proxy
-# UPDATED: 2026-11-22
+# UPDATED: 2026-11-29
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,0x0.st
@@ -538,6 +538,7 @@ DOMAIN,cdn-public-apis.moonlock.com
 DOMAIN,cdn-public.sociabble.com
 DOMAIN,cdn-raw.modrinth.com
 DOMAIN,cdn-rdstaticassets.readdle.com
+DOMAIN,cdn-resize-prod-com.500px.cloud
 DOMAIN,cdn-seo.airdroid.com
 DOMAIN,cdn-service.jp.sumologic.com
 DOMAIN,cdn-share-sprites.flaticon.com
@@ -875,6 +876,7 @@ DOMAIN,cdn.privacy.paramount.com
 DOMAIN,cdn.prod.ext.web.purview.azure.com
 DOMAIN,cdn.prod.www.spiegel.de
 DOMAIN,cdn.promotekit.com
+DOMAIN,cdn.protect.clerk.com
 DOMAIN,cdn.prowritingaid.com
 DOMAIN,cdn.quadpay.com
 DOMAIN,cdn.quickemailverification.com
@@ -1256,6 +1258,7 @@ DOMAIN,conversiongorilla.com
 DOMAIN,cookie-cdn.cookiepro.com
 DOMAIN,corp-backend.brevo.com
 DOMAIN,cors-proxy.htmldriven.com
+DOMAIN,courses.myecnu.org
 DOMAIN,cover.comicbz.com
 DOMAIN,cover.yymanhua.com
 DOMAIN,covers.openlibrary.org
@@ -3752,6 +3755,7 @@ DOMAIN-SUFFIX,ai-kan.net
 DOMAIN-SUFFIX,ai-wen.net
 DOMAIN-SUFFIX,ai.dev
 DOMAIN-SUFFIX,aicoin.com
+DOMAIN-SUFFIX,aicu.cc
 DOMAIN-SUFFIX,aihub.top
 DOMAIN-SUFFIX,aimoon.com
 DOMAIN-SUFFIX,aiosearch.com
@@ -4490,6 +4494,7 @@ DOMAIN-SUFFIX,cablegatesearch.net
 DOMAIN-SUFFIX,cachefly.com
 DOMAIN-SUFFIX,cachefly.net
 DOMAIN-SUFFIX,cachinese.com
+DOMAIN-SUFFIX,cachix.org
 DOMAIN-SUFFIX,cacnw.com
 DOMAIN-SUFFIX,cactusvpn.com
 DOMAIN-SUFFIX,cafe
@@ -5098,6 +5103,7 @@ DOMAIN-SUFFIX,daliulian.org
 DOMAIN-SUFFIX,dam-cdn.atl.orangelogic.com
 DOMAIN-SUFFIX,danilo.to
 DOMAIN-SUFFIX,danke4china.net
+DOMAIN-SUFFIX,danmakus.com
 DOMAIN-SUFFIX,danwei.org
 DOMAIN-SUFFIX,daolan.net
 DOMAIN-SUFFIX,daozhongxing.org
@@ -5660,8 +5666,10 @@ DOMAIN-SUFFIX,fast.com
 DOMAIN-SUFFIX,fastestvpn.com
 DOMAIN-SUFFIX,fastly-analytics.com
 DOMAIN-SUFFIX,fastly-edge.com
+DOMAIN-SUFFIX,fastly-insights.com
 DOMAIN-SUFFIX,fastly.net
 DOMAIN-SUFFIX,fastlycdn.com
+DOMAIN-SUFFIX,fastlydns.net
 DOMAIN-SUFFIX,fastlylb.net
 DOMAIN-SUFFIX,fastmail.com
 DOMAIN-SUFFIX,fastssh.com
@@ -7860,6 +7868,7 @@ DOMAIN-SUFFIX,mefound.com
 DOMAIN-SUFFIX,mega.co.nz
 DOMAIN-SUFFIX,mega.io
 DOMAIN-SUFFIX,mega.nz
+DOMAIN-SUFFIX,megafon.cloud
 DOMAIN-SUFFIX,megaproxy.com
 DOMAIN-SUFFIX,megarotic.com
 DOMAIN-SUFFIX,megas4.com
@@ -8481,6 +8490,7 @@ DOMAIN-SUFFIX,nytstyle.com
 DOMAIN-SUFFIX,nyunews.com
 DOMAIN-SUFFIX,nz
 DOMAIN-SUFFIX,nzchinese.com
+DOMAIN-SUFFIX,o7.com
 DOMAIN-SUFFIX,oaiusercontent.com
 DOMAIN-SUFFIX,oanda.com
 DOMAIN-SUFFIX,oann.com
@@ -9677,6 +9687,7 @@ DOMAIN-SUFFIX,soul-plus.net
 DOMAIN-SUFFIX,soulcaliburhentai.net
 DOMAIN-SUFFIX,soulogic.com
 DOMAIN-SUFFIX,soumo.info
+DOMAIN-SUFFIX,soundcloud.cloud
 DOMAIN-SUFFIX,soundcloud.com
 DOMAIN-SUFFIX,soundofhope.org
 DOMAIN-SUFFIX,soup.io
@@ -9692,6 +9703,7 @@ DOMAIN-SUFFIX,sowers.org.hk
 DOMAIN-SUFFIX,soylent.com
 DOMAIN-SUFFIX,soylentnews.org
 DOMAIN-SUFFIX,spacebattles.com
+DOMAIN-SUFFIX,spacedesk.net
 DOMAIN-SUFFIX,spaceship-cdn.com
 DOMAIN-SUFFIX,spacex.com
 DOMAIN-SUFFIX,spankbang.com
@@ -10813,6 +10825,7 @@ DOMAIN-SUFFIX,viu.tv
 DOMAIN-SUFFIX,vivahentai4u.net
 DOMAIN-SUFFIX,vivaldi.com
 DOMAIN-SUFFIX,vivatube.com
+DOMAIN-SUFFIX,vivox.com
 DOMAIN-SUFFIX,vivthomas.com
 DOMAIN-SUFFIX,vizvaz.com
 DOMAIN-SUFFIX,vjav.com
@@ -11280,6 +11293,7 @@ DOMAIN-SUFFIX,xn--90wwvt03e.com
 DOMAIN-SUFFIX,xn--9iqy04a7fi01l.com
 DOMAIN-SUFFIX,xn--9pr62r24a.com
 DOMAIN-SUFFIX,xn--czq75pvv1aj5c.org
+DOMAIN-SUFFIX,xn--e1aapchhekkk.xn--p1ai
 DOMAIN-SUFFIX,xn--fiq80y.xn--j6w193g
 DOMAIN-SUFFIX,xn--fiq80y3xbiwr.xn--j6w193g
 DOMAIN-SUFFIX,xn--fiq80y3xbiwrs0kiu9d.xn--j6w193g

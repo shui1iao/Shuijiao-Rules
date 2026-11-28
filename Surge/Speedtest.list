@@ -1,5 +1,5 @@
 # NAME: Speedtest
-# UPDATED: 2026-11-22
+# UPDATED: 2026-11-29
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,172673828273027382738738.de
@@ -86,6 +86,7 @@ DOMAIN,falcon.its.utoronto.ca
 DOMAIN,fast.blackbearfiber.com
 DOMAIN,fast.kabi.tk
 DOMAIN,fastme.ir
+DOMAIN,fetdl2.seed.net.tw
 DOMAIN,fetkt1.seed.net.tw
 DOMAIN,fetml1.seed.net.tw
 DOMAIN,fetnt1.seed.net.tw
@@ -190,6 +191,7 @@ DOMAIN,lg-war.fdcservers.net
 DOMAIN,lg.bcn1.es.everywan.com
 DOMAIN,lg.mia.plasmarack.com
 DOMAIN,librarian.comstar.ru
+DOMAIN,librespeed-dtw.rackgenius.com
 DOMAIN,librespeed-rs.ir
 DOMAIN,librespeed.a573.net
 DOMAIN,librespeed.lukas-heinrich.com
@@ -450,6 +452,7 @@ DOMAIN,speed-ams.bouwhuisit.nl
 DOMAIN,speed-bhm2.cspirefiber.com
 DOMAIN,speed-br2.gigacomm.net.au
 DOMAIN,speed-ens.bouwhuisit.nl
+DOMAIN,speed-fra.laudat.org
 DOMAIN,speed-ist.veganet.com.tr
 DOMAIN,speed-mel.gigacomm.net.au
 DOMAIN,speed-miss.systemlifeline.com

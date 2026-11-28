@@ -1,5 +1,5 @@
 # NAME: China
-# UPDATED: 2026-11-22
+# UPDATED: 2026-11-29
 # SOURCE: SukkaW/Surge, blackmatrix7/ios_rule_script, v2fly/domain-list-community, ACL4SSR/ACL4SSR, MetaCubeX/meta-rules-dat, Shuijiao manual overrides
 
 DOMAIN,analytics.strava.com
@@ -918,6 +918,7 @@ DOMAIN-SUFFIX,chugou360.com
 DOMAIN-SUFFIX,chuimg.com
 DOMAIN-SUFFIX,chunbo.com
 DOMAIN-SUFFIX,chunboimg.com
+DOMAIN-SUFFIX,chunithm.wahlap.com
 DOMAIN-SUFFIX,chunyu.mobi
 DOMAIN-SUFFIX,chushou.tv
 DOMAIN-SUFFIX,chuyu.me
@@ -1476,6 +1477,7 @@ DOMAIN-SUFFIX,flycua.com
 DOMAIN-SUFFIX,flyert.com
 DOMAIN-SUFFIX,flyme.com
 DOMAIN-SUFFIX,fm3838.com
+DOMAIN-SUFFIX,focuschina.com
 DOMAIN-SUFFIX,fofa.info
 DOMAIN-SUFFIX,fofa.so
 DOMAIN-SUFFIX,ford.com
@@ -1557,6 +1559,7 @@ DOMAIN-SUFFIX,gcloudcstest.com
 DOMAIN-SUFFIX,gcloudcstestonly.com
 DOMAIN-SUFFIX,gclouddolphin.com
 DOMAIN-SUFFIX,gcloudsdk.com
+DOMAIN-SUFFIX,gcloudsvcs.com
 DOMAIN-SUFFIX,gcores.com
 DOMAIN-SUFFIX,gdjdxy.com
 DOMAIN-SUFFIX,gdliontech.com
@@ -1886,6 +1889,7 @@ DOMAIN-SUFFIX,icbcswiss.com
 DOMAIN-SUFFIX,icbcthai.com
 DOMAIN-SUFFIX,icbkfs.com
 DOMAIN-SUFFIX,icbkus.com
+DOMAIN-SUFFIX,icc.link
 DOMAIN-SUFFIX,icedropper.com
 DOMAIN-SUFFIX,icetorrent.org
 DOMAIN-SUFFIX,icevirtuallibrary.com
@@ -2442,6 +2446,7 @@ DOMAIN-SUFFIX,m1905.com
 DOMAIN-SUFFIX,m6.run
 DOMAIN-SUFFIX,m9.run
 DOMAIN-SUFFIX,ma.run
+DOMAIN-SUFFIX,made-in-china.com
 DOMAIN-SUFFIX,madsrevolution.net
 DOMAIN-SUFFIX,mafengwo.com
 DOMAIN-SUFFIX,mafengwo.net
@@ -2452,6 +2457,7 @@ DOMAIN-SUFFIX,mahjongcup.net
 DOMAIN-SUFFIX,mai.tn
 DOMAIN-SUFFIX,maiche.com
 DOMAIN-SUFFIX,mail4399.com
+DOMAIN-SUFFIX,maimai.wahlap.com
 DOMAIN-SUFFIX,maisanqi.com
 DOMAIN-SUFFIX,maitix.com
 DOMAIN-SUFFIX,mamecn.com
@@ -2518,6 +2524,7 @@ DOMAIN-SUFFIX,miaopai.com
 DOMAIN-SUFFIX,miaostreet.com
 DOMAIN-SUFFIX,miaozhen.com
 DOMAIN-SUFFIX,microsoftonline.com
+DOMAIN-SUFFIX,micstatic.com
 DOMAIN-SUFFIX,midasbuy.com
 DOMAIN-SUFFIX,miercn.com
 DOMAIN-SUFFIX,migucloud.com
@@ -3321,6 +3328,7 @@ DOMAIN-SUFFIX,texasholdemcup.com
 DOMAIN-SUFFIX,texasholdemcup.net
 DOMAIN-SUFFIX,tfzq.com
 DOMAIN-SUFFIX,tgbus.com
+DOMAIN-SUFFIX,tgk-wcaime.wahlap.com
 DOMAIN-SUFFIX,tgovcloud.com
 DOMAIN-SUFFIX,th-sjy.com
 DOMAIN-SUFFIX,themisweeps.com
@@ -3403,6 +3411,7 @@ DOMAIN-SUFFIX,toutiaovod.com
 DOMAIN-SUFFIX,touzid.com
 DOMAIN-SUFFIX,tpyzq.com
 DOMAIN-SUFFIX,tracup.com
+DOMAIN-SUFFIX,trademessenger.com
 DOMAIN-SUFFIX,travelsky.com
 DOMAIN-SUFFIX,trellocdn.com
 DOMAIN-SUFFIX,trip.com
@@ -3533,6 +3542,7 @@ DOMAIN-SUFFIX,vcloudstc.net
 DOMAIN-SUFFIX,vcloudvod.com
 DOMAIN-SUFFIX,vdolady.com
 DOMAIN-SUFFIX,veeqi.net
+DOMAIN-SUFFIX,vemic.com
 DOMAIN-SUFFIX,veryhuo.com
 DOMAIN-SUFFIX,veryzhun.com
 DOMAIN-SUFFIX,vg.com
@@ -3563,6 +3573,7 @@ DOMAIN-SUFFIX,volcvod.com
 DOMAIN-SUFFIX,vpgame.com
 DOMAIN-SUFFIX,vxo7tu.com
 DOMAIN-SUFFIX,vzuu.com
+DOMAIN-SUFFIX,wahlap.net
 DOMAIN-SUFFIX,wallstcn.com
 DOMAIN-SUFFIX,wallstreetcn.com
 DOMAIN-SUFFIX,wamawama.com

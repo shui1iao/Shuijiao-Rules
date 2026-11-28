@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "checked_date": "2026-11-22",
+  "checked_date": "2026-11-29",
   "upstream_repositories": [
     "SukkaW/Surge",
     "blackmatrix7/ios_rule_script",
@@ -20,37 +20,37 @@
   },
   "sources": {
     "e221cd7718e7999a": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/AI.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/AI.list",
       "sha256": "82a8806f260c92b605f7a6abd2a0f20b79239cba4b578773b2f93151ac3e971b",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/AI.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "a1db999d46b61a53": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Claude.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Claude.list",
       "sha256": "3ac0f58fad5d1fe7067e4c0bd598ca84b9497597fc95f6473e5e1c00c31f3948",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Claude.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "0969ebc5cf961ff8": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/ClaudeAI.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/ClaudeAI.list",
       "sha256": "b045e6b84e1e22ca28e15ef9358b7305ea9d639eb4be05a1a2f8e8820dd1820f",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/ClaudeAI.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "bda43d5f808caa1a": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Gemini.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Gemini.list",
       "sha256": "ba743f476d3dc37538f225e2d63b126756a95a1f71ae665de293909e617da451",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Gemini.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "929b2e73b57533b4": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/OpenAi.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/OpenAi.list",
       "sha256": "3fde01190c82d9911cb247d99e941cb3b8e53c410e574240bc7d2a9227b153ab",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/OpenAi.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
@@ -104,316 +104,316 @@
       "repository": "blackmatrix7/ios_rule_script"
     },
     "a8f43f1e4b089bf9": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/category-ai-!cn.list",
-      "sha256": "3ed2f3aaeb2ad4a70ea8f909334e10881b6ab88558ab662a6171a171bdc80413",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/category-ai-!cn.list",
+      "sha256": "72eaac00748a29205c07245e44088da7100fc61873e33ddb2b4749aa23ac3331",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/category-ai-!cn.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "9392ce22645518cc": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/category-ai-chat-!cn.list",
-      "sha256": "3ed2f3aaeb2ad4a70ea8f909334e10881b6ab88558ab662a6171a171bdc80413",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/category-ai-chat-!cn.list",
+      "sha256": "72eaac00748a29205c07245e44088da7100fc61873e33ddb2b4749aa23ac3331",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/category-ai-chat-!cn.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "5acbeb53728b722a": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/category-ai-cn.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/category-ai-cn.list",
       "sha256": "a1f48a77bfad65287d4de7b7467df570d6fad643afe8776d64571746cc08b4b2",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/category-ai-cn.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "a7dafe7973fa82ed": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/category-ai-ru.list",
-      "sha256": "869ac026febb100012480030a4d03d05529818e594b6169564a233dc900f0077",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/category-ai-ru.list",
+      "sha256": "e101e71fdda911a6f1e649598976508df4e8a15341595fe43fb72dc8956d14f0",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/category-ai-ru.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "0ecde416cd6f5c21": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/google-gemini.list",
-      "sha256": "7c9d8117d520f8e3dca5e7d4706a960d55a891b34e2b5daf4dcc625815a967e4",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/google-gemini.list",
+      "sha256": "abcca8d6d8dca3556b4cd5e5c039873568236840361dab3403dc257c43744820",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/google-gemini.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "f51b08a65497c70b": {
       "url": "https://openai.com/chatgpt-voice.json",
-      "sha256": "0852b8be430cb4ae4a68ff8c0169f05bcdc5ce2ab6649cb3fc02d057a50612e7",
+      "sha256": "b794a112a504d35587e671edfd6de3aae14e05f4f581c077cf1d33d3cf4fec91",
       "commit": null,
       "repository": "OpenAI official"
     },
     "f4febb17a00cc217": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/ip/ai.conf",
-      "sha256": "0a302fbee593dca126b1bbc2f8921ba3a0afbe4e6c9aefb30909550e18945f01",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/ip/ai.conf",
+      "sha256": "28d368841d2d61afd9432644642e015aef87ed47bc60058c3a8fe98e939096ec",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "path": "List/ip/ai.conf",
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "1f741b02d0dea408": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/non_ip/ai.conf",
-      "sha256": "9bb1deda142ba4e15f17a8bb33fb3154928bbd6fece9ba7b9aa9a3471378b318",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/non_ip/ai.conf",
+      "sha256": "407f909cbe02d5ae7061ddf182ac1c6441a3a2c19c1273774fea44984279d935",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "path": "List/non_ip/ai.conf",
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "c9c18bb2c1d56c3a": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/non_ip/apple_intelligence.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/non_ip/apple_intelligence.conf",
       "sha256": "728d4a842e4507e042b929ed599b9a9a3de4e89ba4a29438594470dd40c1a5f8",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "path": "List/non_ip/apple_intelligence.conf",
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "d660fd0475de2cec": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/non_ip/ai.conf",
-      "sha256": "94f6248feb42ba466851f5ccef163cf152eeb968b8fccdf7ea3297de70a79b25",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/non_ip/ai.conf",
+      "sha256": "bd27a110cf5c6610a74f8d3f7b798bb63e6bcae561f764aae226f5ad81452625",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/non_ip/ai.conf",
       "repository": "SukkaW/Surge"
     },
     "a5db8aa8ad315f2e": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/non_ip/apple_intelligence.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/non_ip/apple_intelligence.conf",
       "sha256": "e69aa5b2accd96ac4b2451d970352555d56193ae0e99d5126e9c7e5e963181ee",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/non_ip/apple_intelligence.conf",
       "repository": "SukkaW/Surge"
     },
     "b8ef7be56e4d52c7": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/anthropic",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/anthropic",
       "sha256": "59ad6a25a6d9759995777fe98f2cf30675199fad00546a0ffe027b95ec0776f0",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/anthropic",
       "repository": "v2fly/domain-list-community"
     },
     "9c72b21febd0c0f4": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/askdiandian",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/askdiandian",
       "sha256": "8b69aa06de192f92f60807fd62b72fe5303bfd8dd4d15c0f42401b7d6286cc7f",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/askdiandian",
       "repository": "v2fly/domain-list-community"
     },
     "bc149039a8cadc40": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/bytedance-ai-!cn",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/bytedance-ai-!cn",
       "sha256": "0048660c74ee0f493d281cb94d44052025b9a419e9320b5f472748b75b7711b1",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/bytedance-ai-!cn",
       "repository": "v2fly/domain-list-community"
     },
     "db990f953293c032": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/category-ai-!cn",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/category-ai-!cn",
       "sha256": "68c652a6ec62fc8d8316c255fb32f94389b084a1b886def6f9e8e631314a11bf",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/category-ai-!cn",
       "repository": "v2fly/domain-list-community"
     },
     "b5e08996af5b56c9": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/category-ai-chat-!cn",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/category-ai-chat-!cn",
       "sha256": "0b593c1612561cd5978050f3985624da6c6709a389e8feaaf1045a84ac77bc21",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/category-ai-chat-!cn",
       "repository": "v2fly/domain-list-community"
     },
     "ee5af48bc79ab6a9": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/category-ai-cn",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/category-ai-cn",
       "sha256": "622379eead4d1e742304f3a1ebbf51727d93c7b7e8376f544199aefa164064a2",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/category-ai-cn",
       "repository": "v2fly/domain-list-community"
     },
     "7268a6d7d3e537d4": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/category-ai-ru",
-      "sha256": "3c2da35ac466ddfc64a0c4ebf772707b98695d470a3b4a2a9b3cf78d3f101750",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/category-ai-ru",
+      "sha256": "1fb0e6be3fc0d4cd7e363d3964ba7a17c18f130d9b5f5603fc3b9345aeaf233c",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/category-ai-ru",
       "repository": "v2fly/domain-list-community"
     },
     "4655270b386308da": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/cerebras",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/cerebras",
       "sha256": "713ea33f6828bb2ac34db413204ea4ddb5d8740aef64e521f46f55fbc99d771d",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/cerebras",
       "repository": "v2fly/domain-list-community"
     },
     "8ceffa1c5853c69c": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/comfy",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/comfy",
       "sha256": "0199a140ca1be2d691c17a29f695173c344e83ef9187f321e53c0e8a0392c960",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/comfy",
       "repository": "v2fly/domain-list-community"
     },
     "fe099783c6536e3e": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/comfy-ui-launcher",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/comfy-ui-launcher",
       "sha256": "1c33a3088de4e95eceb817db1b982b857a1c4b12c6724d230620745f298a918b",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/comfy-ui-launcher",
       "repository": "v2fly/domain-list-community"
     },
     "098aa26445303377": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/cursor",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/cursor",
       "sha256": "eb7315056ebfb599a7dccedddcb5aa7f7723665aa800e2783fff798c1fa3724e",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/cursor",
       "repository": "v2fly/domain-list-community"
     },
     "bad28a1db564476f": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/deepseek",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/deepseek",
       "sha256": "52822c92e87fadcfdc6711133f1270ee77ef030459603a46cf6fa80f75856530",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/deepseek",
       "repository": "v2fly/domain-list-community"
     },
     "fe08619d354eb39d": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/dola",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/dola",
       "sha256": "f732a4248c3594bcfeaecae5629842c7ad72bb32aa297b6b6ffc27f4b96efc6f",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/dola",
       "repository": "v2fly/domain-list-community"
     },
     "4a4a9c4265ff73e2": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/doubao",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/doubao",
       "sha256": "bab9cb2a638608c857314a1830e01f800e82015d9dae86ef2f938b796699a5bd",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/doubao",
       "repository": "v2fly/domain-list-community"
     },
     "1a1d50505f4646b8": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/elevenlabs",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/elevenlabs",
       "sha256": "88f3412837a17af32533013ab039b988a6c26a519d73846f728b84a19e26487f",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/elevenlabs",
       "repository": "v2fly/domain-list-community"
     },
     "35d841fc7cfcee9f": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/envato",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/envato",
       "sha256": "07df2d1f56a06149222183b025dcdb2ef4db3eb49ea0a6d1ba864cbd260f6f3b",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/envato",
       "repository": "v2fly/domain-list-community"
     },
     "2979dc1676df80df": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/github-copilot",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/github-copilot",
       "sha256": "bd8f1a7a846f1111710c31b13b45262f35220a00e8dfaf4c5830dc618ec51748",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/github-copilot",
       "repository": "v2fly/domain-list-community"
     },
     "d6cbf90b85e35626": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/google-deepmind",
-      "sha256": "6f768291aa81a8d88fa48fc20613f55be646674cfa24a3b3c152a97e859c33a8",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/google-deepmind",
+      "sha256": "fa60e3f80e1487e38c04c92973102ff481c961e620b9bb11fb8585451f5ff2db",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/google-deepmind",
       "repository": "v2fly/domain-list-community"
     },
     "011deda9f44acdaf": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/google-gemini",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/google-gemini",
       "sha256": "30aff080b1a90df95d5cb2bbd32884b5d21f6231631f6ed869919d4fb073e4a6",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/google-gemini",
       "repository": "v2fly/domain-list-community"
     },
     "b423fce2bb64d273": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/groq",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/groq",
       "sha256": "d779541783d4c835ad341a13ae3c3a008bfa3e535b46f79518b92bdef17588bb",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/groq",
       "repository": "v2fly/domain-list-community"
     },
     "eb925e7d7a0b7d4c": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/huggingface",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/huggingface",
       "sha256": "67f5861b31232701f884efd38d9436dd89183fccbd01d6f10d791b9ef6fbf4b8",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/huggingface",
       "repository": "v2fly/domain-list-community"
     },
     "e3db98075da32af1": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/jetbrains-ai",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/jetbrains-ai",
       "sha256": "b1bb655fc82a45311745ef0513dc6889f76cb4bfc0cd9cd563788b5e502b6a53",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/jetbrains-ai",
       "repository": "v2fly/domain-list-community"
     },
     "b9f6a0f5d047bf80": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/liveperson",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/liveperson",
       "sha256": "2e146391a816f4497b0a987f2d7edfb0e7e0e11ae450e47a4c0779a0868d7e22",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/liveperson",
       "repository": "v2fly/domain-list-community"
     },
     "77977ef514997d8f": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/manus",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/manus",
       "sha256": "3fa777650b51936dd5f36c7f4763a025f2ed46570fbb4adc63e48eaaa14d1de5",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/manus",
       "repository": "v2fly/domain-list-community"
     },
     "fa80ae1a5121233a": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/openai",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/openai",
       "sha256": "25d53e9af3e04d926210d6436bd791594ef4b86f2dc3c108510ac8059d76d969",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/openai",
       "repository": "v2fly/domain-list-community"
     },
     "d3837af3ebbb9e21": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/perplexity",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/perplexity",
       "sha256": "570581bad658566cb493207c14ebb55110750071071e089b4c40054b00af3db0",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/perplexity",
       "repository": "v2fly/domain-list-community"
     },
     "d221b6759998eb2b": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/poe",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/poe",
       "sha256": "e689a8d337b64bcf760e5d8dfe03e3d29d8558063db93acba2d1d6eb9c11003a",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/poe",
       "repository": "v2fly/domain-list-community"
     },
     "9bccced9fbed0b0a": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/trae",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/trae",
       "sha256": "fa41d9d1525899239d2fbf1496afa2b12f2f053cd43ef1a2462e98ac376b136f",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/trae",
       "repository": "v2fly/domain-list-community"
     },
     "8fa0871e1d91a8bf": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/windsurf",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/windsurf",
       "sha256": "d6d082e40d180efbabde3b1a5bd8fe1bdc804f1a11b79d2128fe41e0b4dc4e16",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/windsurf",
       "repository": "v2fly/domain-list-community"
     },
     "1daa2c41ab6d4c8d": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/xai",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/xai",
       "sha256": "4c95fc6465d5f135f5d27935e9b44f6fcc82cfaa0eb6bb4e3232c44c5c581628",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/xai",
       "repository": "v2fly/domain-list-community"
     },
     "c914ab12de10b849": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/xiaomi-ai",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/xiaomi-ai",
       "sha256": "d7a2cf95e5143e680857bb95ac20c4023a649b8c6e51c239736ee4f7ec2c811a",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/xiaomi-ai",
       "repository": "v2fly/domain-list-community"
     },
     "155e5b63fae907e5": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/youmind",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/youmind",
       "sha256": "a1a4dd677d58f48dead7421a94a46ddc34f87c76ff35c8322dcc952ac79d0f29",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/youmind",
       "repository": "v2fly/domain-list-community"
     },
     "2e57ec655bc58ee8": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Amazon.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Amazon.list",
       "sha256": "b41ab9351f09f40cc3627e054cf48ec2c2a5fe77d5829a3fe98c5ed1de0f75ed",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Amazon.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "5f1a62f4d6b9d163": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/AmazonIp.list",
-      "sha256": "481310a382ccfdde7a46443a6162be5f94c6d8fcfb0be3d65c35933811a9fc1a",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/AmazonIp.list",
+      "sha256": "7449e60310d7bbe3835a9afb0da55e6e08ba37de7aad9ec232e721f568e22e0d",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/AmazonIp.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
@@ -460,93 +460,93 @@
       "repository": "blackmatrix7/ios_rule_script"
     },
     "bfebf2f39e3788d5": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/amazon.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/amazon.list",
       "sha256": "93796344facf4c87eda617925cd96d02d4ab167ef8c0dce192f3c00806dfb5c1",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/amazon.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "52052e296e5e5e80": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/amazontrust.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/amazontrust.list",
       "sha256": "835d81e8f51b445ece35ab673510df7c31800cb369273e75cf805a32db95a3bb",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/amazontrust.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "5a59f6271fbf4534": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/aws-cn.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/aws-cn.list",
       "sha256": "f0d5036d523f255542f2f12e95c7d8a51fe1011e9d09b191bb093893b11c34d8",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/aws-cn.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "989a06d53a84661b": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/aws.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/aws.list",
       "sha256": "93283be523647f99de7a35f60c0f0c6488850a17b6137c716d3f92b5207c502f",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/aws.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "e7627a2b1c5fb5bd": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/amazon",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/amazon",
       "sha256": "f1b24bcc1d576f30a09731b10cf55ba50822fd433b8f35568c77bbb45bdd5f0b",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/amazon",
       "repository": "v2fly/domain-list-community"
     },
     "1d6fd6071874a0a5": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/amazontrust",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/amazontrust",
       "sha256": "0caa8878940c8b0b4b7e8669c16efc8b87acccad9b27f0824ba1883ab89ccfcb",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/amazontrust",
       "repository": "v2fly/domain-list-community"
     },
     "2a3b449d64ef7b09": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/aws",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/aws",
       "sha256": "cdb3797a5ba28abc72a82bb6334a6ec777100469994e6a50d3840fb8e1ced802",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/aws",
       "repository": "v2fly/domain-list-community"
     },
     "a05b61d2da637fb0": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/aws-cn",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/aws-cn",
       "sha256": "34526fe863186a859ea254e538df52e212df4ea886a13cde5a29e788fc4a5457",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/aws-cn",
       "repository": "v2fly/domain-list-community"
     },
     "dc5ec90ecf42879d": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/imdb",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/imdb",
       "sha256": "36d9d2c5fdf58b1aebdf0d3dc4be94e51c1272c951f74fc5d2d8ece430811fde",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/imdb",
       "repository": "v2fly/domain-list-community"
     },
     "6a7c3cc959fb310f": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/kindle",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/kindle",
       "sha256": "4134858060cb4de8d24ab83c1f0d40c75010e8f8ef9c2225f6743ad38934a185",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/kindle",
       "repository": "v2fly/domain-list-community"
     },
     "2412e443b0c41db7": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/primevideo",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/primevideo",
       "sha256": "9b525a90bf899e64ee4239e131207a13c556a92fc68357c7d5ac628caada8748",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/primevideo",
       "repository": "v2fly/domain-list-community"
     },
     "0558ec380e7686d3": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/wholefoodsmarket",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/wholefoodsmarket",
       "sha256": "912b757a1023fce596efa7308557bfb94f0dbc6a3185a6a3a820462f49676edf",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/wholefoodsmarket",
       "repository": "v2fly/domain-list-community"
     },
     "ee7b4fe3c7c97dfb": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Crypto.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Crypto.list",
       "sha256": "c2d91de7270642af82c416cdd5ba439dc9cbc4d4dd9bff20633ecd6213445741",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Crypto.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
@@ -565,205 +565,205 @@
       "repository": "blackmatrix7/ios_rule_script"
     },
     "401418b1d34bc8fe": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/category-cryptocurrency.list",
-      "sha256": "d50e1d0aa1d84bec426843125b21836c2c409a2cccee8e995259c3076a9e5126",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/category-cryptocurrency.list",
+      "sha256": "62b8d543200a629b125d8a09d9ebb9964253a559bb38baf7d0b05b703d58c828",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/category-cryptocurrency.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "2f10ee47aa7d2025": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/non_ip/global.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/non_ip/global.conf",
       "sha256": "e25c537e65d9ceb738677f44a3546c7cf90089028682f1cd807d06051ff6720e",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/non_ip/global.conf",
       "repository": "SukkaW/Surge"
     },
     "35d83572495e3fd3": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/asproex",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/asproex",
       "sha256": "660602913148afe8434ba7cf140661815f22cd6823d59d6de557f7e9cb4b01f9",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/asproex",
       "repository": "v2fly/domain-list-community"
     },
     "a9b69183f01c0c4c": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/bestchange",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/bestchange",
       "sha256": "11adb55f83f2002399c363cc7d3300235035e11e2b0b81fc5d7a6671389652f8",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/bestchange",
       "repository": "v2fly/domain-list-community"
     },
     "2786bae7a9be06ef": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/binance",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/binance",
       "sha256": "9e0134ff1d724bbbbc44730cd723b3c6952873aaa65fc2bec6ae8b25b1d70f68",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/binance",
       "repository": "v2fly/domain-list-community"
     },
     "b5ceaa1d4a4f14e8": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/bitflyer",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/bitflyer",
       "sha256": "9699f1b82b0d1dbeebda231ff0bf2b2465176d782565385d58175d5cff623556",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/bitflyer",
       "repository": "v2fly/domain-list-community"
     },
     "329175d55b2bbaaa": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/bitsquare",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/bitsquare",
       "sha256": "5c2d6f852e88a531fddbb249e97f753fab8f3af0dff4a3eafe0d63fb4de1b8c3",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/bitsquare",
       "repository": "v2fly/domain-list-community"
     },
     "cb98088bf581d9de": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/bybit",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/bybit",
       "sha256": "8827c8c475f05cfbcb6e486752e88d000d5531a91a7b8b0cf5bbafb89a23b8e6",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/bybit",
       "repository": "v2fly/domain-list-community"
     },
     "3899c731683c9f7d": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/category-cryptocurrency",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/category-cryptocurrency",
       "sha256": "ee243af1ab690f62bd713b7d2371dc43f9027aa4d51366959ae66735ab747c45",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/category-cryptocurrency",
       "repository": "v2fly/domain-list-community"
     },
     "4b73da1fc7ca4ddf": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/coinone",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/coinone",
       "sha256": "329622262f4916f658108ce06b31db18743a0dfb5f732729111480f811bea0a8",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/coinone",
       "repository": "v2fly/domain-list-community"
     },
     "a2ef071b6893118a": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/deribit",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/deribit",
       "sha256": "a5b51924426cbddcef9ff528744485c5db807dfe2b7826785076a91c28605a33",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/deribit",
       "repository": "v2fly/domain-list-community"
     },
     "1a7a737a7cd16c93": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/ethereum",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/ethereum",
       "sha256": "e0f992aa0ef0c62460e31bc40dc4283dee3ae8bb49e1ad75da30c3ceeefa9b49",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/ethereum",
       "repository": "v2fly/domain-list-community"
     },
     "68957dd616500809": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/gateio",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/gateio",
       "sha256": "6c4f15862d003b8baa0fa95ca2ccfff892842e50e1d386881673fc3b7a2d32ac",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/gateio",
       "repository": "v2fly/domain-list-community"
     },
     "2aa33c3428219e7b": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/huobi",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/huobi",
       "sha256": "20341bab3b685d6703b633bfb617c6a19324e4a7022290ac03fda7c5706d207a",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/huobi",
       "repository": "v2fly/domain-list-community"
     },
     "8dc86d9f63d19d8d": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/kraken",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/kraken",
       "sha256": "b3b555a42d744b4a3c70ece5b4fd29e9fa05ab4e43fe3b02ee67d464d3433158",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/kraken",
       "repository": "v2fly/domain-list-community"
     },
     "bfa842ecba8268fc": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/kucoin",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/kucoin",
       "sha256": "2f90bce8fc42d5a158c9bd8f0fd3c8735138d18b4b4943efca24d5c71f7884d7",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/kucoin",
       "repository": "v2fly/domain-list-community"
     },
     "d909ab8b9044220d": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/lighter",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/lighter",
       "sha256": "bf4247e8e18bf1882d358806a85d4b4f5f39f777886cf7bcad72fb355c0cc8d8",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/lighter",
       "repository": "v2fly/domain-list-community"
     },
     "e78dcc1c00e88b6c": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/localbitcoins",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/localbitcoins",
       "sha256": "3507c72f09232335d43c9d86be767f1f9f9ce57e8f4ac3f0ef5d6ccfdd6b4f56",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/localbitcoins",
       "repository": "v2fly/domain-list-community"
     },
     "99476ac060325c9e": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/nexo",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/nexo",
       "sha256": "db20fc567d8a345d97bcb4716bd6486593a6cf134836ab46bb9620ed05efeb52",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/nexo",
       "repository": "v2fly/domain-list-community"
     },
     "728287a5d6c3aba7": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/okx",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/okx",
       "sha256": "b2c5efae97b921b7a2b5bd497292de9d306f4dce8a8f4cc2689a3ccca10196f3",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/okx",
       "repository": "v2fly/domain-list-community"
     },
     "fee9f3a7b2090deb": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/onekey",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/onekey",
       "sha256": "a5dab19eb347c680dc7d50778e0cd83581698a1c441edd41b698fcd8ba6b421c",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/onekey",
       "repository": "v2fly/domain-list-community"
     },
     "2c0e9fed6960f135": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/redotpay",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/redotpay",
       "sha256": "0600c25e0529bc980f7b4086da124f585ba1e6c50439e2a7694575b28722ef16",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/redotpay",
       "repository": "v2fly/domain-list-community"
     },
     "dc7d3f1e76eb44fc": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/safepal",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/safepal",
       "sha256": "d98ef1b9bf52bba51677d3f7450dfeb6ab61299b275db9c6a15ee8e64bf84888",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/safepal",
       "repository": "v2fly/domain-list-community"
     },
     "bbc7379b3527bf48": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/straitsx",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/straitsx",
       "sha256": "ad9e219f63ecd83a05b55aa4dcabbe20f44686c06eb50c0f6d984c8eb7c01f70",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/straitsx",
       "repository": "v2fly/domain-list-community"
     },
     "9e68f9f10fafcd55": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/trustwallet",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/trustwallet",
       "sha256": "0c5cc521b201c31c985a0e563493c35fc972e91dca95a08b5b5df089a0ccb4ef",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/trustwallet",
       "repository": "v2fly/domain-list-community"
     },
     "090b6c584edd6703": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/wisekey",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/wisekey",
       "sha256": "0c0364a7c7e14ae30cf75de729ea66f48c6a71f468503b39d16ab3a41c73cc95",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/wisekey",
       "repository": "v2fly/domain-list-community"
     },
     "6a6b6f3b9889a27f": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/wynd",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/wynd",
       "sha256": "0fb57ac9a87e6f47331b4237a580f2250b57a13a33dc8ab2cc3165a29e29f782",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/wynd",
       "repository": "v2fly/domain-list-community"
     },
     "6b48f910a6ca53c4": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/zb",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/zb",
       "sha256": "2ecadbeeadde299de1987c6e2c1fcef98e21ea1f824655dcc9da865edb2aaf33",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/zb",
       "repository": "v2fly/domain-list-community"
     },
     "411bed0b4b696631": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Github.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Github.list",
       "sha256": "da647aa0833ef543166cf2db88d308ced607e29f8be7ced083a9806fc030809c",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Github.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
@@ -775,23 +775,23 @@
       "repository": "blackmatrix7/ios_rule_script"
     },
     "e547e64043cbfdb3": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/github.list",
-      "sha256": "0d4f47cf7050bc4eab31e36915903afd6d35fa6e368f98106ccf15ec2bb257f1",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/github.list",
+      "sha256": "2a19cc9b1611a620fff70ab59102b41e222d914c5d16ddb1cb92d72d10c1dc05",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/github.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "199b2efc085fdc81": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/github",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/github",
       "sha256": "549a8bf61fd4a673a59e0a0f8794e66e5228d6a8bc759c6f4888a287e728ccc2",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/github",
       "repository": "v2fly/domain-list-community"
     },
     "82a614e752102465": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/npmjs",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/npmjs",
       "sha256": "674294756c3e5d7f20e274f7190f28b55eb373122513d0ab5e439e29dd03be53",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/npmjs",
       "repository": "v2fly/domain-list-community"
     },
@@ -803,58 +803,58 @@
       "repository": "blackmatrix7/ios_rule_script"
     },
     "ab26ea317f091a30": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/category-speedtest.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/category-speedtest.list",
       "sha256": "62b7c74abb6a0a1831a50bb565ebe7c85ebe941efe937e2adadba8e5f25f71b1",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/category-speedtest.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "3c5438ab3df54ea7": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/domainset/speedtest.conf",
-      "sha256": "518ba90d98a6b1c0298392ad7e960cf1e9cacb47c1f4b29b6347d911fe02a223",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/domainset/speedtest.conf",
+      "sha256": "8e0e1758dee733f50bb107705b9171cbfabcc2f4869c9fbdfea5c6f3c82e3546",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "path": "List/domainset/speedtest.conf",
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "dddfbaefb431fb76": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/domainset/speedtest.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/domainset/speedtest.conf",
       "sha256": "f60ae1b0e12605645d7c6b24036c843ec4f0216937fc0d413b86079aed644cdc",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/domainset/speedtest.conf",
       "repository": "SukkaW/Surge"
     },
     "52bc67dffd70aa12": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/category-speedtest",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/category-speedtest",
       "sha256": "6278ef381406798c6670eb64ef8bc4d597b8ec9586ddfc8bc4454d80490ea263",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/category-speedtest",
       "repository": "v2fly/domain-list-community"
     },
     "acf861d3d6c71c60": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/ookla-speedtest",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/ookla-speedtest",
       "sha256": "7afce58fcf2355bd6031e8c8075eb70a95cc34914cdfee37b242de1d6469b5e9",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/ookla-speedtest",
       "repository": "v2fly/domain-list-community"
     },
     "668018767b036711": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/openspeedtest",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/openspeedtest",
       "sha256": "08e3d302fd4e787b63f81b8205f78640062ca696d49c4b7f7ff05a6941e3adff",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/openspeedtest",
       "repository": "v2fly/domain-list-community"
     },
     "285ad3fa86ac4750": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Telegram.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Telegram.list",
       "sha256": "73645c86448a39526603584d777a90032c4eedf06327b07a67540d2e8dcdd548",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Telegram.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "3c4330d11eeaa9c0": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Telegram.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Telegram.list",
       "sha256": "483f613b31a1c054ddfffa6584b449f4447944ea58b8c1fc06b67eb13c09db89",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Telegram.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
@@ -866,44 +866,44 @@
       "repository": "blackmatrix7/ios_rule_script"
     },
     "d8abb4111f00fe2e": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/telegram.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/telegram.list",
       "sha256": "619df30317e41c5958311c5d4f76abe1bfa45ae4ba399129a0fec2fe4edd43d9",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/telegram.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "e18bc080eaafae16": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/ip/telegram.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/ip/telegram.conf",
       "sha256": "27f6bab896e98ec9631fd187ff5147fb101260fc7a322c0dc994bbd27ed0a81f",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "path": "List/ip/telegram.conf",
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "b6c69967c243f6f9": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/ip/telegram_asn.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/ip/telegram_asn.conf",
       "sha256": "d6d8f75ed1cae4c7de00c86a834c5f630abbc614f28f50f0a63e741ffa8d2cf9",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "path": "List/ip/telegram_asn.conf",
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "ff7ec32f94d5dcc4": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/non_ip/telegram.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/non_ip/telegram.conf",
       "sha256": "bccbd162554d2cb56b16cdd59fbc2d1abec645bd53c9db18460137ffccbbc2a2",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "path": "List/non_ip/telegram.conf",
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "42451f3118e538a7": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/ip/telegram_asn.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/ip/telegram_asn.conf",
       "sha256": "e05e19b6b7d605baccae71498f7dd77bd7c9aa790c05de51c89653968a8a0748",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/ip/telegram_asn.conf",
       "repository": "SukkaW/Surge"
     },
     "78507a55ab02738b": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/non_ip/telegram.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/non_ip/telegram.conf",
       "sha256": "8eab4b09048a3b0174c413290e0b036035e8a711aa340cda55a88bc260e124be",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/non_ip/telegram.conf",
       "repository": "SukkaW/Surge"
     },
@@ -915,16 +915,16 @@
       "repository": "telegram-official"
     },
     "bb36e7cf7de45aa5": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/telegram",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/telegram",
       "sha256": "24a2d026dbf3a09a8ca893420a40adbad70328978df0100d9c63abecdbf01b5d",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/telegram",
       "repository": "v2fly/domain-list-community"
     },
     "882cfc9ca9b5f9c7": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/LocalAreaNetwork.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/LocalAreaNetwork.list",
       "sha256": "0789504d97d8f5b14513c529c61c06f4f862c5cfd20f7cb30bbcd38357e54468",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/LocalAreaNetwork.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
@@ -936,205 +936,205 @@
       "repository": "blackmatrix7/ios_rule_script"
     },
     "d65118b932fb918f": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/private.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/private.list",
       "sha256": "01fbefdf20585ec8fde7747f4f9b8edcf5d76c55d39eb35b082021b57af6cff4",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/private.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "85f471debb2c7a9f": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/ip/lan.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/ip/lan.conf",
       "sha256": "0866aadd6e3a726914b2db4f001c00a2df739bf7639795b475aef4ab3f676806",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "path": "List/ip/lan.conf",
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "fbf22d006083cd53": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/non_ip/lan.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/non_ip/lan.conf",
       "sha256": "de25958cecccfeb384d58d989ed407f8160575e4aa9a047f9d954eaef68788ae",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "path": "List/non_ip/lan.conf",
       "repository": "SukkaLab/ruleset.skk.moe"
     },
     "148a99820884bc78": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/ip/lan.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/ip/lan.conf",
       "sha256": "7ba0d9a458494a9401b8bc1b094ec9756981d153bc4f29c94dc5e549a6ce5c2b",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/ip/lan.conf",
       "repository": "SukkaW/Surge"
     },
     "1772535b817c5eeb": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/private",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/private",
       "sha256": "b1de221f355a0870577812f641ff4beb9a96bd838d1be21c0bce5f3e10241ced",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/private",
       "repository": "v2fly/domain-list-community"
     },
     "81393d8b3463f2b7": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Apple.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Apple.list",
       "sha256": "64a03502767dfe3dece425c3578b9bd239eeb7dddfef3fb9c3561238c62a289b",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Apple.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "47d24e1d04d0f9a8": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/AppleNews.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/AppleNews.list",
       "sha256": "e03a33944dfbfc4c7733abea78b2b422d9c8ac798661fb276778d2886f7d750e",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/AppleNews.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "ae28e32e450319f5": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/AppleTV.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/AppleTV.list",
       "sha256": "08c0862f35c838a7d8a46200dc114d0581f719f3be0847fbfe2b8bdadd687747",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/AppleTV.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "ce5357d77a41346d": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/DisneyPlus.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/DisneyPlus.list",
       "sha256": "1c6c36f73a3add2244d0d16720d579913799e25b2a3db8720b5709d978156164",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/DisneyPlus.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "12bbbd5a73db7293": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Epic.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Epic.list",
       "sha256": "b0118e7d13c1e4327b8208c1c932254bce9b3781079f555a65f116d6d5d9beea",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Epic.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "815451e60bf78143": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Google.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Google.list",
       "sha256": "16b21eebc7a8ab3c08dcdb0f601b5c0b7b4182f46643a6180dfb9bb6fb83bd61",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Google.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "697d804968d43263": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/GoogleCN.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/GoogleCN.list",
       "sha256": "cf868facb28475c4afd8c9bb5b9c7209b14a029593667e64f30c6387bfed8e86",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/GoogleCN.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "90d0e8458e3105d3": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/GoogleCNProxyIP.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/GoogleCNProxyIP.list",
       "sha256": "2404f0bdbcd8f601fff5e3822e14d3726daba3fb8b9ea190ddb24c7d053539d0",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/GoogleCNProxyIP.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "df853b109f26e491": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/GoogleEarth.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/GoogleEarth.list",
       "sha256": "846bda6c3aace0835a2f02fb1b4ddbc54d8b48ea2e621d82c0757456e750b45c",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/GoogleEarth.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "cb0730238f66c0ab": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/GoogleFCM.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/GoogleFCM.list",
       "sha256": "f8dfe46062778746deba764cff47661a98ece8176a58d3e4898bdfdf87c529d9",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/GoogleFCM.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "66da714d405d0dec": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/HBO.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/HBO.list",
       "sha256": "59204ad961239a0ed3e6a4228528f3dc542f76a93864c456d6ccd260aec69380",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/HBO.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "5a389cb26acaf83d": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/HBO_GO_HKG.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/HBO_GO_HKG.list",
       "sha256": "983ba93090027b7a886de4a84427672e8ec550a1103f4fe117f43d2d48846d80",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/HBO_GO_HKG.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "adfb7ab5352a060b": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Hulu.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Hulu.list",
       "sha256": "6d81f662ec3841c3255fd816555ab37995a44bfaaf3eb8f3ef4d9a4b3d069695",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Hulu.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "eede928aba601d65": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Netflix.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Netflix.list",
       "sha256": "f1395e46cefae2e4a57ea7ca2dd442dc98bc9204886310e401215dc70bea387c",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Netflix.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "af912f51e8d03ca8": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/NetflixIP.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/NetflixIP.list",
       "sha256": "d87874902d596804caef7a71849acf5864e32b0d0f836fa8f81f34f0d852c158",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/NetflixIP.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "c59e0987a829c4ad": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Nintendo.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Nintendo.list",
       "sha256": "9c87d2656c1b1e74494f3f9acc72a0fbb4170d3915f533f78775bd2a20b7e7d4",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Nintendo.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "d2f637c4aa1664e3": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Spotify.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Spotify.list",
       "sha256": "6eefde424304ede80adf84eee9cb7dea0ba0430ece7406475a00f9f0785ae5c7",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Spotify.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "a484ba7b761a8abb": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Steam.list",
-      "sha256": "0abad0ae490ec9b7bf0cf880f83c5229949b14cc5df448c00a0516225a16b011",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Steam.list",
+      "sha256": "da20bcf2b9b83a3595b8b1bf8312923dd6163dcabdf5dabfde758a26b27bf3c0",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Steam.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "f1bd5de4c6ce3ad7": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/SteamCN.list",
-      "sha256": "bf135f78199fbadcb663a047d70eb59ec81bead3a04cfe050036e2921c2ea607",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/SteamCN.list",
+      "sha256": "2581f7b3dfeb9af09ecc42b86755771a986a48f1a56b193c7839509428d03165",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/SteamCN.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "cb081039f5f894b1": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/SteamRegionCheck.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/SteamRegionCheck.list",
       "sha256": "ceb495af4a737c417caa42d1902f3156996fb24444c49a7a108d8e64a79990fa",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/SteamRegionCheck.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "73c587c6049c4cc7": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/TikTok.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/TikTok.list",
       "sha256": "98f7527965015ca22b464d2ffb37109708e21466a4a6bc361ed2c7fe059ddfd9",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/TikTok.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "f2c81398a6ef093e": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Twitch.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Twitch.list",
       "sha256": "037b56ab76cbb6b5cdc050096fc193fa293088a67be9ecf3ba45b2f3a4871c48",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Twitch.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "f13f5b488dc7d567": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/Xbox.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/Xbox.list",
       "sha256": "6cf2f06ffd54dfdf8de8153d939d58b43bad569687739c773e2059ff21754b8d",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/Xbox.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "951110308e85efc3": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/YouTube.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/YouTube.list",
       "sha256": "698d3112095ac6301b1f8c531da539498a2466d0f5d53f7ab8ded55ef14295bf",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/YouTube.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
@@ -1601,58 +1601,58 @@
       "repo": "blackmatrix7/ios_rule_script"
     },
     "ec8160d75b09df5c": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/domainset/game-download.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/domainset/game-download.conf",
       "sha256": "096214d4531ef980f2c4dc22754cc0636448a3d544eed139541e872388ceb152",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/domainset/game-download.conf",
       "repository": "SukkaW/Surge"
     },
     "36d1c784c82f6c99": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/ip/apple_services.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/ip/apple_services.conf",
       "sha256": "aa8aa4e1235e551fbabb7a7d1d9caf3d45390fe1c79bcea4c577b3d1bb62a4b8",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/ip/apple_services.conf",
       "repository": "SukkaW/Surge"
     },
     "8ea120a60731c21d": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/non_ip/apple_cn.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/non_ip/apple_cn.conf",
       "sha256": "0df672d130fecb1d9a082ac5215fbd96501ab35d07552805b385ed9877c480d3",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/non_ip/apple_cn.conf",
       "repository": "SukkaW/Surge"
     },
     "56e08cea14c23a21": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/non_ip/apple_services.conf",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/non_ip/apple_services.conf",
       "sha256": "f68a78fdb896030f6dea0b971273f7e8b3d3d5f4e50a97f46df459cb0af1dc80",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/non_ip/apple_services.conf",
       "repository": "SukkaW/Surge"
     },
     "61908b5590c201ed": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/stream.ts",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/stream.ts",
       "sha256": "812d21cb0555dde90437c5f5421a089f52511144a2b3759c93701f47b85c2922",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/stream.ts",
       "repository": "SukkaW/Surge"
     },
     "03d088172d091aec": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/abema",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/abema",
       "sha256": "0f054ee82200ad541fcb1302b45451d1038de883f7232fea3305002076b75791",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/abema",
       "repository": "v2fly/domain-list-community"
     },
     "5926f02b102db7e3": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/apple",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/apple",
       "sha256": "77e078d2a0ea4c4f8811563d113d24ed1298e96c6df220fc7479403948097398",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/apple",
       "repository": "v2fly/domain-list-community"
     },
     "0c8f6ca2b376624f": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/apple-dev",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/apple-dev",
       "sha256": "b5a30bd78a67f5e00e36beed2a0c02158f6559c5e3da45c80c66df0594ceaf34",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/apple-dev",
       "repository": "v2fly/domain-list-community"
     },
@@ -1664,44 +1664,44 @@
       "repo": "v2fly/domain-list-community"
     },
     "4d7415f3e60bc0bb": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/apple-music",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/apple-music",
       "sha256": "47299c374b1082dd2d4b03d3963368e6d28547441824754f2883e01f9cc7c4cf",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/apple-music",
       "repository": "v2fly/domain-list-community"
     },
     "849faff089b8c3d5": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/apple-pki",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/apple-pki",
       "sha256": "c8633f69cd132440c8ef1fee2dc5e186e01354ea6a2f2a4a664edead33fdd87c",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/apple-pki",
       "repository": "v2fly/domain-list-community"
     },
     "63415abe2007269b": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/apple-podcasts",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/apple-podcasts",
       "sha256": "6e9590a7734b136019646a8513dd053da5d9c891cf0900906832191f36196af2",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/apple-podcasts",
       "repository": "v2fly/domain-list-community"
     },
     "49933b22ba2eaa71": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/apple-tvplus",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/apple-tvplus",
       "sha256": "2d622a3150818bf0d2931130c05fec1cac0d3856ca6f7dcc78a27f59dc25ebd1",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/apple-tvplus",
       "repository": "v2fly/domain-list-community"
     },
     "a5bf29243cb73d5b": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/apple-update",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/apple-update",
       "sha256": "560f5749be86dde2b2eab0a9f273edce33752cdc599f10a12a378eba3f620563",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/apple-update",
       "repository": "v2fly/domain-list-community"
     },
     "e3892ecb592ed2d8": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/bahamut",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/bahamut",
       "sha256": "f5fad264295fdc855134609f06b013341de87833d07ad61c5dd513c48444a39e",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/bahamut",
       "repository": "v2fly/domain-list-community"
     },
@@ -1713,30 +1713,30 @@
       "repo": "v2fly/domain-list-community"
     },
     "43e6d125b7538210": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/blizzard",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/blizzard",
       "sha256": "58a1fc4c8b00b5d0711cc0b718a3fd2dcde75dd5e5ddafb53f1a4499a33b5c95",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/blizzard",
       "repository": "v2fly/domain-list-community"
     },
     "549c3f9e3cadf02c": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/dazn",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/dazn",
       "sha256": "de3dd92dc0ab4cb10712128082ddd42dfea4792f1db742aa45e63522ae4ad342",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/dazn",
       "repository": "v2fly/domain-list-community"
     },
     "2d7388242ed4c325": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/discoveryplus",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/discoveryplus",
       "sha256": "d06d90f3270111b14d549bca4c9e112f59a36850f754c3bb0f3e658bb2e2be48",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/discoveryplus",
       "repository": "v2fly/domain-list-community"
     },
     "65342bc810c1c35c": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/disney",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/disney",
       "sha256": "6b23c2d4b9a0cfa1939139ac2ba14295416153943c05d1869d691d3750f6777c",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/disney",
       "repository": "v2fly/domain-list-community"
     },
@@ -1748,37 +1748,37 @@
       "repo": "v2fly/domain-list-community"
     },
     "fc58339d23bebf9a": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/douyin",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/douyin",
       "sha256": "4cc0f40fdf3b30314ce1739e24dc83ed1fe1df4eed7d43a44466b77a3bbd75db",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/douyin",
       "repository": "v2fly/domain-list-community"
     },
     "55b95b4bcc500a04": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/ea",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/ea",
       "sha256": "b09f69fd94249fa53a6ed05f81d57f21a481b99c2fb8952f15d3541e4c18d7ee",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/ea",
       "repository": "v2fly/domain-list-community"
     },
     "ff5d2217bb1d63b2": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/epicgames",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/epicgames",
       "sha256": "23c7018f09fff7a4c5521068255caeb66b2e13877c67ec4ae7c751bceb507ea4",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/epicgames",
       "repository": "v2fly/domain-list-community"
     },
     "2e1d0bcb94b90a7e": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/gog",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/gog",
       "sha256": "f82b838001f03821a25706250097308520bfab3dd00132331d5c1e5129e05328",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/gog",
       "repository": "v2fly/domain-list-community"
     },
     "55f80017d012731e": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/google",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/google",
       "sha256": "5a85d201b8fb4b03486515618da4c164a0ce0c59341cb2dee6d1b0bdca176653",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/google",
       "repository": "v2fly/domain-list-community"
     },
@@ -1797,16 +1797,16 @@
       "repo": "v2fly/domain-list-community"
     },
     "c40283a88d06a915": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/hbo",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/hbo",
       "sha256": "d2b518e13cb51bda4edeab12d2a49a7d2b1ab856b62b49bf4eb13e1cc58d3117",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/hbo",
       "repository": "v2fly/domain-list-community"
     },
     "aa91a9622e8359b1": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/hulu",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/hulu",
       "sha256": "d4696aed44dfa0440ec910adb027319d73525b3314dd3d6a8445e15a8aaa4315",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/hulu",
       "repository": "v2fly/domain-list-community"
     },
@@ -1825,51 +1825,51 @@
       "repo": "v2fly/domain-list-community"
     },
     "53510c0b0f7d78de": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/mastercard",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/mastercard",
       "sha256": "fa41ac190259787c53cd9c18eb0b79c051aea4e2a1a8bb56f405c3d607cbdccd",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/mastercard",
       "repository": "v2fly/domain-list-community"
     },
     "e079cf811a49c023": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/netflix",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/netflix",
       "sha256": "fbcf90283b3c3482e2178d450793219f9592ea60b2dfa3d16a7a9d40074aa284",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/netflix",
       "repository": "v2fly/domain-list-community"
     },
     "c32ed1a8a3a5344f": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/nintendo",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/nintendo",
       "sha256": "dd5894925069d6a065e86246ce377ebd871cb36f2478d52fc618e8cfec023b21",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/nintendo",
       "repository": "v2fly/domain-list-community"
     },
     "444f47c5f679038c": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/paypal",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/paypal",
       "sha256": "bbfc57665bca20cb1f841f7fe3245ab723b2cc10cfb821a9a2da9ec66eeb4040",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/paypal",
       "repository": "v2fly/domain-list-community"
     },
     "e7f98d6df9e5cf6f": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/playstation",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/playstation",
       "sha256": "baa7363d38bf1dc4ae34ff76c70bb44f9484d1ed02810b296e86751416c1d3c7",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/playstation",
       "repository": "v2fly/domain-list-community"
     },
     "e7976c7e7ff8d741": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/riot",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/riot",
       "sha256": "dfb24a51ffd53f300e3c0d1449d4127e0afac0beb7a5b480353470e5cb4720d3",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/riot",
       "repository": "v2fly/domain-list-community"
     },
     "0f64027f5b110ec8": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/rockstar",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/rockstar",
       "sha256": "a0d7d0e0289824b6538db5e1c46a112d328a8e329a3af31d7e7adf362cc8c3e6",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/rockstar",
       "repository": "v2fly/domain-list-community"
     },
@@ -1881,23 +1881,23 @@
       "repo": "v2fly/domain-list-community"
     },
     "2017b79a89069a29": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/spotify",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/spotify",
       "sha256": "02c79e71b22805e1dafa156c9370760bd7e6295af30eaf1c9004a1be2b35065b",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/spotify",
       "repository": "v2fly/domain-list-community"
     },
     "febfb92c9dbdd525": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/steam",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/steam",
       "sha256": "47b8154be0745a2411d8e0fe981677e874995cc30d195ba36cc7d84237f5d743",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/steam",
       "repository": "v2fly/domain-list-community"
     },
     "147e78ada3c87a53": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/stripe",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/stripe",
       "sha256": "5f386189413cf1e414d7f4a01e75e4753d39f24e1aa22f8e16cd1af2d5102755",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/stripe",
       "repository": "v2fly/domain-list-community"
     },
@@ -1909,9 +1909,9 @@
       "repo": "v2fly/domain-list-community"
     },
     "cae418f2cab43221": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/tiktok",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/tiktok",
       "sha256": "1547d5be3241deb425bc195d04c4e1c00c0c46e1bf570d0e1b5eebd553ec030e",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/tiktok",
       "repository": "v2fly/domain-list-community"
     },
@@ -1923,30 +1923,30 @@
       "repo": "v2fly/domain-list-community"
     },
     "83ec84573d30be78": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/twitch",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/twitch",
       "sha256": "cf62540f2205459c26f4b39478dff141ee15b4c3d9f9bc6fc34a15a7545306f4",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/twitch",
       "repository": "v2fly/domain-list-community"
     },
     "19dc979b3aa67614": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/ubisoft",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/ubisoft",
       "sha256": "71ca1d1c8644bc4d197798ef5cdbe08caf86503951141b3ef26e3ce34969b15a",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/ubisoft",
       "repository": "v2fly/domain-list-community"
     },
     "17c4dc1fe321845b": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/unionpay",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/unionpay",
       "sha256": "f1468dfb700b0f497296749cb1e37320a8b55708f174b1e74282435cc7df36bb",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/unionpay",
       "repository": "v2fly/domain-list-community"
     },
     "6dc95fffa321a6c2": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/visa",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/visa",
       "sha256": "31a87f4641d41a818740a4b423a19d906f30c9a479996519a51629c72ad48521",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/visa",
       "repository": "v2fly/domain-list-community"
     },
@@ -1958,23 +1958,23 @@
       "repo": "v2fly/domain-list-community"
     },
     "927c6b13f7ab9031": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/wise",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/wise",
       "sha256": "54282167db7a892eac8447d905a62d7c3ba557e2bcbc5fc6823c7242f85e78f0",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/wise",
       "repository": "v2fly/domain-list-community"
     },
     "7c990478b8c301e7": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/xbox",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/xbox",
       "sha256": "4b1f6c90a158596f219793d85e4cf4ec9b18041c79377cd168f578d2485ec064",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/xbox",
       "repository": "v2fly/domain-list-community"
     },
     "fcaac56c59cdaf28": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/youtube",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/youtube",
       "sha256": "9ffb657176fdffed567953749c137bb3d8a216ce4e839b3831b626c752902213",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/youtube",
       "repository": "v2fly/domain-list-community"
     },
@@ -2063,11 +2063,11 @@
       "repo": "v2fly/domain-list-community"
     },
     "01cf45f6272c5537": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/firebase",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/firebase",
       "sha256": "816b85c8cf0e9f686ab3ba332029b3f3ab8f602b01b930a42e4c4bdfee4b07fa",
       "repository": "v2fly/domain-list-community",
       "path": "data/firebase",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6"
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114"
     },
     "e3cb2a1931c89335": {
       "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/5d939545c84e2a534f8e85ba6ffb2b51fa18fb76/data/flutter",
@@ -2119,9 +2119,9 @@
       "repo": "v2fly/domain-list-community"
     },
     "2d703b5805845ece": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/icloud",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/icloud",
       "sha256": "208d610e2a7ef38ec62d09892bf4eed013c8558c5b48d66d28414b8ba5a75431",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/icloud",
       "repository": "v2fly/domain-list-community"
     },
@@ -2217,16 +2217,16 @@
       "repo": "v2fly/domain-list-community"
     },
     "615c4520d6d5d5f8": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/ChinaMedia.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/ChinaMedia.list",
       "sha256": "a18ec9b9755fecb29ad2cb3ba73ad87b3d5db855d3947ef3811fd490f0904b0a",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/ChinaMedia.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
     "653b7df1bffd5fba": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/ProxyMedia.list",
-      "sha256": "5b6c7a07457e8a9cffd7a7a9865abfef72920b70a9ca987009710a44ccc98781",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/ProxyMedia.list",
+      "sha256": "9e09ef9064889a50894cbcef6a5adcc105dbec99b784b13e2f7501e6c0e18ec2",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/ProxyMedia.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
@@ -2259,9 +2259,9 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "326555794a552aa0": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/abema.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/abema.list",
       "sha256": "d61dbe77d395e8d275d8d888a83d8f3a7bc73cde935fcaa596616d14cd5dcc78",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/abema.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2273,16 +2273,16 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "cd567eeaf568ec31": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/apple-cn.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/apple-cn.list",
       "sha256": "ed78d04e9d7b814a46027b40e20f33623c1776d9f1b3b323e2ba514c629ed154",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/apple-cn.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "724ee7c0505b627a": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/apple-dev.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/apple-dev.list",
       "sha256": "dcc7bf58fb6272a1f7d02a9a3a4e3ec95339e06cd9e62bbd246d3ccbb81d64ff",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/apple-dev.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2294,44 +2294,44 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "46065fdd5ec20646": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/apple-music.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/apple-music.list",
       "sha256": "ac954b03d6b2e106cf9b1ede52b44edc5d992cc53189e8b50dfbcb4b9b5210d4",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/apple-music.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "fa306cc4a66a4d58": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/apple-pki.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/apple-pki.list",
       "sha256": "2bfb6e29d8f821e52c94b13c97d05da2c23674229ab3102148019d92dfcd78b6",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/apple-pki.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "bbfcf2b88044e713": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/apple-podcasts.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/apple-podcasts.list",
       "sha256": "cf704a46ff111b1c5567658530551de03160616715e9ac5095e72137ffd153b3",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/apple-podcasts.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "2abc4edb5d05c7fa": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/apple-tvplus.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/apple-tvplus.list",
       "sha256": "478d2fff2b63b1f5e7bbc3fdc19a51e49134f455c025fdeceaa6b8fd74741161",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/apple-tvplus.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "373106bb89ec070d": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/apple-update.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/apple-update.list",
       "sha256": "f97d3bb744f53d58ed2931254fbafacdd5c78805e14946a64906414fa9b1d2ab",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/apple-update.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "439d5a2de084d278": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/apple.list",
-      "sha256": "3d1a640b5db7ec3ff9beabd4621c6d61d46592baf48bd8d2c4628cd7fe651126",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/apple.list",
+      "sha256": "ff3a829cc1d3b007510ef5229fda6f543b99f4a95464960a567cf3b7372e3eba",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/apple.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2350,9 +2350,9 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "2f487db39c7daa3c": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/bahamut.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/bahamut.list",
       "sha256": "0fa7f47fa90a746299cda7828e21bc8c75720f8074300d94ea117b7883cbd720",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/bahamut.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2385,9 +2385,9 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "7825bf7cd1685338": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/blizzard.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/blizzard.list",
       "sha256": "5f3bbf6221f6c1d96b2783fe66332fccd8d45b4abf421701c5901320978ddd09",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/blizzard.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2406,23 +2406,23 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "b886140c04d69e0d": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/dazn.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/dazn.list",
       "sha256": "e199b1089415c8cd7f671ec4adbf0095b65cc2e172c618468ca7182fe82609ca",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/dazn.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "f12e02a597002e32": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/discoveryplus.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/discoveryplus.list",
       "sha256": "da978a29b3f260707e2e2cf8bad6563aeab98bce98627543a0b0b5cad9e484bd",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/discoveryplus.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "b7081eea31669366": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/disney.list",
-      "sha256": "5cabaa1d65bbbe62dad7d435e66490d0421892359b2cd6587ebb6a2b8c2271da",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/disney.list",
+      "sha256": "d9bcafa7c85d751f1a70f73d11a08a815b2d4732ee08becfcfae4d982f352493",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/disney.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2441,23 +2441,23 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "e21fa696208f6b06": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/douyin.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/douyin.list",
       "sha256": "2d9de1ae9494450fa85ad6f9a38b36f84a37a571d32afca7baf86c1b1a82cdf9",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/douyin.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "e83a8ab8d8b10d85": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/ea.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/ea.list",
       "sha256": "36928023c83f47b76b624bfe8336b9e5436b5aac4a6bd120976bd3ee75e0c791",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/ea.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "598e8795955821c2": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/epicgames.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/epicgames.list",
       "sha256": "a65494515d10ffc6cbf8edfd35ccc774b687930e776b2f743ee6c5e9c518ccae",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/epicgames.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2497,9 +2497,9 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "670c1ff64abb3a2e": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/gog.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/gog.list",
       "sha256": "eadbaccd1e354d19d2d6c9c66b0b4bfa6d07fe9e7c5231ad026f74e3562120e1",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/gog.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2553,9 +2553,9 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "d11f49abb9d85bb1": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/google.list",
-      "sha256": "52efc51aeee89234f58f5bb4b098c3dcff15e747a0ef6495cbec4bc56d4e9124",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/google.list",
+      "sha256": "2e3947212e3adf8ae489db361d9120d3c9b33393d7db0b5dfff926bf77aa3a24",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/google.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2567,9 +2567,9 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "f796e457f480192c": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/hbo.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/hbo.list",
       "sha256": "3cbd25bb79ead6650d405c5446a99ed9ad75f4410afdc92b700383c1c72ce8ca",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/hbo.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2581,9 +2581,9 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "c33de7cdecb922bd": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/hulu.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/hulu.list",
       "sha256": "65a3695ff1bd625e6cb681b89dfd88ac68235851bdb072faa630e76a44b67542",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/hulu.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2637,9 +2637,9 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "3870acbe6ab3c25e": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/mastercard.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/mastercard.list",
       "sha256": "4f8b80d7dc17303c82e3a7bf4369ffe66e6682168d1288b812141aff0a7f56f2",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/mastercard.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2665,23 +2665,23 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "6f7a0484fe65e1ff": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/netflix.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/netflix.list",
       "sha256": "6b76f4f391dd5beefb316383c65a2c587ff2ee8ace61e49106dab438d3ab9344",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/netflix.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "1f047df1e0449e42": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/nintendo.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/nintendo.list",
       "sha256": "4d2e718be344f4edcb944b132381b677623a2fe26c42edbae69d967c4e9c7011",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/nintendo.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "ed5cdbadf3233d29": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/nvidia.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/nvidia.list",
       "sha256": "5d9eba719d2877cbc071955208e18844f442b3a7db4396a15ceb79a538d088ad",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/nvidia.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2700,16 +2700,16 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "356a1780e55f73af": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/paypal.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/paypal.list",
       "sha256": "7525d7fcda99a41b3a6f968391b34c315b7f7049e72620f91c0866dd75b3c779",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/paypal.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "cf9c4cac4f3d256d": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/playstation.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/playstation.list",
       "sha256": "1cc4f46a7b53ff4c5a233ea8cb180ad7a1e083bd55e594a81b5f598c97cfc8be",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/playstation.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2721,30 +2721,30 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "fa1557e7b6901071": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/primevideo.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/primevideo.list",
       "sha256": "15fb0ea895aafd16dba4e1e9abbb0af3d4991a6047839023948203ee686dde03",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/primevideo.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "8f4bc6b24a378ff5": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/redotpay.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/redotpay.list",
       "sha256": "6ce719304c68bada6aba1e46436b96786a385a0abab759e9acca392fb5297a27",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/redotpay.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "769309ae7dc50742": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/riot.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/riot.list",
       "sha256": "d2d3610be1f19b2bd346a66d66784cee8f2e5b49d1239e3dd39501db0aa2e89e",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/riot.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "4d04f982eaf7203f": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/rockstar.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/rockstar.list",
       "sha256": "75cbdc1d9cc6178328cf1de2e77d867472bf6baeb7f3d21b4d9e2d21bed3a841",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/rockstar.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2756,9 +2756,9 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "249279bc7c843772": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/spotify.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/spotify.list",
       "sha256": "75fdf65b60e757064eb8d86026ca863b7341af62f58454493f858138a91ce150",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/spotify.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2770,16 +2770,16 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "1128d7d020a150ad": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/steam.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/steam.list",
       "sha256": "d1e5e1981ea00317b7f691da269cf53cd1110aeda34d43cb3acd7da521e2ad23",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/steam.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "33e120a4f3fd926d": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/stripe.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/stripe.list",
       "sha256": "05ebbdeddb5b837b6443f8150df6c6af18756e258136f9e6994105e084e04665",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/stripe.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2798,9 +2798,9 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "9d1d4da341ad9394": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/tiktok.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/tiktok.list",
       "sha256": "ee758feb97468bfeb83cd0fceca9983f815021042972757850bffd2e2523f740",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/tiktok.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2819,23 +2819,23 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "dfbf1e9b01144572": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/twitch.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/twitch.list",
       "sha256": "93f217574cdb9788a7af1b4adeba7fcb7ce59f750be28ee289e7f2e3ce9c8434",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/twitch.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "2b42ea9576a30e46": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/ubisoft.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/ubisoft.list",
       "sha256": "08b2902f1cc74d9748eab9b9673f110dd41eccd15868d3c578e53a0c6e174047",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/ubisoft.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "30d5d5903b37de83": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/unionpay.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/unionpay.list",
       "sha256": "492b29a38f3882b0db2cb9b1a0fb69dcd64bca740cfc6eb20cef0fcc4560c6e2",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/unionpay.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2847,9 +2847,9 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "33b74eb0b5dadd8e": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/visa.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/visa.list",
       "sha256": "1e38c1b6c3c86a37af4ecdd989a3f802c2c2a1f49b4b116c15fa402efb37b4ca",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/visa.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2861,23 +2861,23 @@
       "repo": "MetaCubeX/meta-rules-dat"
     },
     "311eb7c610fae146": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/wise.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/wise.list",
       "sha256": "036b7e97d695d07669cd07a5f288976ca8c71fae7db13767d4c60a6b3b54fb96",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/wise.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "562a670d538f30d7": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/xbox.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/xbox.list",
       "sha256": "f964121949a08134d814237f905e704c020be2351035d5adfb9887de15960e9a",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/xbox.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
     "74a868c4cad18a47": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/youtube.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/youtube.list",
       "sha256": "b50b8cabe440d8b3a4c0e7385e2a9ac59a77ba784a2e150f1d3aebd94790149f",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "path": "geo/geosite/classical/youtube.list",
       "repository": "MetaCubeX/meta-rules-dat"
     },
@@ -2889,16 +2889,16 @@
       "repository": "blackmatrix7/ios_rule_script"
     },
     "a6e9038d48f3b337": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/ProxyGFWlist.list",
-      "sha256": "537c8625e970894c5ac7420db820633817b17f493851c32af08274a7b247d5c4",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/ProxyGFWlist.list",
+      "sha256": "c54881610a8c4c6d83289688514de097726ed1239afd652ff813bb85efa65560",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "repository": "ACL4SSR/ACL4SSR",
       "path": "Clash/ProxyGFWlist.list"
     },
     "47513028005ed0a6": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/Ruleset/ByteDance.list",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/Ruleset/ByteDance.list",
       "sha256": "57b0e4b2e097c75651edea12f365eef711e35276fd4ce3721b04ebe445afa82f",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "path": "Clash/Ruleset/ByteDance.list",
       "repository": "ACL4SSR/ACL4SSR"
     },
@@ -2949,37 +2949,37 @@
       "sha256": "f1d74acb300ada0b6fe54709d2c38112011f5f131f29ff7dc3d9f887b8a9b583"
     },
     "82c29b8c82e19058": {
-      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/64b4ebd92eec66680f8a71c35dac77793f8d4137/Clash/ChinaDomain.list",
-      "sha256": "362edd1f605742b360eaf138f151d7eea96cc17f20ef12da73acbfb80c350e08",
-      "commit": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
+      "url": "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/384af1b35d29df946013cf8912db1c3e40935ce5/Clash/ChinaDomain.list",
+      "sha256": "92f90e75ffc64dd2996552593a66e0d46a841ee0ff50c0efecbfc9d7cd6e2ed4",
+      "commit": "384af1b35d29df946013cf8912db1c3e40935ce5",
       "repository": "ACL4SSR/ACL4SSR",
       "path": "Clash/ChinaDomain.list"
     },
     "5ef2951dfc3c0daa": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/non_ip/global.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/non_ip/global.conf",
       "sha256": "9b5e53dc90878f3d4fa6afd56916f46f630ffe9143196384ba6be6300a883bbb",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "repository": "SukkaLab/ruleset.skk.moe",
       "path": "List/non_ip/global.conf"
     },
     "aa71708ff70289a2": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/non_ip/domestic.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/non_ip/domestic.conf",
       "sha256": "b80c6ce2b79f3a4ec5288f4297f8ddee4f2ba5e0a42487fe99e1b58d6517e2d6",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "repository": "SukkaLab/ruleset.skk.moe",
       "path": "List/non_ip/domestic.conf"
     },
     "6b4bc4574f6ab37d": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/non_ip/cdn.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/non_ip/cdn.conf",
       "sha256": "e942b399dcd6c636e620322b56ecb0deec09d61287b93ae60406f5c6e973a5ec",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "repository": "SukkaLab/ruleset.skk.moe",
       "path": "List/non_ip/cdn.conf"
     },
     "322bf6e09274ea41": {
-      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/3b96f6337ee05400d5be302f7e9bdd5188839b82/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list",
-      "sha256": "ec13264d2a9c72f84606236dd5022426b547630f6efbc4463137b768a0752b98",
-      "commit": "3b96f6337ee05400d5be302f7e9bdd5188839b82",
+      "url": "https://raw.githubusercontent.com/TG-Twilight/AWAvenue-Ads-Rule/8965815bf3978bdaccdd7a18ec694db67e14d5c1/Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list",
+      "sha256": "6e9acccf61067f2e5b83854779b9d3c257c30ea92958946c3943d02c7e1b62ec",
+      "commit": "8965815bf3978bdaccdd7a18ec694db67e14d5c1",
       "repository": "TG-Twilight/AWAvenue-Ads-Rule",
       "path": "Filters/AWAvenue-Ads-Rule-Surge-RULE-SET.list"
     },
@@ -3005,30 +3005,30 @@
       "path": "rule/Surge/Proxy/Proxy_All.list"
     },
     "64771988d5cc4cd2": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/cn.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/cn.list",
       "sha256": "703c706f925afa756a404136ce2cbea856763969d241280ce55345519dc9332f",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "repository": "MetaCubeX/meta-rules-dat",
       "path": "geo/geosite/cn.list"
     },
     "975c66ad6982a59d": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/gfw.list",
-      "sha256": "a23022758a4a686213a7bf32b412a3138220d92a91755e9f0bcfd54bfd20d51f",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/gfw.list",
+      "sha256": "2928f5ba53130b9cc509e12354c6b8341a5c47edb72a60cf9b46cdcbff85b889",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "repository": "MetaCubeX/meta-rules-dat",
       "path": "geo/geosite/gfw.list"
     },
     "b6fb436817e39fe0": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/cn",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/cn",
       "sha256": "2f16b0f0720116c373dceac25d4e4f18d7eea5c6612dcfd003a6248336ddcaf9",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "repository": "v2fly/domain-list-community",
       "path": "data/cn"
     },
     "81a3cb5e7ab118e2": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/geolocation-!cn",
-      "sha256": "d4b79eb5a79c2454d1d9585e178024da5139f7c7bb89735126b98cf5cedc8ffa",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/geolocation-!cn",
+      "sha256": "802793e97d64fe91a28e5a47ed0c0ab4def0605b28a95f4d8933587d0dfd37df",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "repository": "v2fly/domain-list-community",
       "path": "data/geolocation-!cn"
     },
@@ -3040,93 +3040,93 @@
       "path": "rule/Surge/ChinaIPsBGP/ChinaIPsBGP.list"
     },
     "4cb51ecadcd3ae87": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/freebuff",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/freebuff",
       "repository": "v2fly/domain-list-community",
       "path": "data/freebuff",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "sha256": "54382d0801c3a1036ba799035218b9c1b6cdf8929df7a4c553ef72b02ebfe8ad"
     },
     "7b9792aef91802c1": {
-      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/f7119625e8e225d0e5a06b137465e0c10cb906f8/geo/geosite/classical/freebuff.list",
+      "url": "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/2dde1a519985f7822ed291c498f31e52a4621851/geo/geosite/classical/freebuff.list",
       "repository": "MetaCubeX/meta-rules-dat",
       "path": "geo/geosite/classical/freebuff.list",
-      "commit": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
+      "commit": "2dde1a519985f7822ed291c498f31e52a4621851",
       "sha256": "b2b38b87bd91f555744ee960b1b4147ac2739709f40e439660ae495e31ed24f8"
     },
     "d7ef1dde8f592b05": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/xiaohongshu",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/xiaohongshu",
       "sha256": "c02829a3660e6ddcc24e53a86b33735accf42613d493757564b59d217a06065d",
       "repository": "v2fly/domain-list-community",
       "path": "data/xiaohongshu",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6"
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114"
     },
     "5f589e22958e4a19": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/category-bank-ru",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/category-bank-ru",
       "sha256": "02c95b65d2bc0e7d9395b9e93336d2ea9b59c36bd656279593a46d0aaf60834d",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/category-bank-ru",
       "repository": "v2fly/domain-list-community"
     },
     "73f6d34ee5223c48": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/yandex",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/yandex",
       "sha256": "0684f6caeb2d8c781ce482ca2f8dba8e7b3e5c7a16fad4ee6787d868ea7d9b89",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/yandex",
       "repository": "v2fly/domain-list-community"
     },
     "4965f466f3248968": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/mega",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/mega",
       "sha256": "bcac9d2a923bda0e0f17a0e604fc119e81dfd5c2f90e0be1e74b5c877682d600",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/mega",
       "repository": "v2fly/domain-list-community"
     },
     "f698a6bac6132a18": {
-      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6/data/greatfire",
+      "url": "https://raw.githubusercontent.com/v2fly/domain-list-community/33064264cf89ee6202d70c795d0df5bcc9888114/data/greatfire",
       "sha256": "a4deb0dea52a052eaa7a96ebbcabf7852e8ce9a2c6a19243a7dc874a1870006c",
-      "commit": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6",
+      "commit": "33064264cf89ee6202d70c795d0df5bcc9888114",
       "path": "data/greatfire",
       "repository": "v2fly/domain-list-community"
     },
     "c64e0ca76e4d5669": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/ip/apple_services.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/ip/apple_services.conf",
       "sha256": "1bd5ce680fc1a4858e44e0b402abe9319181d6486a45d1b9196bfd4b44a5c5b8",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "repository": "SukkaLab/ruleset.skk.moe",
       "path": "List/ip/apple_services.conf"
     },
     "fb5c1b18dab32174": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/non_ip/apple_services.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/non_ip/apple_services.conf",
       "sha256": "9c32e8eb6e1d334a85b972791a0afc4b0fc81f57d3a80902a50c9168269f7602",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "repository": "SukkaLab/ruleset.skk.moe",
       "path": "List/non_ip/apple_services.conf"
     },
     "c48e73d4acf71530": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/non_ip/apple_cn.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/non_ip/apple_cn.conf",
       "sha256": "a31f9e98c5a4fdd585a7c78b6f3a1994015ab54a57a3d82057bd17f278f6a76f",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "repository": "SukkaLab/ruleset.skk.moe",
       "path": "List/non_ip/apple_cn.conf"
     },
     "fbf7b0d58577ecdf": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/domainset/game-download.conf",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/domainset/game-download.conf",
       "sha256": "3a31ec975e1d0a1d0ee588c249f3cd84c77943576f8081c682a7170fcc4ccfcd",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "repository": "SukkaLab/ruleset.skk.moe",
       "path": "List/domainset/game-download.conf"
     },
     "b667e85a7b961c40": {
-      "url": "https://raw.githubusercontent.com/SukkaW/Surge/ca1e41a1738037bde37fafdf437703028b3b0793/Source/domainset/cdn.conf",
-      "sha256": "6c5c0d6698e2288d302e269e034a2070e741de7575196233c44871e03d2b9f72",
-      "commit": "ca1e41a1738037bde37fafdf437703028b3b0793",
+      "url": "https://raw.githubusercontent.com/SukkaW/Surge/00c58d2205eaa5990a365f2c19460d50fe3421a4/Source/domainset/cdn.conf",
+      "sha256": "10b3c5ea346685ffa8c4f753bf5272779801b26b98985de998d2694b13db2743",
+      "commit": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
       "path": "Source/domainset/cdn.conf",
       "repository": "SukkaW/Surge"
     },
     "03ad5894be67cc03": {
-      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/bb201429fc1416cd6484bda45e2780f328074ec2/List/domainset/cdn.conf",
-      "sha256": "81af054d65759bf26cb99eda27738a0032227691bffc7decd216f322a6ce94fd",
-      "commit": "bb201429fc1416cd6484bda45e2780f328074ec2",
+      "url": "https://raw.githubusercontent.com/SukkaLab/ruleset.skk.moe/1546805ba31fd52bf35a5b37e84abd88d513e0e3/List/domainset/cdn.conf",
+      "sha256": "463746d22961990284c5d572bddbb8544211a78a9d1b0c019ce8ce6993b4da15",
+      "commit": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
       "path": "List/domainset/cdn.conf",
       "repository": "SukkaLab/ruleset.skk.moe"
     }
@@ -3193,7 +3193,7 @@
         "ff7a4d400aca1340"
       ],
       "selection": "Dedicated AI products including Gemini/Bard, AI Studio, Gemini API, Code Assist and Workspace Gemini endpoints, plus existing Freebuff/Codebuff, Flow and NotebookLM. Preserve baseline manual entries and suppress only new redundant rules. See gemini_update for the targeted 2026-11-03 policy change; the checked_date and weekly delta below still refer to the last full weekly review.",
-      "rule_count": 441,
+      "rule_count": 443,
       "gemini_update": {
         "date": "2026-11-03",
         "scope": "Gemini-only addition requested by the user; not a full weekly source refresh. Supersedes historical Gemini exclusions elsewhere in this manifest.",
@@ -3240,16 +3240,14 @@
           "Sources with shared upstream ancestry are not independent corroboration."
         ]
       },
-      "added": 3,
+      "added": 2,
       "removed": 0,
-      "change_percent": 0.68,
-      "checked_date": "2026-11-22",
+      "change_percent": 0.45,
+      "checked_date": "2026-11-29",
       "checked_source_count": 57,
       "excluded_candidates": [
-        "DOMAIN,aicode.googleapis.com (already covered by DOMAIN-SUFFIX,aicode.googleapis.com)",
-        "DOMAIN,bridge.claudeusercontent.com and DOMAIN,claude.site (already covered by DOMAIN-KEYWORD,claude)",
-        "DOMAIN-KEYWORD,antigravity (too broad; dedicated Antigravity host/suffix rules already exist)",
-        "OpenAI chatgpt-voice.json / Sukka List/ip/ai.conf 411 /32 cloud IPs (+388/-2 vs 25 baseline IPs; held intact above 20% gate, no truncation)"
+        "DOMAIN,inference.codeium.com removed by Sukka ai.conf (already covered by DOMAIN-SUFFIX,codeium.com; no baseline deletion)",
+        "OpenAI chatgpt-voice.json / Sukka List/ip/ai.conf 444 /32 cloud IPs (+421/-2 vs 25 baseline IPs; +33 since 2026-11-22; held intact above 20% gate, no truncation)"
       ]
     },
     "AWS": {
@@ -3280,9 +3278,9 @@
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 20,
-      "unchanged_reason": "Domain sources unchanged; ACL4SSR AmazonIp.list CIDR churn (+250/-129) excluded per policy not to import cloud-tenant IP catalogs."
+      "unchanged_reason": "Domain sources unchanged; ACL4SSR AmazonIp.list added 3 CIDRs (15.248.200.0/26, 15.248.208.0/25, 15.248.208.128/26), excluded per policy not to import cloud-tenant IP catalogs."
     },
     "Crypto": {
       "source_refs": [
@@ -3320,11 +3318,12 @@
       ],
       "selection": "Dedicated product categories; preserve baseline manual entries; skip redundant matches and unsupported expressions without widening.",
       "rule_count": 369,
-      "added": 1,
+      "added": 0,
       "removed": 0,
-      "change_percent": 0.27,
-      "checked_date": "2026-11-22",
-      "checked_source_count": 31
+      "change_percent": 0.0,
+      "checked_date": "2026-11-29",
+      "checked_source_count": 31,
+      "unchanged_reason": "MetaCubeX category-cryptocurrency.list only reordered lines (0 set diff); all other Crypto sources unchanged."
     },
     "GitHub": {
       "source_refs": [
@@ -3341,9 +3340,9 @@
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 7,
-      "unchanged_reason": "MetaCubeX github.list had non-semantic ordering/header churn only; all other sources unchanged."
+      "unchanged_reason": "MetaCubeX github.list only reordered lines (0 set diff); all other GitHub sources unchanged."
     },
     "Speedtest": {
       "source_refs": [
@@ -3357,14 +3356,14 @@
         "dddfbaefb431fb76"
       ],
       "selection": "Dedicated product categories; preserve baseline manual entries; skip redundant matches and unsupported expressions without widening.",
-      "rule_count": 1425,
-      "added": 5,
+      "rule_count": 1428,
+      "added": 3,
       "removed": 0,
-      "change_percent": 0.35,
-      "checked_date": "2026-11-22",
+      "change_percent": 0.21,
+      "checked_date": "2026-11-29",
       "checked_source_count": 8,
       "excluded_candidates": [
-        "speedtest-bne0.encoo.com.au, speedtest.opiquad.it, speedtest2.par2.as216190.net (already covered by DOMAIN-KEYWORD,speedtest)"
+        "12 Sukka exact speedtest nodes already covered by existing DOMAIN-KEYWORD,speedtest (10) or DOMAIN-KEYWORD,ookla (2)"
       ]
     },
     "Telegram": {
@@ -3386,9 +3385,9 @@
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 11,
-      "unchanged_reason": "core.telegram.org/resources/cidr.txt and all mapped Telegram sources unchanged."
+      "unchanged_reason": "All 11 Telegram upstream sources (including official core.telegram.org CIDR list) unchanged."
     },
     "LAN": {
       "source_refs": [
@@ -3405,9 +3404,9 @@
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 7,
-      "unchanged_reason": "All mapped LAN sources unchanged."
+      "unchanged_reason": "All 7 LAN upstream sources unchanged."
     },
     "Apple": {
       "source_refs": [
@@ -3443,12 +3442,12 @@
         "fb5c1b18dab32174"
       ],
       "selection": "Preserve all original manual/baseline additions unless independently proven semantically wrong; upstream disappearance alone is not deletion evidence",
-      "unchanged_reason": "v2fly/MetaCubeX added 4 Apple/iTunes endpoints already covered by DOMAIN-SUFFIX,apple.com; 130 removed lapsed Beats/Apple domains were not in Apple.list; ACL4SSR AppleNews had header-only churn.",
+      "unchanged_reason": "MetaCubeX apple.list only reordered lines (0 set diff); all other Apple sources unchanged.",
       "rule_count": 187,
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 30
     },
     "AppleCN": {
@@ -3462,12 +3461,12 @@
         "cd567eeaf568ec31"
       ],
       "selection": "Preserve all original manual/baseline additions unless independently proven semantically wrong; upstream disappearance alone is not deletion evidence",
-      "unchanged_reason": "All sources checked; v2fly @cn additions kept out to preserve minimal China Apple direct scope without iCloud; Sukka apple_cn unchanged.",
+      "unchanged_reason": "All AppleCN sources had 0 semantic diff; iCloud exclusion preserved.",
       "rule_count": 8,
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 7
     },
     "Google": {
@@ -3490,12 +3489,12 @@
         "df853b109f26e491"
       ],
       "selection": "Preserve all original manual/baseline additions unless independently proven semantically wrong; upstream disappearance alone is not deletion evidence",
-      "unchanged_reason": "ACL4SSR GoogleCN/GoogleFCM and MetaCubeX google.list had no normalized rule changes.",
+      "unchanged_reason": "gemma.ai routed via AI (ordered before Google); all other Google entries unchanged (MetaCubeX google.list otherwise reorder-only).",
       "rule_count": 955,
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 16
     },
     "Douyin": {
@@ -3507,12 +3506,12 @@
         "fc58339d23bebf9a"
       ],
       "selection": "Preserve all original manual/baseline additions unless independently proven semantically wrong; upstream disappearance alone is not deletion evidence",
-      "unchanged_reason": "ACL4SSR ChinaMedia.list added biliimg.com (Bilibili, already in China.list); Douyin sources unchanged.",
+      "unchanged_reason": "All 5 Douyin upstream sources unchanged.",
       "rule_count": 77,
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 5
     },
     "Streaming": {
@@ -3597,9 +3596,9 @@
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 74,
-      "unchanged_reason": "ACL4SSR streaming lists had header-only churn; ProxyMedia removals were AI/Stripe domains outside Streaming."
+      "unchanged_reason": "MetaCubeX disney.list only reordered lines (0 set diff); ACL4SSR ProxyMedia.list added soundcloud.cloud, placed in Proxy alongside existing soundcloud.com/sndcdn.com without widening Streaming scope."
     },
     "Game": {
       "source_refs": [
@@ -3655,7 +3654,7 @@
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 46,
       "excluded_candidates": [
         {
@@ -3663,7 +3662,7 @@
           "reason": "New unmapped flight-simulator catalog; adding it would widen Game beyond platform scope. Existing Microsoft Flight Simulator entries kept."
         }
       ],
-      "unchanged_reason": "ACL4SSR Epic.list had header/blank-line churn only; v2fly hypergryph CN routed in China.list; standby Game scope unchanged."
+      "unchanged_reason": "ACL4SSR Steam.list removed steamserver.net (retained per baseline preservation) and SteamCN.list added gstore.val.manlaxy.com (already covered in China & Game); all other Game sources unchanged."
     },
     "Pay": {
       "source_refs": [
@@ -3690,12 +3689,12 @@
         "d6e54b612080ca14"
       ],
       "selection": "Preserve all original manual/baseline additions unless independently proven semantically wrong; upstream disappearance alone is not deletion evidence",
-      "unchanged_reason": "Standby scope preserved; ACL4SSR ProxyMedia removed AI/Stripe rules on split to Stripe.list without requiring baseline deletion or supplementary expansion.",
+      "unchanged_reason": "ACL4SSR ProxyGFWlist/ProxyMedia additions (aicu.cc, danmakus.com, spacedesk.net, soundcloud.cloud) are non-payment services routed in Proxy; no payment domain changes.",
       "rule_count": 495,
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 21
     },
     "China": {
@@ -3711,15 +3710,14 @@
       ],
       "selection": "Core source refresh plus semantically corroborated ACL/Meta additions; no automatic broad-category union; retain manual entries without proven contrary evidence.",
       "excluded_candidates": [
-        "11 .cn domains, oss-enet.aliyuncs.com, tencentads.com (already covered by DOMAIN-SUFFIX,cn / aliyuncs.com / DOMAIN-KEYWORD,tencent)",
-        "Hypergryph @!cn international domains (gryphline.*, hg-cdn.com, skport.com) excluded by v2fly @-!cn attribute",
+        "DOMAIN,gstore.val.manlaxy.com and DOMAIN,cn.download.nvidia.com from ACL4SSR ChinaDomain.list (already present in China.list)",
         "Sukka List/ip/china_ip.conf and china_ip_ipv6.conf not imported (China IP scope stays on ChinaIPsBGP baseline)"
       ],
-      "rule_count": 8013,
-      "added": 31,
+      "rule_count": 8024,
+      "added": 11,
       "removed": 0,
-      "change_percent": 0.39,
-      "checked_date": "2026-11-22",
+      "change_percent": 0.14,
+      "checked_date": "2026-11-29",
       "checked_source_count": 8
     },
     "Proxy": {
@@ -3741,18 +3739,17 @@
       ],
       "selection": "Core source refresh plus semantically corroborated ACL/Meta additions; no automatic broad-category union; retain manual entries without proven contrary evidence.",
       "excluded_candidates": [
-        "DOMAIN,builds.dotnet.microsoft.com (conflicts with China DOMAIN-KEYWORD,microsoft)",
-        "DOMAIN-SUFFIX,hkt and DOMAIN-SUFFIX,pccw (brand ICANN gTLDs are not geographic evidence)",
-        "DOMAIN-SUFFIX,universalbeijingresort.com (mainland China local resort service)",
-        "15 NBCUniversal corporate/career/privacy/brand subdomains from single PR #4314 (held to avoid bulk corporate catalog expansion)",
-        "14 ACL4SSR ProxyGFWlist-only uncovered entries (supplementary aggregate-only, not independently corroborated)",
-        "4 claudeusercontent.com CDN subdomains and yb-payment.ru / .tw / .hk / .jp / .uk additions (already covered by existing suffixes)"
+        "DOMAIN-SUFFIX,debian.map.fastlydns.net (redundant; newly covered by DOMAIN-SUFFIX,fastlydns.net)",
+        "DOMAIN-SUFFIX,fce.gg and Russian .ru additions (megapbx.ru, megatech-it.ru, mgts.ru, mobileid.ru, multifon.ru, onlime.ru, rostelecom-rb.ru, spd-mgts.ru) already covered by DOMAIN-SUFFIX,gg and DOMAIN-SUFFIX,ru",
+        "DOMAIN,aurora-customization-usw2.lithium.com (already present in Proxy.list)",
+        "13 Sukka CDN removals (dead/old CDN hosts) retained per policy not to delete baseline entries on single-source absence",
+        "MetaCubeX geolocation-!cn catch-up items already reviewed and excluded on 2026-11-22 (brand gTLDs hkt/pccw, universalbeijingresort.com, bulk NBCUniversal corporate sub-sites)"
       ],
-      "rule_count": 12734,
-      "added": 27,
+      "rule_count": 12748,
+      "added": 14,
       "removed": 0,
-      "change_percent": 0.21,
-      "checked_date": "2026-11-22",
+      "change_percent": 0.11,
+      "checked_date": "2026-11-29",
       "checked_source_count": 14
     },
     "Ads": {
@@ -3762,11 +3759,12 @@
       "selection": "Exact replacement from AWAvenue native Surge RULE-SET; removals follow sole authoritative source.",
       "excluded_candidates": [],
       "rule_count": 998,
-      "added": 14,
+      "added": 0,
       "removed": 0,
-      "change_percent": 1.42,
-      "checked_date": "2026-11-22",
-      "checked_source_count": 1
+      "change_percent": 0.0,
+      "checked_date": "2026-11-29",
+      "checked_source_count": 1,
+      "unchanged_reason": "AWAvenue-Ads-Rule updated #221 to append no-resolve to 13 IP-CIDR lines, which Ads.list already normalized; effective rule set diff is 0, preserving original date."
     },
     "PayPal": {
       "source_refs": [
@@ -3779,7 +3777,7 @@
       "added": 0,
       "removed": 0,
       "change_percent": 0.0,
-      "checked_date": "2026-11-22",
+      "checked_date": "2026-11-29",
       "checked_source_count": 3,
       "creation_note": {
         "date": "2026-11-19",
@@ -3797,7 +3795,7 @@
           "MetaCubeX/meta-rules-dat": "21a0aeef70681851c15d4741381dda538c9e8700"
         }
       },
-      "unchanged_reason": "All 3 mapped PayPal upstream sources (blackmatrix7, v2fly, MetaCubeX) unchanged since 2026-11-19 creation."
+      "unchanged_reason": "All 3 mapped PayPal upstream sources (blackmatrix7, v2fly, MetaCubeX) unchanged."
     }
   },
   "validation": {
@@ -3806,20 +3804,20 @@
     "unit_tests": "python3 -B -m unittest discover -s .github/scripts -p test_*.py",
     "rule_pair_count": 18,
     "all_rulesets_checked": true,
-    "changed_rulesets": 6,
+    "changed_rulesets": 4,
     "traffic_tested": false
   },
   "weekly_review": {
-    "baseline": "5c629a206c948dbdda56351b197447962d12b06a",
-    "checked_date": "2026-11-22",
+    "baseline": "76fce4ca058bedeccac5ae34857e2b911d83b759",
+    "checked_date": "2026-11-29",
     "upstream_heads": {
-      "ACL4SSR/ACL4SSR": "64b4ebd92eec66680f8a71c35dac77793f8d4137",
-      "MetaCubeX/meta-rules-dat": "f7119625e8e225d0e5a06b137465e0c10cb906f8",
-      "SukkaLab/ruleset.skk.moe": "bb201429fc1416cd6484bda45e2780f328074ec2",
-      "SukkaW/Surge": "ca1e41a1738037bde37fafdf437703028b3b0793",
-      "TG-Twilight/AWAvenue-Ads-Rule": "3b96f6337ee05400d5be302f7e9bdd5188839b82",
+      "ACL4SSR/ACL4SSR": "384af1b35d29df946013cf8912db1c3e40935ce5",
+      "MetaCubeX/meta-rules-dat": "2dde1a519985f7822ed291c498f31e52a4621851",
+      "SukkaLab/ruleset.skk.moe": "1546805ba31fd52bf35a5b37e84abd88d513e0e3",
+      "SukkaW/Surge": "00c58d2205eaa5990a365f2c19460d50fe3421a4",
+      "TG-Twilight/AWAvenue-Ads-Rule": "8965815bf3978bdaccdd7a18ec694db67e14d5c1",
       "blackmatrix7/ios_rule_script": "0b6897dc17e0c513d25449c935a9694818e32f0c",
-      "v2fly/domain-list-community": "9c1420eb3dffce67d2d8e9cbe1f9026ae0d949b6"
+      "v2fly/domain-list-community": "33064264cf89ee6202d70c795d0df5bcc9888114"
     },
     "upstream_branches": {
       "ACL4SSR/ACL4SSR": "master",
@@ -3830,28 +3828,28 @@
       "blackmatrix7/ios_rule_script": "master",
       "v2fly/domain-list-community": "master"
     },
-    "source_matrix": "All 341 mapped sources plus Sukka domainset/cdn.conf (2 sources) checked at current branch heads (0 fetch errors); all 18 categories reviewed including PayPal; complete old/new v2fly data trees expanded with include and @-attr filters.",
+    "source_matrix": "All 343 mapped sources checked at current branch heads (0 fetch errors); all 18 categories reviewed including PayPal; complete old/new v2fly data trees expanded with include and @-attr filters; MetaCubeX full classical/geosite trees verified locally without API truncation.",
     "applicable_source_count": 343,
     "applicable_source_failures": 0,
-    "changed_source_count": 38,
+    "changed_source_count": 27,
     "changed_sources": {
-      "12bbbd5a73db7293": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/Epic.list",
+      "03ad5894be67cc03": {
+        "repository": "SukkaLab/ruleset.skk.moe",
+        "path": "List/domainset/cdn.conf",
         "categories": [
-          "Game"
+          "Proxy"
         ],
-        "previous_sha256": "b0288addbceed03366cc793b4254168fe9e6e7c9fa54875026fb772adb5ba31d",
-        "current_sha256": "b0118e7d13c1e4327b8208c1c932254bce9b3781079f555a65f116d6d5d9beea"
+        "previous_sha256": "81af054d65759bf26cb99eda27738a0032227691bffc7decd216f322a6ce94fd",
+        "current_sha256": "463746d22961990284c5d572bddbb8544211a78a9d1b0c019ce8ce6993b4da15"
       },
-      "1a1d50505f4646b8": {
-        "repository": "v2fly/domain-list-community",
-        "path": "data/elevenlabs",
+      "0ecde416cd6f5c21": {
+        "repository": "MetaCubeX/meta-rules-dat",
+        "path": "geo/geosite/classical/google-gemini.list",
         "categories": [
           "AI"
         ],
-        "previous_sha256": "4c284a7e5947f4a40d40c9dc8fedf3e9e3091db0c7680b913b2b19db36ebd561",
-        "current_sha256": "88f3412837a17af32533013ab039b988a6c26a519d73846f728b84a19e26487f"
+        "previous_sha256": "7c9d8117d520f8e3dca5e7d4706a960d55a891b34e2b5daf4dcc625815a967e4",
+        "current_sha256": "abcca8d6d8dca3556b4cd5e5c039873568236840361dab3403dc257c43744820"
       },
       "1f741b02d0dea408": {
         "repository": "SukkaLab/ruleset.skk.moe",
@@ -3859,8 +3857,8 @@
         "categories": [
           "AI"
         ],
-        "previous_sha256": "055e56209c88a9306be210813e9e3ef175fdff4b90aaf05768953673bfbc9aea",
-        "current_sha256": "9bb1deda142ba4e15f17a8bb33fb3154928bbd6fece9ba7b9aa9a3471378b318"
+        "previous_sha256": "9bb1deda142ba4e15f17a8bb33fb3154928bbd6fece9ba7b9aa9a3471378b318",
+        "current_sha256": "407f909cbe02d5ae7061ddf182ac1c6441a3a2c19c1273774fea44984279d935"
       },
       "322bf6e09274ea41": {
         "repository": "TG-Twilight/AWAvenue-Ads-Rule",
@@ -3868,17 +3866,8 @@
         "categories": [
           "Ads"
         ],
-        "previous_sha256": "d7c48a0188efebca3514a3ebf6b268996fa0dfe05e9092765f73382bab00cbb1",
-        "current_sha256": "ec13264d2a9c72f84606236dd5022426b547630f6efbc4463137b768a0752b98"
-      },
-      "3899c731683c9f7d": {
-        "repository": "v2fly/domain-list-community",
-        "path": "data/category-cryptocurrency",
-        "categories": [
-          "Crypto"
-        ],
-        "previous_sha256": "b2d9cb5576cfca28527dc622779ba5614cdc811391c2510830ae8fdac8dd3fb0",
-        "current_sha256": "ee243af1ab690f62bd713b7d2371dc43f9027aa4d51366959ae66735ab747c45"
+        "previous_sha256": "ec13264d2a9c72f84606236dd5022426b547630f6efbc4463137b768a0752b98",
+        "current_sha256": "6e9acccf61067f2e5b83854779b9d3c257c30ea92958946c3943d02c7e1b62ec"
       },
       "3c5438ab3df54ea7": {
         "repository": "SukkaLab/ruleset.skk.moe",
@@ -3886,8 +3875,8 @@
         "categories": [
           "Speedtest"
         ],
-        "previous_sha256": "6a671bea7f82d3ccd7f404fdca542a908f86f81b130c30f5631f6abf52757334",
-        "current_sha256": "518ba90d98a6b1c0298392ad7e960cf1e9cacb47c1f4b29b6347d911fe02a223"
+        "previous_sha256": "518ba90d98a6b1c0298392ad7e960cf1e9cacb47c1f4b29b6347d911fe02a223",
+        "current_sha256": "8e0e1758dee733f50bb107705b9171cbfabcc2f4869c9fbdfea5c6f3c82e3546"
       },
       "401418b1d34bc8fe": {
         "repository": "MetaCubeX/meta-rules-dat",
@@ -3895,8 +3884,8 @@
         "categories": [
           "Crypto"
         ],
-        "previous_sha256": "c8c91846b5a5995f0ad081cc38ee8086afbe4233669e1db6de10762a85f1d43e",
-        "current_sha256": "d50e1d0aa1d84bec426843125b21836c2c409a2cccee8e995259c3076a9e5126"
+        "previous_sha256": "d50e1d0aa1d84bec426843125b21836c2c409a2cccee8e995259c3076a9e5126",
+        "current_sha256": "62b8d543200a629b125d8a09d9ebb9964253a559bb38baf7d0b05b703d58c828"
       },
       "439d5a2de084d278": {
         "repository": "MetaCubeX/meta-rules-dat",
@@ -3905,45 +3894,8 @@
           "Apple",
           "AppleCN"
         ],
-        "previous_sha256": "d15f4f145bfa688fda54350bb004a3bb1fe5834a448a51c3b3f24e0feb659d8c",
-        "current_sha256": "3d1a640b5db7ec3ff9beabd4621c6d61d46592baf48bd8d2c4628cd7fe651126"
-      },
-      "47d24e1d04d0f9a8": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/AppleNews.list",
-        "categories": [
-          "Apple"
-        ],
-        "previous_sha256": "8638d1c480676c3e76513e7b65db315f67595991d52cede0d216630fdbc3bde8",
-        "current_sha256": "e03a33944dfbfc4c7733abea78b2b422d9c8ac798661fb276778d2886f7d750e"
-      },
-      "5926f02b102db7e3": {
-        "repository": "v2fly/domain-list-community",
-        "path": "data/apple",
-        "categories": [
-          "Apple",
-          "AppleCN"
-        ],
-        "previous_sha256": "e431cdd555b9c13eda401a433ec06353f67341fd81f3c454d58002e9e7e60457",
-        "current_sha256": "77e078d2a0ea4c4f8811563d113d24ed1298e96c6df220fc7479403948097398"
-      },
-      "5a389cb26acaf83d": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/HBO_GO_HKG.list",
-        "categories": [
-          "Streaming"
-        ],
-        "previous_sha256": "497bb0fe9f82e62448c9ca89757af03259fe7b06c01c83521db49edf9e167536",
-        "current_sha256": "983ba93090027b7a886de4a84427672e8ec550a1103f4fe117f43d2d48846d80"
-      },
-      "5acbeb53728b722a": {
-        "repository": "MetaCubeX/meta-rules-dat",
-        "path": "geo/geosite/classical/category-ai-cn.list",
-        "categories": [
-          "AI"
-        ],
-        "previous_sha256": "13638d695cfab6ac177aa50ec2f441e29890259a3ca2e1fbec5e9a1db2a7b7bd",
-        "current_sha256": "a1f48a77bfad65287d4de7b7467df570d6fad643afe8776d64571746cc08b4b2"
+        "previous_sha256": "3d1a640b5db7ec3ff9beabd4621c6d61d46592baf48bd8d2c4628cd7fe651126",
+        "current_sha256": "ff3a829cc1d3b007510ef5229fda6f543b99f4a95464960a567cf3b7372e3eba"
       },
       "5f1a62f4d6b9d163": {
         "repository": "ACL4SSR/ACL4SSR",
@@ -3951,81 +3903,45 @@
         "categories": [
           "AWS"
         ],
-        "previous_sha256": "f3f96d0fa1bccffd32c22364052a077fe3e0da62abd9a3ec00a21ae06fdf0a8d",
-        "current_sha256": "481310a382ccfdde7a46443a6162be5f94c6d8fcfb0be3d65c35933811a9fc1a"
-      },
-      "5f589e22958e4a19": {
-        "repository": "v2fly/domain-list-community",
-        "path": "data/category-bank-ru",
-        "categories": [
-          "Proxy"
-        ],
-        "previous_sha256": "6f604c68a743f5c2e687c5be8ed2bdac5187a6b00d04cae54c34e0779936119b",
-        "current_sha256": "02c95b65d2bc0e7d9395b9e93336d2ea9b59c36bd656279593a46d0aaf60834d"
-      },
-      "615c4520d6d5d5f8": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/ChinaMedia.list",
-        "categories": [
-          "Douyin"
-        ],
-        "previous_sha256": "69c437c641bbbea0001f33ecf6e8a6333a72f53d537b19ac9fd564d6927a2b21",
-        "current_sha256": "a18ec9b9755fecb29ad2cb3ba73ad87b3d5db855d3947ef3811fd490f0904b0a"
+        "previous_sha256": "481310a382ccfdde7a46443a6162be5f94c6d8fcfb0be3d65c35933811a9fc1a",
+        "current_sha256": "7449e60310d7bbe3835a9afb0da55e6e08ba37de7aad9ec232e721f568e22e0d"
       },
       "653b7df1bffd5fba": {
         "repository": "ACL4SSR/ACL4SSR",
         "path": "Clash/ProxyMedia.list",
         "categories": [
-          "Streaming",
-          "Pay"
-        ],
-        "previous_sha256": "fe886c6f537c0214446018f3f64291db8d500c58877d180d2a21a78c19c499e1",
-        "current_sha256": "5b6c7a07457e8a9cffd7a7a9865abfef72920b70a9ca987009710a44ccc98781"
-      },
-      "66da714d405d0dec": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/HBO.list",
-        "categories": [
+          "Pay",
           "Streaming"
         ],
-        "previous_sha256": "495d866758a75fce0abeb808690288d2f06ee45fc827be37ca8f3cdf303981ac",
-        "current_sha256": "59204ad961239a0ed3e6a4228528f3dc542f76a93864c456d6ccd260aec69380"
+        "previous_sha256": "5b6c7a07457e8a9cffd7a7a9865abfef72920b70a9ca987009710a44ccc98781",
+        "current_sha256": "9e09ef9064889a50894cbcef6a5adcc105dbec99b784b13e2f7501e6c0e18ec2"
       },
-      "697d804968d43263": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/GoogleCN.list",
-        "categories": [
-          "Google"
-        ],
-        "previous_sha256": "f6321957b557ea4988eb2584a861fedd0e117866c4ff3892283014415898bb08",
-        "current_sha256": "cf868facb28475c4afd8c9bb5b9c7209b14a029593667e64f30c6387bfed8e86"
-      },
-      "73c587c6049c4cc7": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/TikTok.list",
-        "categories": [
-          "Streaming"
-        ],
-        "previous_sha256": "7391bcd7add8a2a02edabdc477b3a7c9e08c9539b3aeea5328bf1250676ce766",
-        "current_sha256": "98f7527965015ca22b464d2ffb37109708e21466a4a6bc361ed2c7fe059ddfd9"
-      },
-      "73f6d34ee5223c48": {
+      "7268a6d7d3e537d4": {
         "repository": "v2fly/domain-list-community",
-        "path": "data/yandex",
-        "categories": [
-          "Proxy"
-        ],
-        "previous_sha256": "377161582631fa28c95d9ccb9859782229b46df83288db2d88ed1e6105e00684",
-        "current_sha256": "0684f6caeb2d8c781ce482ca2f8dba8e7b3e5c7a16fad4ee6787d868ea7d9b89"
-      },
-      "929b2e73b57533b4": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/OpenAi.list",
+        "path": "data/category-ai-ru",
         "categories": [
           "AI"
         ],
-        "previous_sha256": "c4f839e4dda6cb96e4373349c72b4e5f848b8ae03564c0d0eae0873955310129",
-        "current_sha256": "3fde01190c82d9911cb247d99e941cb3b8e53c410e574240bc7d2a9227b153ab"
+        "previous_sha256": "3c2da35ac466ddfc64a0c4ebf772707b98695d470a3b4a2a9b3cf78d3f101750",
+        "current_sha256": "1fb0e6be3fc0d4cd7e363d3964ba7a17c18f130d9b5f5603fc3b9345aeaf233c"
+      },
+      "81a3cb5e7ab118e2": {
+        "repository": "v2fly/domain-list-community",
+        "path": "data/geolocation-!cn",
+        "categories": [
+          "Proxy"
+        ],
+        "previous_sha256": "d4b79eb5a79c2454d1d9585e178024da5139f7c7bb89735126b98cf5cedc8ffa",
+        "current_sha256": "802793e97d64fe91a28e5a47ed0c0ab4def0605b28a95f4d8933587d0dfd37df"
+      },
+      "82c29b8c82e19058": {
+        "repository": "ACL4SSR/ACL4SSR",
+        "path": "Clash/ChinaDomain.list",
+        "categories": [
+          "China"
+        ],
+        "previous_sha256": "362edd1f605742b360eaf138f151d7eea96cc17f20ef12da73acbfb80c350e08",
+        "current_sha256": "92f90e75ffc64dd2996552593a66e0d46a841ee0ff50c0efecbfc9d7cd6e2ed4"
       },
       "9392ce22645518cc": {
         "repository": "MetaCubeX/meta-rules-dat",
@@ -4033,17 +3949,8 @@
         "categories": [
           "AI"
         ],
-        "previous_sha256": "b29cd8c4ca952156987972f1193b04bd994f7e05335f2da1d4a22e773cc659ab",
-        "current_sha256": "3ed2f3aaeb2ad4a70ea8f909334e10881b6ab88558ab662a6171a171bdc80413"
-      },
-      "951110308e85efc3": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/YouTube.list",
-        "categories": [
-          "Streaming"
-        ],
-        "previous_sha256": "5e9d81d4615d993fb899d11f761ff5272465bf11e52233c656c3c3e4ab9cd800",
-        "current_sha256": "698d3112095ac6301b1f8c531da539498a2466d0f5d53f7ab8ded55ef14295bf"
+        "previous_sha256": "3ed2f3aaeb2ad4a70ea8f909334e10881b6ab88558ab662a6171a171bdc80413",
+        "current_sha256": "72eaac00748a29205c07245e44088da7100fc61873e33ddb2b4749aa23ac3331"
       },
       "975c66ad6982a59d": {
         "repository": "MetaCubeX/meta-rules-dat",
@@ -4051,8 +3958,17 @@
         "categories": [
           "Proxy"
         ],
-        "previous_sha256": "5c2b610dd339f320ddea1c07e16295519d8eb878a679b09a50d9627ed934c520",
-        "current_sha256": "a23022758a4a686213a7bf32b412a3138220d92a91755e9f0bcfd54bfd20d51f"
+        "previous_sha256": "a23022758a4a686213a7bf32b412a3138220d92a91755e9f0bcfd54bfd20d51f",
+        "current_sha256": "2928f5ba53130b9cc509e12354c6b8341a5c47edb72a60cf9b46cdcbff85b889"
+      },
+      "a484ba7b761a8abb": {
+        "repository": "ACL4SSR/ACL4SSR",
+        "path": "Clash/Ruleset/Steam.list",
+        "categories": [
+          "Game"
+        ],
+        "previous_sha256": "0abad0ae490ec9b7bf0cf880f83c5229949b14cc5df448c00a0516225a16b011",
+        "current_sha256": "da20bcf2b9b83a3595b8b1bf8312923dd6163dcabdf5dabfde758a26b27bf3c0"
       },
       "a6e9038d48f3b337": {
         "repository": "ACL4SSR/ACL4SSR",
@@ -4061,8 +3977,17 @@
           "Pay",
           "Proxy"
         ],
-        "previous_sha256": "72d5f97cb3adedd7ef632962effda4aa3b9953da20427cd6050d55d1184de5ea",
-        "current_sha256": "537c8625e970894c5ac7420db820633817b17f493851c32af08274a7b247d5c4"
+        "previous_sha256": "537c8625e970894c5ac7420db820633817b17f493851c32af08274a7b247d5c4",
+        "current_sha256": "c54881610a8c4c6d83289688514de097726ed1239afd652ff813bb85efa65560"
+      },
+      "a7dafe7973fa82ed": {
+        "repository": "MetaCubeX/meta-rules-dat",
+        "path": "geo/geosite/classical/category-ai-ru.list",
+        "categories": [
+          "AI"
+        ],
+        "previous_sha256": "869ac026febb100012480030a4d03d05529818e594b6169564a233dc900f0077",
+        "current_sha256": "e101e71fdda911a6f1e649598976508df4e8a15341595fe43fb72dc8956d14f0"
       },
       "a8f43f1e4b089bf9": {
         "repository": "MetaCubeX/meta-rules-dat",
@@ -4070,26 +3995,26 @@
         "categories": [
           "AI"
         ],
-        "previous_sha256": "b29cd8c4ca952156987972f1193b04bd994f7e05335f2da1d4a22e773cc659ab",
-        "current_sha256": "3ed2f3aaeb2ad4a70ea8f909334e10881b6ab88558ab662a6171a171bdc80413"
+        "previous_sha256": "3ed2f3aaeb2ad4a70ea8f909334e10881b6ab88558ab662a6171a171bdc80413",
+        "current_sha256": "72eaac00748a29205c07245e44088da7100fc61873e33ddb2b4749aa23ac3331"
       },
-      "cb0730238f66c0ab": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/GoogleFCM.list",
+      "b667e85a7b961c40": {
+        "repository": "SukkaW/Surge",
+        "path": "Source/domainset/cdn.conf",
         "categories": [
-          "Google"
+          "Proxy"
         ],
-        "previous_sha256": "f115f84bef66a5aa931fd20f23d6914cdfdfe3d07795d65549d578b91a0f0c48",
-        "current_sha256": "f8dfe46062778746deba764cff47661a98ece8176a58d3e4898bdfdf87c529d9"
+        "previous_sha256": "6c5c0d6698e2288d302e269e034a2070e741de7575196233c44871e03d2b9f72",
+        "current_sha256": "10b3c5ea346685ffa8c4f753bf5272779801b26b98985de998d2694b13db2743"
       },
-      "ce5357d77a41346d": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/DisneyPlus.list",
+      "b7081eea31669366": {
+        "repository": "MetaCubeX/meta-rules-dat",
+        "path": "geo/geosite/classical/disney.list",
         "categories": [
           "Streaming"
         ],
-        "previous_sha256": "97200f549abb5bbb72909abc58afbffdb1f42f35cbcc35366eaf873905e007c6",
-        "current_sha256": "1c6c36f73a3add2244d0d16720d579913799e25b2a3db8720b5709d978156164"
+        "previous_sha256": "5cabaa1d65bbbe62dad7d435e66490d0421892359b2cd6587ebb6a2b8c2271da",
+        "current_sha256": "d9bcafa7c85d751f1a70f73d11a08a815b2d4732ee08becfcfae4d982f352493"
       },
       "d11f49abb9d85bb1": {
         "repository": "MetaCubeX/meta-rules-dat",
@@ -4097,17 +4022,8 @@
         "categories": [
           "Google"
         ],
-        "previous_sha256": "6ce2e0ebb80b52e09c5509467dd74105b91277961d72d58fb5c6bacadeb34dd9",
-        "current_sha256": "52efc51aeee89234f58f5bb4b098c3dcff15e747a0ef6495cbec4bc56d4e9124"
-      },
-      "d2f637c4aa1664e3": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/Spotify.list",
-        "categories": [
-          "Streaming"
-        ],
-        "previous_sha256": "8d79bbae7ffe9a2b5de8bc2e5dc899a653ecbdf5b1e4ea62b1f09f429f21e5c7",
-        "current_sha256": "6eefde424304ede80adf84eee9cb7dea0ba0430ece7406475a00f9f0785ae5c7"
+        "previous_sha256": "52efc51aeee89234f58f5bb4b098c3dcff15e747a0ef6495cbec4bc56d4e9124",
+        "current_sha256": "2e3947212e3adf8ae489db361d9120d3c9b33393d7db0b5dfff926bf77aa3a24"
       },
       "d660fd0475de2cec": {
         "repository": "SukkaW/Surge",
@@ -4115,17 +4031,17 @@
         "categories": [
           "AI"
         ],
-        "previous_sha256": "fdd9b5bebf65d755cefff467d151386d8e6fce74a7f706f564c6b1fbbee48375",
-        "current_sha256": "94f6248feb42ba466851f5ccef163cf152eeb968b8fccdf7ea3297de70a79b25"
+        "previous_sha256": "94f6248feb42ba466851f5ccef163cf152eeb968b8fccdf7ea3297de70a79b25",
+        "current_sha256": "bd27a110cf5c6610a74f8d3f7b798bb63e6bcae561f764aae226f5ad81452625"
       },
-      "e221cd7718e7999a": {
-        "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/AI.list",
+      "d6cbf90b85e35626": {
+        "repository": "v2fly/domain-list-community",
+        "path": "data/google-deepmind",
         "categories": [
           "AI"
         ],
-        "previous_sha256": "63e70895ac8c04c3b28965dc0b4ba9ceb3a1313a66b49487ed96005debc97e1e",
-        "current_sha256": "82a8806f260c92b605f7a6abd2a0f20b79239cba4b578773b2f93151ac3e971b"
+        "previous_sha256": "6f768291aa81a8d88fa48fc20613f55be646674cfa24a3b3c152a97e859c33a8",
+        "current_sha256": "fa60e3f80e1487e38c04c92973102ff481c961e620b9bb11fb8585451f5ff2db"
       },
       "e547e64043cbfdb3": {
         "repository": "MetaCubeX/meta-rules-dat",
@@ -4133,17 +4049,17 @@
         "categories": [
           "GitHub"
         ],
-        "previous_sha256": "2a19cc9b1611a620fff70ab59102b41e222d914c5d16ddb1cb92d72d10c1dc05",
-        "current_sha256": "0d4f47cf7050bc4eab31e36915903afd6d35fa6e368f98106ccf15ec2bb257f1"
+        "previous_sha256": "0d4f47cf7050bc4eab31e36915903afd6d35fa6e368f98106ccf15ec2bb257f1",
+        "current_sha256": "2a19cc9b1611a620fff70ab59102b41e222d914c5d16ddb1cb92d72d10c1dc05"
       },
-      "eede928aba601d65": {
+      "f1bd5de4c6ce3ad7": {
         "repository": "ACL4SSR/ACL4SSR",
-        "path": "Clash/Ruleset/Netflix.list",
+        "path": "Clash/Ruleset/SteamCN.list",
         "categories": [
-          "Streaming"
+          "Game"
         ],
-        "previous_sha256": "eb09e16b5aa228230e5770bfc04f2eb25261454a0b2e16f05fd3e9d2ab5202b5",
-        "current_sha256": "f1395e46cefae2e4a57ea7ca2dd442dc98bc9204886310e401215dc70bea387c"
+        "previous_sha256": "bf135f78199fbadcb663a047d70eb59ec81bead3a04cfe050036e2921c2ea607",
+        "current_sha256": "2581f7b3dfeb9af09ecc42b86755771a986a48f1a56b193c7839509428d03165"
       },
       "f4febb17a00cc217": {
         "repository": "SukkaLab/ruleset.skk.moe",
@@ -4151,8 +4067,8 @@
         "categories": [
           "AI"
         ],
-        "previous_sha256": "df6efb95514491486fb2b3a785f73f0757610b60011b6cc414999a42e38d96c4",
-        "current_sha256": "0a302fbee593dca126b1bbc2f8921ba3a0afbe4e6c9aefb30909550e18945f01"
+        "previous_sha256": "0a302fbee593dca126b1bbc2f8921ba3a0afbe4e6c9aefb30909550e18945f01",
+        "current_sha256": "28d368841d2d61afd9432644642e015aef87ed47bc60058c3a8fe98e939096ec"
       },
       "f51b08a65497c70b": {
         "repository": "OpenAI official",
@@ -4160,17 +4076,17 @@
         "categories": [
           "AI"
         ],
-        "previous_sha256": "762df2f791e2353ecf941be0df883d152b0957d32991fc4cff4d1aed79be797b",
-        "current_sha256": "0852b8be430cb4ae4a68ff8c0169f05bcdc5ce2ab6649cb3fc02d057a50612e7"
+        "previous_sha256": "0852b8be430cb4ae4a68ff8c0169f05bcdc5ce2ab6649cb3fc02d057a50612e7",
+        "current_sha256": "b794a112a504d35587e671edfd6de3aae14e05f4f581c077cf1d33d3cf4fec91"
       }
     },
     "category_deltas": {
       "AI": {
-        "before": 438,
-        "after": 441,
-        "added": 3,
+        "before": 441,
+        "after": 443,
+        "added": 2,
         "removed": 0,
-        "change_percent": 0.68
+        "change_percent": 0.45
       },
       "AWS": {
         "before": 245,
@@ -4180,11 +4096,11 @@
         "change_percent": 0.0
       },
       "Ads": {
-        "before": 984,
+        "before": 998,
         "after": 998,
-        "added": 14,
+        "added": 0,
         "removed": 0,
-        "change_percent": 1.42
+        "change_percent": 0.0
       },
       "Apple": {
         "before": 187,
@@ -4201,18 +4117,18 @@
         "change_percent": 0.0
       },
       "China": {
-        "before": 7982,
-        "after": 8013,
-        "added": 31,
+        "before": 8013,
+        "after": 8024,
+        "added": 11,
         "removed": 0,
-        "change_percent": 0.39
+        "change_percent": 0.14
       },
       "Crypto": {
-        "before": 368,
+        "before": 369,
         "after": 369,
-        "added": 1,
+        "added": 0,
         "removed": 0,
-        "change_percent": 0.27
+        "change_percent": 0.0
       },
       "Douyin": {
         "before": 77,
@@ -4264,18 +4180,18 @@
         "change_percent": 0.0
       },
       "Proxy": {
-        "before": 12707,
-        "after": 12734,
-        "added": 27,
+        "before": 12734,
+        "after": 12748,
+        "added": 14,
         "removed": 0,
-        "change_percent": 0.21
+        "change_percent": 0.11
       },
       "Speedtest": {
-        "before": 1420,
-        "after": 1425,
-        "added": 5,
+        "before": 1425,
+        "after": 1428,
+        "added": 3,
         "removed": 0,
-        "change_percent": 0.35
+        "change_percent": 0.21
       },
       "Streaming": {
         "before": 1944,
@@ -4292,7 +4208,7 @@
         "change_percent": 0.0
       }
     },
-    "net_rule_change": 81,
+    "net_rule_change": 30,
     "gates_passed": true
   },
   "review": {
